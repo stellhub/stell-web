@@ -289,6 +289,30 @@ export const topics = [
       "Read this when defining service identity rules or cleaning up inconsistent naming across large service estates."
   },
   {
+    slug: "loadbalancer",
+    titleEn: "Load-Balancing Architecture Choices for Internal Microservice Calls",
+    titleZh: "面向微服务内部调用的负载均衡架构选择",
+    categoryEn: "Service Governance",
+    categoryZh: "服务治理",
+    summaryEn:
+      "A practical guide to choosing client-side or sidecar load balancing for east-west traffic while keeping gateways and ingress layers for north-south traffic.",
+    tagsEn: ["Load Balancing", "Microservices", "Service Discovery", "gRPC"],
+    readingDirectionEn:
+      "Read this when deciding how internal service calls should select instances and which load-balancing strategy fits modern microservice traffic."
+  },
+  {
+    slug: "retry",
+    titleEn: "Retry Strategy Best Practices in Software Development",
+    titleZh: "软件开发中的重试策略最佳实践",
+    categoryEn: "Service Reliability",
+    categoryZh: "服务可靠性",
+    summaryEn:
+      "A practical guide to retry boundaries, strategy selection, idempotency, and production rollout across thread pools, message queues, HTTP, and gRPC.",
+    tagsEn: ["Retry", "Distributed Systems", "Idempotency", "gRPC"],
+    readingDirectionEn:
+      "Read this when standardizing fault-tolerance policy, handling transient downstream failures, or defining an enterprise-wide retry baseline."
+  },
+  {
     slug: "observability-spec",
     titleEn: "Observability Specification",
     titleZh: "可观测规范",
