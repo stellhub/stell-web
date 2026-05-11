@@ -395,5 +395,29 @@ export const topics = [
     tagsEn: ["Registry", "Discovery", "Distributed Systems", "Infrastructure"],
     readingDirectionEn:
       "Read this when evaluating service discovery patterns or studying registry-center implementation choices."
+  },
+  {
+    slug: "sre",
+    titleEn: "Site Reliability Engineering for Middleware Platforms",
+    titleZh: "中间件站点可靠性工程研究",
+    categoryEn: "Service Reliability",
+    categoryZh: "服务可靠性",
+    summaryEn:
+      "A systematic study of how middleware and microservice teams should define SLI, SLO, and SLA, and how observability and service governance should form a closed reliability loop.",
+    tagsEn: ["SRE", "SLI", "SLO", "SLA", "Service Governance", "Observability"],
+    readingDirectionEn:
+      "Read this when designing reliability contracts, error-budget policies, or observability-driven governance for middleware and microservice platforms."
+  },
+  {
+    slug: "throughput",
+    titleEn: "How to Improve System Throughput by 10x: An End-to-End Network Optimization Guide",
+    titleZh: "如何将系统吞吐量提升 10 倍？网络通信全链路优化指南",
+    categoryEn: "Performance Engineering",
+    categoryZh: "性能工程",
+    summaryEn:
+      "A systematic guide to improving network-path throughput through batching, lower copy overhead, sequential I/O, zero-copy, pipelining, and fewer repeated serialization passes.",
+    tagsEn: ["Throughput", "Performance Optimization", "Zero-Copy", "Pipeline", "Kafka", "Redis"],
+    readingDirectionEn:
+      "Read this when diagnosing throughput bottlenecks, designing a high-throughput data path, or planning coordinated optimization across network, memory, and storage layers."
   }
 ];
