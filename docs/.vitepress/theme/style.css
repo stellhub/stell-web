@@ -1,1840 +1,86 @@
 :root {
-  --vp-c-brand-1: #5fd8ff;
-  --vp-c-brand-2: #8b7cff;
-  --vp-c-brand-3: #3d7dff;
-  --vp-c-brand-soft: rgba(95, 216, 255, 0.16);
-  --vp-nav-bg-color: rgba(7, 12, 28, 0.72);
-  --vp-nav-screen-bg-color: rgba(5, 10, 24, 0.94);
-  --stell-nav-text: #ebf5ff;
-  --stell-nav-muted: #b6c6eb;
-  --stell-nav-border: rgba(124, 167, 255, 0.22);
-  --stell-nav-hover-bg: rgba(95, 216, 255, 0.1);
-  --stell-nav-active-bg: linear-gradient(135deg, rgba(95, 216, 255, 0.2), rgba(139, 124, 255, 0.22));
-  --stell-nav-shadow: 0 18px 40px rgba(2, 6, 18, 0.32);
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #f5f9ff 0%, #8fe7ff 38%, #8b7cff 72%, #f7d98d 100%);
-  --vp-home-hero-image-background-image: radial-gradient(circle at center, rgba(95, 216, 255, 0.28) 0%, rgba(139, 124, 255, 0.12) 48%, transparent 72%);
-  --stell-home-card-bg: linear-gradient(160deg, rgba(7, 14, 36, 0.78), rgba(11, 22, 54, 0.66));
-  --stell-home-card-border: rgba(133, 174, 255, 0.18);
-  --stell-home-card-shadow: 0 22px 60px rgba(2, 6, 18, 0.34);
+  --vp-c-brand-1: #2f7de1;
+  --vp-c-brand-2: #3a8af0;
+  --vp-c-brand-3: #1f63bd;
+  --vp-c-brand-soft: rgba(47, 125, 225, 0.14);
+  --forum-border: rgba(93, 132, 190, 0.18);
+  --forum-card-bg: rgba(255, 255, 255, 0.84);
+  --forum-muted: #5f6f86;
+  --forum-heading: #172033;
+  --forum-chip-bg: rgba(47, 125, 225, 0.08);
+  --forum-chip-border: rgba(47, 125, 225, 0.18);
+  --forum-shadow: 0 16px 42px rgba(26, 44, 78, 0.08);
 }
 
 .dark {
-  --vp-nav-bg-color: rgba(4, 9, 20, 0.82);
-  --vp-nav-screen-bg-color: rgba(4, 9, 20, 0.97);
-  --stell-nav-text: #f2f8ff;
-  --stell-nav-muted: #bfd0f3;
-  --stell-nav-border: rgba(143, 190, 255, 0.2);
-  --stell-nav-hover-bg: rgba(95, 216, 255, 0.12);
-  --stell-nav-active-bg: linear-gradient(135deg, rgba(95, 216, 255, 0.22), rgba(139, 124, 255, 0.18));
-  --stell-nav-shadow: 0 18px 44px rgba(0, 0, 0, 0.4);
-  --stell-home-card-bg: linear-gradient(160deg, rgba(7, 14, 36, 0.86), rgba(11, 22, 54, 0.76));
-  --stell-home-card-border: rgba(149, 194, 255, 0.18);
-}
-
-.VPFeature {
-  border: 1px solid rgba(99, 150, 255, 0.12);
-}
-
-.VPContent.is-home {
-  position: relative;
-  background:
-    radial-gradient(circle at 20% 18%, rgba(88, 214, 255, 0.18), transparent 24%),
-    radial-gradient(circle at 78% 12%, rgba(139, 124, 255, 0.14), transparent 20%),
-    linear-gradient(180deg, #050914 0%, #08101f 42%, #091522 100%);
-  overflow: hidden;
-}
-
-.VPContent.is-home::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image:
-    radial-gradient(2px 2px at 12% 18%, rgba(255, 255, 255, 0.72), transparent 60%),
-    radial-gradient(1.5px 1.5px at 25% 42%, rgba(153, 228, 255, 0.68), transparent 60%),
-    radial-gradient(2px 2px at 70% 24%, rgba(255, 255, 255, 0.7), transparent 60%),
-    radial-gradient(1.5px 1.5px at 82% 36%, rgba(151, 165, 255, 0.68), transparent 60%),
-    radial-gradient(2px 2px at 61% 72%, rgba(255, 255, 255, 0.62), transparent 60%),
-    radial-gradient(1.5px 1.5px at 32% 76%, rgba(143, 233, 255, 0.56), transparent 60%);
-  opacity: 0.9;
-}
-
-.VPContent.is-home::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 64px;
-  width: min(72vw, 980px);
-  height: min(72vw, 980px);
-  transform: translateX(-50%);
-  background:
-    radial-gradient(circle at center, rgba(95, 216, 255, 0.2), transparent 42%),
-    url("/logo/logo.png") center / contain no-repeat;
-  opacity: 0.3;
-  filter: blur(7px) saturate(1.08);
-  pointer-events: none;
-}
-
-.VPContent.is-home .VPHome {
-  position: relative;
-  z-index: 1;
-}
-
-.VPContent.is-home .VPHome::before {
-  content:
-    "$ tree ./docs\a"
-    ".\a"
-    "|-- topics/\a"
-    "|   |-- observability-spec.md\a"
-    "|   |-- middleware-evolution.md\a"
-    "|   `-- distributed-consistency.md\a"
-    "|-- products/\a"
-    "|   |-- stellmap/\a"
-    "|   |   `-- index.md\a"
-    "|   |-- stellnula/\a"
-    "|   |   `-- index.md\a"
-    "|   `-- ...\a\a"
-    "$ status\a"
-    "style = minimal\a"
-    "theme = starfield\a"
-    "focus = middleware / platform / consistency";
-  position: absolute;
-  right: 24px;
-  bottom: 32px;
-  z-index: 0;
-  max-width: min(38vw, 420px);
-  padding: 18px 20px;
-  border: 1px solid rgba(149, 194, 255, 0.08);
-  border-radius: 14px;
-  background: linear-gradient(180deg, rgba(8, 16, 31, 0.28), rgba(8, 16, 31, 0.12));
-  color: rgba(156, 191, 236, 0.16);
-  white-space: pre-wrap;
-  line-height: 1.72;
-  font-size: 12px;
-  font-family: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
-  pointer-events: none;
-  user-select: none;
-  backdrop-filter: blur(3px);
-}
-
-.VPContent.is-home .VPHome::after {
-  content: "chenwenlong";
-  position: absolute;
-  right: clamp(36px, 8vw, 112px);
-  top: clamp(340px, 44vw, 640px);
-  z-index: 0;
-  font-size: clamp(22px, 3vw, 42px);
-  font-weight: 600;
-  letter-spacing: 0.48em;
-  text-transform: lowercase;
-  color: rgba(151, 212, 255, 0.1);
-  text-shadow:
-    0 0 18px rgba(95, 216, 255, 0.12),
-    0 0 44px rgba(139, 124, 255, 0.08);
-  filter: blur(1.4px);
-  transform: rotate(-10deg);
-  pointer-events: none;
-  user-select: none;
-  white-space: nowrap;
+  --vp-c-brand-1: #7bb7ff;
+  --vp-c-brand-2: #9ac8ff;
+  --vp-c-brand-3: #5798e8;
+  --vp-c-brand-soft: rgba(123, 183, 255, 0.18);
+  --forum-border: rgba(139, 177, 231, 0.18);
+  --forum-card-bg: rgba(21, 26, 36, 0.82);
+  --forum-muted: #b5c2d6;
+  --forum-heading: #f2f6ff;
+  --forum-chip-bg: rgba(123, 183, 255, 0.1);
+  --forum-chip-border: rgba(123, 183, 255, 0.2);
+  --forum-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
 }
 
 .VPNavBar {
-  background: var(--vp-nav-bg-color);
-  border-bottom: 1px solid var(--stell-nav-border);
-  backdrop-filter: blur(18px);
-  box-shadow: var(--stell-nav-shadow);
-}
-
-.VPNavBarTitle .title,
-.VPNavBarTitle .VPImage.logo + span {
-  color: var(--stell-nav-text);
-}
-
-.VPNavBarMenuLink,
-.VPFlyout .button,
-.VPNavBarExtra .VPLink,
-.VPNavBarExtra button {
-  color: var(--stell-nav-muted);
-  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.VPNavBarMenuLink:hover,
-.VPFlyout:hover .button,
-.VPFlyout .button:hover,
-.VPNavBarExtra .VPLink:hover,
-.VPNavBarExtra button:hover {
-  color: var(--stell-nav-text);
+  border-bottom: 1px solid var(--forum-border);
+  backdrop-filter: blur(14px);
 }
 
 .VPNavBarMenuLink,
 .VPFlyout .button {
-  border: 1px solid transparent;
-  border-radius: 999px;
-  padding: 0 12px;
+  border-radius: 8px;
 }
 
-.VPNavBarMenuLink:hover,
-.VPFlyout .button:hover,
-.VPFlyout:hover .button {
-  background: var(--stell-nav-hover-bg);
-  border-color: var(--stell-nav-border);
-}
-
-.VPNavBarMenuLink.active,
-.VPFlyout.active .button {
-  color: var(--stell-nav-text);
-  background: var(--stell-nav-active-bg);
-  border-color: var(--stell-nav-border);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
-}
-
-.VPFlyout .menu {
-  background: color-mix(in srgb, var(--vp-nav-screen-bg-color) 92%, transparent);
-  border: 1px solid var(--stell-nav-border);
-  border-radius: 18px;
-  box-shadow: var(--stell-nav-shadow);
-  backdrop-filter: blur(18px);
-}
-
-.VPFlyout .link {
-  color: var(--stell-nav-muted);
-  border-radius: 12px;
-}
-
-.VPFlyout .link:hover,
-.VPFlyout .link.active {
-  color: var(--stell-nav-text);
-  background: var(--stell-nav-hover-bg);
-}
-
-.VPNavScreen {
-  background: var(--vp-nav-screen-bg-color);
+.VPContent.is-home {
+  background:
+    linear-gradient(180deg, rgba(47, 125, 225, 0.08), transparent 360px),
+    var(--vp-c-bg);
 }
 
 .VPHomeHero {
-  padding-top: clamp(32px, 8vw, 88px);
-}
-
-.VPHomeHero .container {
-  position: relative;
-  z-index: 1;
+  padding-top: clamp(36px, 7vw, 84px);
 }
 
 .VPHomeHero .main {
-  max-width: 760px;
-  padding: clamp(26px, 4vw, 38px);
-  border: 1px solid var(--stell-home-card-border);
-  border-radius: 18px;
-  background:
-    linear-gradient(180deg, rgba(9, 17, 34, 0.96), rgba(8, 16, 31, 0.92));
-  backdrop-filter: blur(14px);
-  box-shadow: 0 20px 48px rgba(2, 6, 18, 0.28);
+  max-width: 820px;
 }
 
 .VPHomeHero .name,
 .VPHomeHero .text {
-  text-shadow: none;
+  letter-spacing: 0;
 }
 
 .VPHomeHero .tagline {
-  max-width: 620px;
-  color: rgba(232, 241, 255, 0.8);
-}
-
-.VPHomeHero .actions {
-  gap: 12px;
+  max-width: 680px;
+  color: var(--forum-muted);
 }
 
 .VPHomeHero .action .VPButton {
-  border-radius: 10px;
-  box-shadow: none;
-}
-
-.VPContent.is-home .VPHomeFeatures {
-  padding-top: 12px;
-}
-
-.VPContent.is-home .VPFeature {
-  border-color: var(--stell-home-card-border);
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(9, 17, 34, 0.9), rgba(8, 16, 31, 0.86));
-  backdrop-filter: blur(10px);
-  box-shadow: 0 14px 28px rgba(2, 6, 18, 0.18);
-}
-
-.VPContent.is-home .VPFeature .title {
-  color: #f4f8ff;
-}
-
-.VPContent.is-home .VPFeature .details {
-  color: rgba(219, 230, 250, 0.78);
-}
-
-.stellar-home-simple {
-  max-width: 1152px;
-  margin: 0 auto;
-  padding: 16px 24px 8px;
-}
-
-.stellar-home-links-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 8px;
-}
-
-.stellar-home-code-card {
-  border: 1px solid rgba(149, 194, 255, 0.16);
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(9, 17, 34, 0.88), rgba(8, 16, 31, 0.8));
-  box-shadow: 0 18px 40px rgba(2, 6, 18, 0.18);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 18px;
-  color: inherit;
-  text-decoration: none;
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.stellar-home-code-card:hover {
-  transform: translateY(-3px);
-  border-color: rgba(95, 216, 255, 0.24);
-  box-shadow: 0 22px 42px rgba(2, 6, 18, 0.28);
-}
-
-.stellar-home-code-card__label {
-  color: #8fe7ff;
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-family: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
-}
-
-.stellar-home-code-card__title {
-  color: #f7fbff;
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-.stellar-home-code-card__desc {
-  color: rgba(214, 226, 246, 0.8);
-  line-height: 1.7;
-  font-size: 14px;
-}
-
-.stellar-home-shell {
-  max-width: 1152px;
-  margin: 0 auto;
-  padding: 28px 24px 16px;
-}
-
-.stellar-home-band,
-.stellar-home-panel {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid var(--stell-home-card-border);
-  border-radius: 28px;
-  background: var(--stell-home-card-bg);
-  backdrop-filter: blur(20px);
-  box-shadow: var(--stell-home-card-shadow);
-}
-
-.stellar-home-band::before,
-.stellar-home-panel::before {
-  content: "";
-  position: absolute;
-  inset: auto auto 0 0;
-  width: 180px;
-  height: 180px;
-  background: radial-gradient(circle, rgba(95, 216, 255, 0.16), transparent 66%);
-  pointer-events: none;
-}
-
-.stellar-home-band {
-  padding: 32px;
-}
-
-.stellar-home-band__eyebrow,
-.stellar-home-panel__label {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border: 1px solid rgba(143, 194, 255, 0.16);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
-  color: #9edcff;
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.stellar-home-band__title,
-.stellar-home-panel__title {
-  margin: 18px 0 12px;
-  color: #f7fbff;
-  line-height: 1.2;
-}
-
-.stellar-home-band__title {
-  font-size: clamp(28px, 5vw, 42px);
-}
-
-.stellar-home-band__desc,
-.stellar-home-panel__desc,
-.stellar-home-links a {
-  color: rgba(222, 232, 250, 0.82);
-}
-
-.stellar-home-panel-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
-  gap: 18px;
-  margin-top: 18px;
-}
-
-.stellar-home-panel {
-  padding: 24px;
-}
-
-.stellar-home-panel--highlight {
-  background:
-    radial-gradient(circle at top right, rgba(246, 216, 141, 0.14), transparent 26%),
-    var(--stell-home-card-bg);
-}
-
-.stellar-home-stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 22px;
-}
-
-.stellar-home-stat {
-  padding: 14px;
-  border: 1px solid rgba(143, 194, 255, 0.14);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.stellar-home-stat strong {
-  display: block;
-  color: #f7fbff;
-  font-size: 28px;
-  line-height: 1;
-}
-
-.stellar-home-stat span {
-  display: block;
-  margin-top: 8px;
-  color: rgba(218, 229, 248, 0.78);
-  font-size: 13px;
-}
-
-.stellar-home-link {
-  display: inline-flex;
-  align-items: center;
-  margin-top: 18px;
-  color: #8fe7ff;
-  font-weight: 600;
-}
-
-.stellar-home-links {
-  margin: 18px 0 0;
-  padding-left: 18px;
-}
-
-.stellar-home-links li + li {
-  margin-top: 10px;
-}
-
-.stellar-home-link--muted {
-  color: rgba(214, 226, 246, 0.78);
-}
-
-.stellar-route-section {
-  max-width: 1152px;
-  margin: 24px auto 12px;
-  padding: 0 24px;
-}
-
-.stellar-route-copy {
-  margin-bottom: 18px;
-}
-
-.stellar-route-map {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)) 1.15fr;
-  gap: 16px;
-  align-items: stretch;
-}
-
-.stellar-route-track {
-  position: absolute;
-  left: 8%;
-  right: 23%;
-  top: 50%;
-  height: 2px;
-  background: linear-gradient(90deg, rgba(95, 216, 255, 0.3), rgba(139, 124, 255, 0.32), rgba(247, 217, 141, 0.28));
-  box-shadow: 0 0 24px rgba(95, 216, 255, 0.16);
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
-.stellar-route-stop,
-.stellar-route-destination {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid var(--stell-home-card-border);
-  border-radius: 26px;
-  background: var(--stell-home-card-bg);
-  backdrop-filter: blur(18px);
-  box-shadow: var(--stell-home-card-shadow);
-}
-
-.stellar-route-stop {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 22px 20px;
-  color: inherit;
-  text-decoration: none;
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    box-shadow 0.22s ease;
-}
-
-.stellar-route-stop::before {
-  content: "";
-  position: absolute;
-  left: 20px;
-  top: 18px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #8fe7ff;
-  box-shadow: 0 0 0 8px rgba(95, 216, 255, 0.08);
-}
-
-.stellar-route-stop:hover {
-  transform: translateY(-4px);
-  border-color: rgba(149, 194, 255, 0.28);
-  box-shadow: 0 24px 42px rgba(2, 6, 18, 0.34);
-}
-
-.stellar-route-stop__index {
-  display: inline-flex;
-  margin-left: 20px;
-  color: rgba(158, 220, 255, 0.88);
-  font-size: 12px;
-  letter-spacing: 0.14em;
-}
-
-.stellar-route-stop__title {
-  color: #f7fbff;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.stellar-route-stop__desc {
-  color: rgba(219, 230, 250, 0.8);
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.stellar-route-destination {
-  padding: 24px;
-  background:
-    radial-gradient(circle at top right, rgba(247, 217, 141, 0.14), transparent 28%),
-    var(--stell-home-card-bg);
-}
-
-.stellar-route-destination__eyebrow {
-  display: inline-flex;
-  color: #f2d68c;
-  font-size: 12px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.stellar-route-destination__title {
-  margin: 16px 0 12px;
-  color: #f7fbff;
-  font-size: 28px;
-  line-height: 1.15;
-}
-
-.stellar-route-destination__desc {
-  margin: 0;
-  color: rgba(221, 231, 249, 0.82);
-  line-height: 1.8;
-}
-
-.stellar-route-destination__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 18px;
-}
-
-.stellar-system-section {
-  max-width: 1152px;
-  margin: 24px auto 12px;
-  padding: 0 24px;
-}
-
-.stellar-system-copy {
-  margin-bottom: 18px;
-}
-
-.stellar-system-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 18px;
-}
-
-.stellar-system-legend__item {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 14px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
-  color: #eaf4ff;
-  font-size: 13px;
-}
-
-.stellar-system-legend__item--cyan {
-  box-shadow: inset 0 0 0 1px rgba(95, 216, 255, 0.12);
-}
-
-.stellar-system-legend__item--violet {
-  box-shadow: inset 0 0 0 1px rgba(139, 124, 255, 0.14);
-}
-
-.stellar-system-legend__item--amber {
-  box-shadow: inset 0 0 0 1px rgba(247, 217, 141, 0.14);
-}
-
-.stellar-system-legend__item--mint {
-  box-shadow: inset 0 0 0 1px rgba(101, 232, 191, 0.14);
-}
-
-.stellar-system-map {
-  position: relative;
-  min-height: 860px;
-  overflow: hidden;
-  border: 1px solid var(--stell-home-card-border);
-  border-radius: 34px;
-  background:
-    radial-gradient(circle at center, rgba(95, 216, 255, 0.14), transparent 18%),
-    radial-gradient(circle at 50% 50%, rgba(139, 124, 255, 0.1), transparent 32%),
-    linear-gradient(180deg, rgba(7, 14, 36, 0.92), rgba(8, 18, 42, 0.9));
-  box-shadow: var(--stell-home-card-shadow);
-  backdrop-filter: blur(20px);
-}
-
-.stellar-system-lines {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.stellar-system-line {
-  stroke: rgba(143, 194, 255, 0.14);
-  stroke-width: 0.26;
-  stroke-dasharray: 1.2 1.4;
-  transition: stroke 0.2s ease, stroke-width 0.2s ease, filter 0.2s ease, opacity 0.2s ease;
-}
-
-.stellar-system-map:has(.stellar-system-node:hover) .stellar-system-line {
-  opacity: 0.22;
-}
-
-.stellar-system-map:has(.stellar-system-node:hover) .stellar-system-core {
-  border-color: rgba(149, 194, 255, 0.28);
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.04),
-    0 28px 68px rgba(2, 6, 18, 0.4);
-}
-
-.stellar-system-map:has(.stellar-system-node--gate:hover) .stellar-system-line--gate,
-.stellar-system-map:has(.stellar-system-node--orbit:hover) .stellar-system-line--orbit,
-.stellar-system-map:has(.stellar-system-node--pulse:hover) .stellar-system-line--pulse,
-.stellar-system-map:has(.stellar-system-node--flow:hover) .stellar-system-line--flow,
-.stellar-system-map:has(.stellar-system-node--abe:hover) .stellar-system-line--abe,
-.stellar-system-map:has(.stellar-system-node--guard:hover) .stellar-system-line--guard,
-.stellar-system-map:has(.stellar-system-node--key:hover) .stellar-system-line--key,
-.stellar-system-map:has(.stellar-system-node--point:hover) .stellar-system-line--point,
-.stellar-system-map:has(.stellar-system-node--map:hover) .stellar-system-line--map,
-.stellar-system-map:has(.stellar-system-node--nula:hover) .stellar-system-line--nula,
-.stellar-system-map:has(.stellar-system-node--trace:hover) .stellar-system-line--trace,
-.stellar-system-map:has(.stellar-system-node--spec:hover) .stellar-system-line--spec,
-.stellar-system-map:has(.stellar-system-node--con:hover) .stellar-system-line--con,
-.stellar-system-map:has(.stellar-system-node--vox:hover) .stellar-system-line--vox {
-  opacity: 1;
-  stroke: rgba(142, 230, 255, 0.92);
-  stroke-width: 0.44;
-  filter: drop-shadow(0 0 8px rgba(95, 216, 255, 0.32));
-}
-
-.stellar-system-map::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image:
-    radial-gradient(2px 2px at 11% 19%, rgba(255, 255, 255, 0.65), transparent 60%),
-    radial-gradient(1.5px 1.5px at 24% 72%, rgba(171, 225, 255, 0.68), transparent 60%),
-    radial-gradient(2px 2px at 58% 12%, rgba(255, 255, 255, 0.75), transparent 60%),
-    radial-gradient(1.5px 1.5px at 83% 26%, rgba(160, 172, 255, 0.7), transparent 60%),
-    radial-gradient(2px 2px at 88% 76%, rgba(255, 255, 255, 0.65), transparent 60%),
-    radial-gradient(1.5px 1.5px at 39% 86%, rgba(122, 244, 215, 0.62), transparent 60%);
-  opacity: 0.95;
-}
-
-.stellar-system-ring {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  border: 1px solid rgba(145, 187, 255, 0.14);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
-.stellar-system-ring--inner {
-  width: 290px;
-  height: 290px;
-}
-
-.stellar-system-ring--middle {
-  width: 490px;
-  height: 490px;
-}
-
-.stellar-system-ring--outer {
-  width: 690px;
-  height: 690px;
-}
-
-.stellar-system-ring-label {
-  position: absolute;
-  right: 34px;
-  color: rgba(207, 221, 244, 0.54);
-  font-size: 12px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.stellar-system-ring-label--inner {
-  top: 36%;
-}
-
-.stellar-system-ring-label--middle {
-  top: 24%;
-}
-
-.stellar-system-ring-label--outer {
-  top: 12%;
-}
-
-.stellar-system-core {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 2;
-  width: min(320px, calc(100% - 48px));
-  padding: 28px 24px;
-  border: 1px solid rgba(149, 194, 255, 0.18);
-  border-radius: 26px;
-  background:
-    radial-gradient(circle at top, rgba(95, 216, 255, 0.18), transparent 54%),
-    linear-gradient(180deg, rgba(11, 23, 55, 0.94), rgba(8, 18, 42, 0.92));
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.03),
-    0 24px 60px rgba(2, 6, 18, 0.32);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.stellar-system-core__eyebrow {
-  display: inline-flex;
-  margin-bottom: 10px;
-  color: #9edcff;
-  font-size: 12px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.stellar-system-core__title {
-  display: block;
-  color: #f7fbff;
-  font-size: 34px;
-  line-height: 1.05;
-}
-
-.stellar-system-core__subtitle {
-  display: block;
-  margin-top: 8px;
-  color: #b9cdf2;
-  font-size: 18px;
-}
-
-.stellar-system-core__desc {
-  margin: 14px 0 0;
-  color: rgba(218, 229, 248, 0.8);
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.stellar-system-node {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  z-index: 3;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  width: 170px;
-  padding: 14px 16px;
-  border: 1px solid rgba(149, 194, 255, 0.16);
-  border-radius: 18px;
-  background: linear-gradient(180deg, rgba(10, 21, 51, 0.92), rgba(8, 18, 42, 0.88));
-  box-shadow: 0 16px 34px rgba(2, 6, 18, 0.28);
-  color: inherit;
-  text-decoration: none;
-  transform: translate(-50%, -50%);
-  transition:
-    transform 0.24s ease,
-    border-color 0.24s ease,
-    box-shadow 0.24s ease,
-    background 0.24s ease;
-}
-
-.stellar-system-node::before {
-  content: "";
-  position: absolute;
-  left: 16px;
-  top: -9px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.03);
-}
-
-.stellar-system-node:hover {
-  transform: translate(-50%, calc(-50% - 5px));
-  border-color: rgba(149, 194, 255, 0.3);
-  box-shadow: 0 22px 42px rgba(2, 6, 18, 0.36);
-}
-
-.stellar-system-node__name {
-  color: #f7fbff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.stellar-system-node__meta {
-  color: rgba(214, 226, 246, 0.78);
-  font-size: 12px;
-  line-height: 1.5;
-}
-
-.stellar-system-node--cyan::before {
-  background: #5fd8ff;
-}
-
-.stellar-system-node--violet::before {
-  background: #8b7cff;
-}
-
-.stellar-system-node--amber::before {
-  background: #f7d98d;
-}
-
-.stellar-system-node--mint::before {
-  background: #65e8bf;
-}
-
-.stellar-system-node--cyan:hover {
-  background: linear-gradient(180deg, rgba(10, 31, 60, 0.96), rgba(8, 18, 42, 0.92));
-}
-
-.stellar-system-node--violet:hover {
-  background: linear-gradient(180deg, rgba(25, 22, 70, 0.96), rgba(8, 18, 42, 0.92));
-}
-
-.stellar-system-node--amber:hover {
-  background: linear-gradient(180deg, rgba(54, 34, 40, 0.96), rgba(8, 18, 42, 0.92));
-}
-
-.stellar-system-node--mint:hover {
-  background: linear-gradient(180deg, rgba(14, 39, 44, 0.96), rgba(8, 18, 42, 0.92));
-}
-
-.product-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0 28px;
-  padding: 24px;
-  border: 1px solid rgba(97, 170, 255, 0.16);
-  border-radius: 24px;
-  background:
-    radial-gradient(circle at top, rgba(95, 216, 255, 0.12), transparent 55%),
-    linear-gradient(180deg, rgba(244, 249, 255, 0.96), rgba(255, 255, 255, 0.98));
-}
-
-.product-logo img {
-  display: block;
-  max-width: 220px;
-  max-height: 132px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-.dark .product-logo {
-  border-color: rgba(149, 194, 255, 0.16);
-  background:
-    radial-gradient(circle at top, rgba(95, 216, 255, 0.14), transparent 55%),
-    linear-gradient(180deg, rgba(20, 24, 32, 0.96), rgba(13, 16, 22, 0.98));
-}
-
-.vp-doc[class*="_products_stell"] {
-  position: relative;
-  isolation: isolate;
-}
-
-.vp-doc[class*="_products_stell"]::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background-image: var(--stellar-product-logo);
-  background-repeat: no-repeat;
-  background-position: center 110px;
-  background-size: min(58vw, 760px);
-  opacity: 0.24;
-  filter: blur(9px) saturate(1.14);
-  transform: scale(1.08);
-}
-
-.vp-doc[class*="_products_stell"]::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(circle at center 115px, rgba(95, 216, 255, 0.14), transparent 44%),
-    linear-gradient(180deg, rgba(8, 16, 31, 0.02), rgba(8, 16, 31, 0.52) 24%, rgba(8, 16, 31, 0.84) 100%);
-}
-
-body[data-stellar-product-view="home"] .vp-doc[class*="_products_stell"]::before {
-  background-position: center 96px;
-  background-size: min(62vw, 860px);
-  opacity: 0.34;
-  filter: blur(7px) saturate(1.18);
-}
-
-body[data-stellar-product-view="home"] .vp-doc[class*="_products_stell"]::after {
-  background:
-    radial-gradient(circle at center 108px, rgba(95, 216, 255, 0.18), transparent 46%),
-    linear-gradient(180deg, rgba(8, 16, 31, 0.01), rgba(8, 16, 31, 0.44) 24%, rgba(8, 16, 31, 0.8) 100%);
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"]::before {
-  background-position: center 118px;
-  background-size: min(50vw, 680px);
-  opacity: 0.18;
-  filter: blur(11px) saturate(1.1);
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"]::after {
-  background:
-    radial-gradient(circle at center 118px, rgba(95, 216, 255, 0.1), transparent 42%),
-    linear-gradient(180deg, rgba(8, 16, 31, 0.03), rgba(8, 16, 31, 0.58) 24%, rgba(8, 16, 31, 0.87) 100%);
-}
-
-body[data-stellar-product-view="subpage"] .VPContent.has-sidebar {
-  background:
-    radial-gradient(circle at 16% 14%, rgba(95, 216, 255, 0.1), transparent 18%),
-    radial-gradient(circle at 84% 10%, rgba(139, 124, 255, 0.09), transparent 16%),
-    linear-gradient(180deg, #050914 0%, #08101f 34%, #091522 100%);
-}
-
-body[data-stellar-product-view="subpage"] .VPDoc.has-sidebar .content {
-  padding-right: clamp(18px, 3vw, 36px);
-}
-
-body[data-stellar-product-view="subpage"] .VPDoc.has-sidebar .content-container {
-  width: 100%;
-  max-width: 100%;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] {
-  overflow: hidden;
-  padding:
-    clamp(28px, 3vw, 38px)
-    clamp(26px, 3.5vw, 44px)
-    clamp(52px, 5vw, 72px);
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 30px;
-  background:
-    linear-gradient(180deg, rgba(16, 24, 38, 0.95), rgba(20, 31, 48, 0.94));
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.02),
-    0 28px 60px rgba(0, 0, 0, 0.32);
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"]::before,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"]::after {
-  border-radius: inherit;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] h1 {
-  margin-bottom: 20px;
-  color: #f7fbff;
-  font-size: clamp(42px, 4vw, 58px);
-  line-height: 1.06;
-  letter-spacing: -0.03em;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] h2 {
-  margin-top: clamp(46px, 5vw, 64px);
-  padding-top: clamp(22px, 2.8vw, 30px);
-  border-top: 1px solid rgba(149, 194, 255, 0.1);
-  color: #f8fbff;
-  font-size: clamp(32px, 2.9vw, 42px);
-  line-height: 1.14;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] h3 {
-  margin-top: 28px;
-  margin-bottom: 18px;
-  color: rgba(242, 248, 255, 0.98);
-  font-size: clamp(24px, 2vw, 30px);
-  line-height: 1.22;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] p,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] li,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote {
-  max-width: none;
-  color: rgba(232, 241, 252, 0.9);
-  font-size: 17px;
-  line-height: 1.9;
-  text-wrap: pretty;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] p,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] ul,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] ol,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] pre,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] div[class*="language-"],
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] table {
-  max-width: none;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote {
-  margin: 0 0 24px;
-  padding: 18px 22px;
-  border: 1px solid rgba(95, 216, 255, 0.16);
-  border-radius: 22px;
-  background:
-    linear-gradient(135deg, rgba(95, 216, 255, 0.1), rgba(139, 124, 255, 0.06));
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote p {
-  margin: 0;
-  color: rgba(239, 246, 255, 0.92);
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote + p {
-  margin-top: 0;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote + p > a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  border: 1px solid rgba(95, 216, 255, 0.18);
-  border-radius: 999px;
-  background: rgba(95, 216, 255, 0.08);
-  color: #8fe7ff;
-  text-decoration: none;
-  transition:
-    border-color 0.2s ease,
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote + p > a:hover {
-  border-color: rgba(95, 216, 255, 0.28);
-  background: rgba(95, 216, 255, 0.14);
-  color: #dff7ff;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] ul,
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] ol {
-  padding-left: 1.3em;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] li + li {
-  margin-top: 10px;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] li::marker {
-  color: rgba(143, 231, 255, 0.88);
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] a {
-  text-underline-offset: 0.18em;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] a:not(.header-anchor) {
-  font-weight: 600;
-}
-
-body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
-  margin: 36px 0;
-  border-color: rgba(149, 194, 255, 0.12);
-}
-
-.vp-doc[class*="_products_stell"] > * {
-  position: relative;
-  z-index: 1;
-}
-
-.vp-doc[class*="_products_stell"] .product-logo {
-  display: none;
-}
-
-.vp-doc[class*="_products_stellmap"] {
-  --stellar-product-logo: url("/logo/stellmap.png");
-}
-
-.vp-doc[class*="_products_stellnula"] {
-  --stellar-product-logo: url("/logo/stellnula.png");
-}
-
-.vp-doc[class*="_products_stelltrace"] {
-  --stellar-product-logo: url("/logo/stelltrace.png");
-}
-
-.vp-doc[class*="_products_stellorbit"] {
-  --stellar-product-logo: url("/logo/stellorbit.png");
-}
-
-.vp-doc[class*="_products_stellpulse"] {
-  --stellar-product-logo: url("/logo/stellpulse.png");
-}
-
-.vp-doc[class*="_products_stellabe"] {
-  --stellar-product-logo: url("/logo/stellabe.png");
-}
-
-.vp-doc[class*="_products_stellpoint"] {
-  --stellar-product-logo: url("/logo/stellpoint.png");
-}
-
-.vp-doc[class*="_products_stellgate"] {
-  --stellar-product-logo: url("/logo/stellgate.png");
-}
-
-.vp-doc[class*="_products_stellflow"] {
-  --stellar-product-logo: url("/logo/stellflow.png");
-}
-
-.vp-doc[class*="_products_stellspec"] {
-  --stellar-product-logo: url("/logo/stellspec.png");
-}
-
-.vp-doc[class*="_products_stellcon"] {
-  --stellar-product-logo: url("/logo/stellcon.png");
-}
-
-.vp-doc[class*="_products_stellvox"] {
-  --stellar-product-logo: url("/logo/stellvox.png");
-}
-
-.vp-doc[class*="_products_stellguard"] {
-  --stellar-product-logo: url("/logo/stellguard.png");
-}
-
-.vp-doc[class*="_products_stellkey"] {
-  --stellar-product-logo: url("/logo/stellkey.png");
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 18px;
-  margin: 24px 0 32px;
-}
-
-.product-card {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding: 20px;
-  border: 1px solid rgba(97, 170, 255, 0.14);
-  border-radius: 24px;
-  text-decoration: none;
-  color: inherit;
-  background:
-    radial-gradient(circle at top, rgba(95, 216, 255, 0.12), transparent 52%),
-    linear-gradient(180deg, rgba(246, 250, 255, 0.98), rgba(255, 255, 255, 0.98));
-  box-shadow: 0 14px 32px rgba(18, 38, 88, 0.08);
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    background 0.2s ease;
-}
-
-.product-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(95, 216, 255, 0.24);
-  box-shadow: 0 18px 38px rgba(18, 38, 88, 0.14);
-}
-
-.product-card-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 116px;
-  padding: 16px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.56);
-  border: 1px solid rgba(97, 170, 255, 0.1);
-}
-
-.product-card-logo img {
-  max-width: 132px;
-  max-height: 72px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-.product-card-domain {
-  display: inline-flex;
-  align-self: flex-start;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: rgba(95, 216, 255, 0.12);
-  color: var(--stell-nav-text);
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.product-card-title {
-  margin: 0;
-  color: var(--stell-nav-text);
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-.product-card-desc {
-  margin: 0;
-  color: var(--stell-nav-muted);
-  line-height: 1.7;
-  font-size: 14px;
-}
-
-.product-card-link {
-  margin-top: auto;
-  color: var(--vp-c-brand-1);
-  font-weight: 600;
-}
-
-.dark .product-card {
-  border-color: rgba(149, 194, 255, 0.16);
-  background:
-    radial-gradient(circle at top, rgba(95, 216, 255, 0.12), transparent 52%),
-    linear-gradient(180deg, rgba(20, 24, 32, 0.98), rgba(13, 16, 22, 0.98));
-  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.28);
-}
-
-.dark .product-card:hover {
-  border-color: rgba(149, 194, 255, 0.26);
-  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.34);
-}
-
-.dark .product-card-logo {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(149, 194, 255, 0.12);
-}
-
-@media (max-width: 960px) {
-  body[data-stellar-product-view="subpage"] .VPDoc.has-sidebar .content {
-    padding-right: 0;
-  }
-
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] {
-    padding:
-      clamp(22px, 5vw, 28px)
-      clamp(18px, 4vw, 24px)
-      clamp(40px, 7vw, 52px);
-    border-radius: 24px;
-  }
-}
-
-@media (max-width: 640px) {
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] h1 {
-    font-size: clamp(34px, 9vw, 42px);
-  }
-
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] h2 {
-    font-size: clamp(26px, 7vw, 32px);
-  }
-
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] h3 {
-    font-size: clamp(20px, 5.6vw, 24px);
-  }
-
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] p,
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] li,
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote {
-    font-size: 16px;
-    line-height: 1.8;
-  }
-
-  body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] blockquote {
-    padding: 16px 18px;
-    border-radius: 18px;
-  }
-}
-
-@media (max-width: 960px) {
-  .stellar-home-links-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .VPContent.is-home .VPHome::before {
-    max-width: min(48vw, 360px);
-    right: 18px;
-    bottom: 20px;
-  }
-
-  .stellar-route-map {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .stellar-route-track {
-    display: none;
-  }
-
-  .stellar-route-destination {
-    grid-column: 1 / -1;
-  }
-
-  .stellar-home-panel-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .stellar-system-map {
-    min-height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
-    padding: 22px;
-  }
-
-  .stellar-system-ring,
-  .stellar-system-ring-label,
-  .stellar-system-lines {
-    display: none;
-  }
-
-  .stellar-system-core,
-  .stellar-system-node {
-    position: relative;
-    left: auto;
-    top: auto;
-    width: 100%;
-    transform: none;
-  }
-
-  .stellar-system-core {
-    grid-column: 1 / -1;
-    margin-bottom: 4px;
-  }
-
-  .stellar-system-node:hover {
-    transform: translateY(-4px);
-  }
-}
-
-@media (max-width: 640px) {
-  .VPHomeHero .main,
-  .stellar-home-band,
-  .stellar-home-panel {
-    padding: 22px;
-    border-radius: 24px;
-  }
-
-  .stellar-home-shell {
-    padding: 20px 16px 8px;
-  }
-
-  .stellar-home-simple {
-    padding: 20px 16px 8px;
-  }
-
-  .VPContent.is-home .VPHome::before {
-    display: none;
-  }
-
-  .stellar-route-section,
-  .stellar-system-section {
-    padding: 0 16px;
-  }
-
-  .stellar-route-map {
-    grid-template-columns: 1fr;
-  }
-
-  .stellar-system-map {
-    grid-template-columns: 1fr;
-    padding: 18px;
-    border-radius: 26px;
-  }
-
-  .stellar-home-stats {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 640px) {
-  .product-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.stellar-home-simple {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 20px 24px 8px;
-}
-
-.stellar-home-wide {
-  max-width: 1760px;
-  margin: 0 auto;
-  padding: 20px 24px 8px;
-}
-
-.stellar-home-intro {
-  position: relative;
-  z-index: 1;
-  margin: 0 auto;
-  padding: 24px 28px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 18px;
-  background: linear-gradient(180deg, rgba(8, 16, 31, 0.74), rgba(8, 16, 31, 0.52));
-  box-shadow: 0 18px 40px rgba(2, 6, 18, 0.16);
-  backdrop-filter: blur(10px);
-}
-
-.stellar-home-intro h2 {
-  margin: 0 0 14px;
-  color: #f5f9ff;
-  font-size: 24px;
-  line-height: 1.35;
-}
-
-.stellar-home-intro p {
-  margin: 0;
-  color: rgba(222, 233, 250, 0.8);
-  line-height: 1.9;
-}
-
-.stellar-home-intro p + p {
-  margin-top: 12px;
-}
-
-.stellar-home-graph {
-  position: relative;
-  z-index: 1;
-  margin: 0 auto;
-  padding: 22px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 18px;
-  background: linear-gradient(180deg, rgba(8, 16, 31, 0.74), rgba(8, 16, 31, 0.52));
-  box-shadow: 0 18px 40px rgba(2, 6, 18, 0.16);
-  backdrop-filter: blur(10px);
-  overflow: hidden;
-}
-
-.stellar-home-graph h2 {
-  margin: 0 0 14px;
-  color: #f5f9ff;
-  font-size: 24px;
-  line-height: 1.35;
-}
-
-.stellar-home-graph p {
-  margin: 0 0 16px;
-  color: rgba(222, 233, 250, 0.8);
-  line-height: 1.8;
-}
-
-.stellar-home-graph img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  border: 1px solid rgba(149, 194, 255, 0.12);
-  background: rgba(7, 14, 28, 0.9);
-}
-
-.stellar-home-matrix {
-  position: relative;
-  z-index: 1;
-  margin: 0 auto;
-  padding: 24px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 18px;
-  background: linear-gradient(180deg, rgba(8, 16, 31, 0.74), rgba(8, 16, 31, 0.52));
-  box-shadow: 0 18px 40px rgba(2, 6, 18, 0.16);
-  backdrop-filter: blur(10px);
-  overflow: hidden;
-}
-
-.stellar-home-matrix::before,
-.stellar-home-graph::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(29, 61, 103, 0.12) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(29, 61, 103, 0.12) 1px, transparent 1px);
-  background-size: 24px 24px;
-  pointer-events: none;
-}
-
-.stellar-home-matrix::after,
-.stellar-home-graph::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(47, 95, 152, 0.16) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(47, 95, 152, 0.16) 1px, transparent 1px);
-  background-size: 120px 120px;
-  pointer-events: none;
-}
-
-.stellar-home-matrix > *,
-.stellar-home-graph > * {
-  position: relative;
-  z-index: 1;
-}
-
-.stellar-home-matrix h2 {
-  margin: 0 0 16px;
-  color: #f5f9ff;
-  font-size: 24px;
-  line-height: 1.35;
-}
-
-.stellar-home-capability-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 0 0 18px;
-}
-
-.stellar-home-capability-legend__item {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 36px;
-  padding: 7px 12px;
-  border: 1px solid rgba(95, 216, 255, 0.16);
-  border-radius: 999px;
-  background: rgba(10, 25, 44, 0.72);
-  color: rgba(224, 235, 251, 0.84);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
-.stellar-home-capability-legend__swatch {
-  width: 12px;
-  height: 12px;
-  border-radius: 999px;
-  box-shadow: 0 0 12px currentColor;
-}
-
-.stellar-home-capability-legend__item.is-access .stellar-home-capability-legend__swatch {
-  background: #72deff;
-  color: #72deff;
-}
-
-.stellar-home-capability-legend__item.is-runtime .stellar-home-capability-legend__swatch {
-  background: #7ed9aa;
-  color: #7ed9aa;
-}
-
-.stellar-home-capability-legend__item.is-foundation .stellar-home-capability-legend__swatch {
-  background: #e7be72;
-  color: #e7be72;
-}
-
-.stellar-home-capability-legend__item.is-observe .stellar-home-capability-legend__swatch {
-  background: #b8a2ff;
-  color: #b8a2ff;
-}
-
-.stellar-home-matrix__table {
-  overflow: visible;
-}
-
-.stellar-home-matrix table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: auto;
-}
-
-.stellar-home-matrix__col-id {
-  width: 9%;
-}
-
-.stellar-home-matrix__col-domain {
-  width: 10%;
-}
-
-.stellar-home-matrix__col-origin {
-  width: 18%;
-}
-
-.stellar-home-matrix__col-name {
-  width: 18%;
-}
-
-.stellar-home-matrix__col-logic {
-  width: 45%;
-}
-
-.stellar-home-matrix th,
-.stellar-home-matrix td {
-  padding: 14px 16px;
-  border: 1px solid rgba(149, 194, 255, 0.12);
-  text-align: left;
-  line-height: 1.7;
-}
-
-.stellar-home-matrix th {
-  padding-top: 14px;
-  padding-bottom: 14px;
-  color: #f5f9ff;
-  background:
-    linear-gradient(180deg, rgba(13, 28, 52, 0.94), rgba(9, 21, 42, 0.92));
-  vertical-align: top;
-}
-
-.stellar-home-matrix__tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 5px 10px;
-  border: 1px solid rgba(95, 216, 255, 0.26);
-  border-radius: 999px;
-  background: rgba(13, 34, 57, 0.72);
-  color: #8fe7ff;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.stellar-home-matrix td {
-  color: rgba(222, 233, 250, 0.82);
-  background: rgba(9, 19, 36, 0.58);
-  vertical-align: top;
-  word-break: break-word;
-  transition:
-    background-color 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
-}
-
-.stellar-home-matrix td:first-child {
-  text-align: center;
-}
-
-.stellar-home-matrix tbody tr {
-  cursor: pointer;
-}
-
-.stellar-home-matrix tbody tr[data-group="access"] td:first-child {
-  box-shadow: inset 4px 0 0 #72deff;
-}
-
-.stellar-home-matrix tbody tr[data-group="runtime"] td:first-child {
-  box-shadow: inset 4px 0 0 #7ed9aa;
-}
-
-.stellar-home-matrix tbody tr[data-group="foundation"] td:first-child {
-  box-shadow: inset 4px 0 0 #e7be72;
-}
-
-.stellar-home-matrix tbody tr[data-group="observe"] td:first-child {
-  box-shadow: inset 4px 0 0 #b8a2ff;
-}
-
-.stellar-home-matrix tbody tr.is-active td {
-  border-color: rgba(143, 231, 255, 0.24);
-  background-color: rgba(11, 24, 43, 0.86);
-}
-
-.stellar-home-matrix__id {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 56px;
-  min-height: 32px;
-  padding: 4px 10px;
-  border: 1px solid rgba(95, 216, 255, 0.22);
-  border-radius: 999px;
-  background: rgba(11, 31, 49, 0.72);
-  color: #8fe7ff;
-  font-family: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
-.stellar-home-matrix td:nth-child(4) {
-  background:
-    linear-gradient(180deg, rgba(11, 33, 53, 0.84), rgba(9, 26, 44, 0.72));
-  box-shadow:
-    inset 0 0 0 1px rgba(95, 216, 255, 0.14),
-    inset 0 0 18px rgba(95, 216, 255, 0.04);
-}
-
-.stellar-home-matrix td a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 6px 12px;
-  border: 1px solid rgba(95, 216, 255, 0.34);
-  border-radius: 10px;
-  background: rgba(12, 30, 48, 0.86);
-  color: #8fe7ff;
-  font-family: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition:
-    color 0.2s ease,
-    border-color 0.2s ease,
-    background-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-  box-shadow:
-    0 0 0 1px rgba(95, 216, 255, 0.08),
-    0 0 16px rgba(95, 216, 255, 0.08);
-}
-
-.stellar-home-matrix tbody tr:hover td:nth-child(4) {
-  background:
-    linear-gradient(180deg, rgba(12, 40, 64, 0.92), rgba(10, 30, 50, 0.84));
-  box-shadow:
-    inset 0 0 0 1px rgba(95, 216, 255, 0.22),
-    inset 0 0 24px rgba(95, 216, 255, 0.06);
-}
-
-.stellar-home-matrix tbody tr.is-active td:nth-child(4) {
-  background:
-    linear-gradient(180deg, rgba(13, 47, 74, 0.96), rgba(10, 34, 55, 0.9));
-  box-shadow:
-    inset 0 0 0 1px rgba(143, 231, 255, 0.3),
-    inset 0 0 28px rgba(95, 216, 255, 0.1);
-}
-
-.stellar-home-matrix td a:hover {
-  color: #f5f9ff;
-  border-color: rgba(143, 231, 255, 0.4);
-  background: rgba(15, 39, 61, 0.92);
-  transform: translateY(-1px);
-  box-shadow:
-    0 0 0 1px rgba(143, 231, 255, 0.18),
-    0 0 22px rgba(95, 216, 255, 0.18);
-}
-
-.stellar-home-matrix tbody tr.is-active td a {
-  color: #f5f9ff;
-  border-color: rgba(143, 231, 255, 0.42);
-  background: rgba(15, 39, 61, 0.94);
-  box-shadow:
-    0 0 0 1px rgba(143, 231, 255, 0.2),
-    0 0 24px rgba(95, 216, 255, 0.22);
-}
-
-.stellar-home-blueprint {
-  display: block;
-  width: 100%;
-  aspect-ratio: 2200 / 1210;
-  min-height: 0;
-  border: 1px solid rgba(149, 194, 255, 0.12);
-  border-radius: 12px;
-  background: rgba(7, 14, 28, 0.9);
-}
-
-@media (max-width: 640px) {
-  .stellar-home-wide {
-    padding: 20px 16px 8px;
-  }
-
-  .stellar-home-intro,
-  .stellar-home-graph,
-  .stellar-home-matrix {
-    padding: 20px 18px;
-  }
-
-  .stellar-home-blueprint {
-    aspect-ratio: 2200 / 1210;
-  }
+  border-radius: 8px;
 }
 
 .forum-index {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 8px 24px 24px;
+  padding: 8px 24px 32px;
 }
 
 .forum-section {
-  margin: 0 0 24px;
-  padding: 26px 28px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 22px;
-  background:
-    linear-gradient(180deg, rgba(9, 17, 34, 0.94), rgba(8, 16, 31, 0.9));
-  box-shadow: 0 20px 48px rgba(2, 6, 18, 0.18);
+  margin: 0 0 22px;
+  padding: 24px;
+  border: 1px solid var(--forum-border);
+  border-radius: 8px;
+  background: var(--forum-card-bg);
+  box-shadow: var(--forum-shadow);
 }
 
 .forum-section--compact {
-  padding-bottom: 22px;
+  padding-bottom: 20px;
 }
 
 .forum-section__head {
@@ -1843,12 +89,52 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
 
 .forum-section__head h2 {
   margin: 0;
+  color: var(--forum-heading);
   font-size: 24px;
+  letter-spacing: 0;
 }
 
 .forum-section__head p {
   margin: 8px 0 0;
-  color: rgba(208, 222, 245, 0.72);
+  color: var(--forum-muted);
+}
+
+.forum-topic-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.forum-topic-chip,
+.forum-topic-chips span,
+.forum-post-card__tags span,
+.forum-post-card__category,
+.forum-post-card__date {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  border: 1px solid var(--forum-chip-border);
+  border-radius: 999px;
+  background: var(--forum-chip-bg);
+  color: var(--forum-muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.forum-topic-chip {
+  cursor: pointer;
+  transition:
+    color 0.18s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.forum-topic-chip:hover,
+.forum-topic-chip.is-active {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
 }
 
 .forum-post-grid {
@@ -1863,22 +149,21 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
   gap: 14px;
   min-height: 100%;
   padding: 22px;
-  border: 1px solid rgba(149, 194, 255, 0.12);
-  border-radius: 18px;
-  background:
-    linear-gradient(180deg, rgba(12, 21, 41, 0.92), rgba(8, 16, 31, 0.84));
+  border: 1px solid var(--forum-border);
+  border-radius: 8px;
+  background: var(--vp-c-bg);
   color: inherit;
   text-decoration: none;
   transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
 .forum-post-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(143, 231, 255, 0.22);
-  box-shadow: 0 16px 32px rgba(2, 6, 18, 0.22);
+  border-color: var(--vp-c-brand-1);
+  box-shadow: var(--forum-shadow);
 }
 
 .forum-post-card__meta {
@@ -1887,108 +172,54 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
   gap: 8px;
 }
 
-.forum-post-card__category,
-.forum-post-card__date {
-  display: inline-flex;
-  align-items: center;
-  min-height: 28px;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-}
-
 .forum-post-card__category {
-  border: 1px solid rgba(95, 216, 255, 0.22);
-  background: rgba(10, 31, 50, 0.78);
-  color: #8fe7ff;
-}
-
-.forum-post-card__date {
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  background: rgba(12, 25, 45, 0.72);
-  color: rgba(213, 226, 248, 0.8);
+  color: var(--vp-c-brand-1);
 }
 
 .forum-post-card h3 {
   margin: 0;
-  color: #f5f9ff;
-  font-size: 22px;
+  color: var(--forum-heading);
+  font-size: 21px;
   line-height: 1.45;
 }
 
 .forum-post-card__summary,
 .forum-post-card__direction {
   margin: 0;
-  color: rgba(221, 232, 250, 0.8);
-  line-height: 1.85;
+  color: var(--forum-muted);
+  line-height: 1.8;
 }
 
 .forum-post-card__direction strong {
-  color: #f5f9ff;
+  color: var(--forum-heading);
 }
 
 .forum-post-card__tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   margin-top: auto;
 }
 
-.forum-post-card__tags span,
-.forum-topic-chips span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 32px;
-  padding: 5px 11px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 999px;
-  background: rgba(10, 22, 40, 0.68);
-  color: rgba(218, 230, 249, 0.8);
-  font-size: 13px;
-}
-
-.forum-topic-chip {
-  display: inline-flex;
-  align-items: center;
-  min-height: 32px;
-  padding: 5px 11px;
-  border: 1px solid rgba(149, 194, 255, 0.14);
-  border-radius: 999px;
-  background: rgba(10, 22, 40, 0.68);
-  color: rgba(218, 230, 249, 0.8);
-  font-size: 13px;
-  cursor: pointer;
-  transition:
-    color 0.2s ease,
-    border-color 0.2s ease,
-    background-color 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.forum-topic-chip:hover,
-.forum-topic-chip.is-active {
-  border-color: rgba(143, 231, 255, 0.28);
-  background: rgba(11, 33, 53, 0.84);
-  color: #f5f9ff;
-  box-shadow: 0 0 0 1px rgba(95, 216, 255, 0.08);
-}
-
-.forum-category-grid {
+.forum-category-grid,
+.forum-archive-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
-.forum-category-card {
-  padding: 20px 22px;
-  border: 1px solid rgba(149, 194, 255, 0.12);
-  border-radius: 18px;
-  background: rgba(9, 19, 36, 0.64);
+.forum-category-card,
+.forum-archive-card {
+  padding: 20px;
+  border: 1px solid var(--forum-border);
+  border-radius: 8px;
+  background: var(--vp-c-bg);
 }
 
-.forum-category-card h3 {
+.forum-category-card h3,
+.forum-archive-card h3 {
   margin: 0 0 14px;
+  color: var(--forum-heading);
   font-size: 18px;
 }
 
@@ -2001,31 +232,15 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
   margin-top: 8px;
 }
 
-.forum-category-card a {
-  color: #cfe9ff;
+.forum-category-card a,
+.forum-archive-card a {
+  color: var(--vp-c-text-1);
   text-decoration: none;
 }
 
-.forum-category-card a:hover {
-  color: #8fe7ff;
-}
-
-.forum-archive-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-}
-
-.forum-archive-card {
-  padding: 20px 22px;
-  border: 1px solid rgba(149, 194, 255, 0.12);
-  border-radius: 18px;
-  background: rgba(9, 19, 36, 0.64);
-}
-
-.forum-archive-card h3 {
-  margin: 0 0 14px;
-  font-size: 18px;
+.forum-category-card a:hover,
+.forum-archive-card a:hover {
+  color: var(--vp-c-brand-1);
 }
 
 .forum-archive-card ul {
@@ -2039,7 +254,7 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
   justify-content: space-between;
   gap: 16px;
   padding: 10px 0;
-  border-top: 1px solid rgba(149, 194, 255, 0.08);
+  border-top: 1px solid var(--forum-border);
 }
 
 .forum-archive-card li:first-child {
@@ -2047,32 +262,53 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
   padding-top: 0;
 }
 
-.forum-archive-card a {
-  color: #cfe9ff;
-  text-decoration: none;
-  line-height: 1.7;
-}
-
-.forum-archive-card a:hover {
-  color: #8fe7ff;
-}
-
 .forum-archive-card span {
   flex: 0 0 auto;
-  color: rgba(208, 222, 245, 0.62);
+  color: var(--forum-muted);
   font-size: 13px;
   white-space: nowrap;
 }
 
-.forum-topic-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
 .forum-empty-state {
   margin: 18px 0 0;
-  color: rgba(208, 222, 245, 0.72);
+  color: var(--forum-muted);
+}
+
+.giscus-comments {
+  margin-top: 42px;
+  padding-top: 28px;
+  border-top: 1px solid var(--forum-border);
+}
+
+.giscus-comments__head {
+  margin-bottom: 18px;
+}
+
+.giscus-comments__eyebrow {
+  display: inline-flex;
+  margin-bottom: 8px;
+  color: var(--vp-c-brand-1);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.giscus-comments__head h2 {
+  margin: 0;
+  color: var(--forum-heading);
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.giscus-comments__head p {
+  margin: 8px 0 0;
+  color: var(--forum-muted);
+  line-height: 1.7;
+}
+
+.giscus-comments__widget {
+  min-height: 220px;
 }
 
 @media (max-width: 960px) {
@@ -2085,11 +321,13 @@ body[data-stellar-product-view="subpage"] .vp-doc[class*="_products_stell"] hr {
 
 @media (max-width: 640px) {
   .forum-index {
-    padding: 8px 16px 20px;
+    padding: 8px 16px 24px;
   }
 
-  .forum-section {
-    padding: 22px 18px;
-    border-radius: 18px;
+  .forum-section,
+  .forum-post-card,
+  .forum-category-card,
+  .forum-archive-card {
+    padding: 18px;
   }
 }
