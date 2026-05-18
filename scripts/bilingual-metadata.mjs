@@ -272,6 +272,18 @@ export const topics = [
       "Read this when learning the Linux I/O model, troubleshooting fd leaks, understanding socket and epoll lifecycles, or designing resource governance for high-concurrency services."
   },
   {
+    slug: "ipc",
+    titleEn: "Linux Inter-Process Communication and the mmap User-Space Call Path",
+    titleZh: "Linux 进程间通信机制及 mmap 用户态调用路径研究",
+    categoryEn: "Operating Systems",
+    categoryZh: "操作系统",
+    summaryEn:
+      "A systematic study of Linux IPC mechanisms, including signals, pipes, FIFOs, UNIX Domain Sockets, message queues, shared memory, mmap, futex, eventfd, epoll, and the mmap path from multiple user-space languages to kernel syscalls.",
+    tagsEn: ["Linux", "IPC", "mmap", "Shared Memory", "System Calls"],
+    readingDirectionEn:
+      "Read this when learning Linux inter-process communication, shared memory, mmap call paths, event loops, or cross-language local communication design choices."
+  },
+  {
     slug: "v_thread",
     titleEn: "Virtual Threads, Runtime Scheduling, and the Linux Kernel Thread Model",
     titleZh: "虚拟线程的本质、运行时调度与 Linux 内核线程模型研究",
