@@ -194,6 +194,18 @@ export const topics = [
       "Read this when evaluating serialization choices for Java RPC, message queues, caches, object persistence, or middleware data exchange."
   },
   {
+    slug: "jdk_upgrade",
+    titleEn: "Technical Guide for Migrating from JDK 8, 11, and 17 to JDK 21 and Later",
+    titleZh: "从 JDK 8 / 11 / 17 迁移至 JDK 21 及以上版本的技术指南",
+    categoryEn: "Java Engineering",
+    categoryZh: "Java 工程",
+    summaryEn:
+      "A systematic guide to migrating from JDK 8, JDK 11, and JDK 17 to JDK 21 and later, covering migration paths, benefit sources, upgrade cost, ROI, risk control, observability, and regression testing.",
+    tagsEn: ["JDK", "Java", "Virtual Threads", "ZGC", "Performance Regression"],
+    readingDirectionEn:
+      "Read this when planning enterprise Java runtime upgrades, evaluating JDK 21 or JDK 25, validating virtual threads or Generational ZGC, or designing canary and regression strategies."
+  },
+  {
     slug: "tuning",
     titleEn:
       "Fast Is Not the Same as Good: Local Performance Optimum Is Not Equivalent to System-Wide Optimum",
