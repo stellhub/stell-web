@@ -207,6 +207,19 @@ export const topics = [
       "Read this when evaluating in-container process communication, sidecar data sharing, log collection, telemetry reporting, or shared-memory optimization."
   },
   {
+    slug: "containerd",
+    titleEn:
+      "Understanding Kubernetes and Docker from the Linux Kernel: Pod and Container Creation, Runtime, Syscalls, and Destruction",
+    titleZh: "从 Linux 内核视角理解 Kubernetes 与 Docker：Pod / 容器的创建、运行、系统调用与销毁机制",
+    categoryEn: "Cloud Native",
+    categoryZh: "云原生",
+    summaryEn:
+      "A kernel-level explanation of container creation, runtime behavior, and destruction through Pod lifecycle, CRI, containerd, Docker, runc, Linux syscalls, namespaces, nsproxy, and cgroups.",
+    tagsEn: ["Kubernetes", "Docker", "containerd", "runc", "Linux Kernel"],
+    readingDirectionEn:
+      "Read this when studying Kubernetes runtime internals, OCI runtime behavior, namespace and cgroup isolation, or container startup and syscall troubleshooting."
+  },
+  {
     slug: "connection",
     titleEn:
       "Beware Unintentional Short Connections: How Frequent Middleware Client Creation Causes Connection Avalanches",
