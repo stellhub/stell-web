@@ -206,6 +206,18 @@ export const topics = [
       "Read this when planning enterprise Java runtime upgrades, evaluating JDK 21 or JDK 25, validating virtual threads or Generational ZGC, or designing canary and regression strategies."
   },
   {
+    slug: "nio_epoll",
+    titleEn: "Evolution of epoll-Based NIO Network Models and Multi-Framework Implementations",
+    titleZh: "基于 epoll 的 NIO 网络模型演进与多框架实现研究",
+    categoryEn: "Java Engineering",
+    categoryZh: "Java 工程",
+    summaryEn:
+      "A study of Linux epoll, NIO network model evolution, epoll system call semantics, differences between select, poll, and epoll, and event-driven implementations in Netty, Go, Redis, and Nginx.",
+    tagsEn: ["epoll", "NIO", "Netty", "Go", "Virtual Threads"],
+    readingDirectionEn:
+      "Read this when studying the Linux NIO network model, Netty native epoll, Go runtime netpoll, Redis and Nginx event models, or the boundary between virtual threads and EventLoop."
+  },
+  {
     slug: "tuning",
     titleEn:
       "Fast Is Not the Same as Good: Local Performance Optimum Is Not Equivalent to System-Wide Optimum",
