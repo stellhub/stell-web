@@ -96,6 +96,19 @@ export const topics = [
       "Read this when redesigning enterprise log governance, migrating from ELK-centric collection to OpenTelemetry, choosing Java or Go logging SDKs, or designing Collector-to-Kafka log pipelines."
   },
   {
+    slug: "elaticsearch",
+    titleEn:
+      "Elasticsearch Internals: Lucene Storage, Cluster Coordination, and Replication Mechanisms",
+    titleZh: "Elasticsearch 底层架构：Lucene 存储、集群协调与复制机制分析",
+    categoryEn: "Search Infrastructure",
+    categoryZh: "搜索基础设施",
+    summaryEn:
+      "A systematic analysis of Elasticsearch internals, including Lucene storage, inverted indexes, Doc Values, BKD Tree, FST, segments, translog, cluster coordination, Zen2, and primary-backup shard replication.",
+    tagsEn: ["Elasticsearch", "Lucene", "Inverted Index", "Zen2", "PacificA"],
+    readingDirectionEn:
+      "Read this when studying why Elasticsearch is not a generic KV store, where Lucene query efficiency comes from, how shard replication consistency works, or how Zen2 coordination and read/write paths behave."
+  },
+  {
     slug: "acme_https",
     titleEn: "Complete Guide to Enabling HTTPS with acme.sh and Nginx",
     titleZh: "acme.sh + Nginx 接入 HTTPS 完整操作指南",
@@ -155,6 +168,19 @@ export const topics = [
     tagsEn: ["Kafka", "Pulsar", "Message Queue", "Cloud Native", "Stateful Middleware"],
     readingDirectionEn:
       "Read this when comparing Kafka and Pulsar architectures, or evaluating whether middleware should become stateless, containerized, or separated into service and storage layers."
+  },
+  {
+    slug: "stellflow",
+    titleEn:
+      "Self-Built Enterprise Message Queue Architecture Based on the Distributed Log Model: Stellflow as an Example",
+    titleZh: "基于分布式日志模型的企业级消息队列自研架构研究：以 Stellflow 为例",
+    categoryEn: "Messaging Infrastructure",
+    categoryZh: "消息中间件",
+    summaryEn:
+      "A Stellflow-based study of self-built enterprise message queue architecture, covering distributed log modeling, data-plane protocol design, broker request paths, storage, controller quorum, replicas, high-throughput data paths, and OpenTelemetry-first observability.",
+    tagsEn: ["Stellflow", "Message Queue", "Distributed Log", "Raft", "OpenTelemetry"],
+    readingDirectionEn:
+      "Read this when designing an enterprise message queue, building a distributed log system, planning broker/controller architecture, replication high-watermark rules, protocol evolution, or observability metrics."
   },
   {
     slug: "distributed-consistency",

@@ -1,3 +1,17 @@
+---
+title: "Elasticsearch 底层架构：Lucene 存储、集群协调与复制机制分析"
+category: 搜索基础设施
+summary: 系统分析 Elasticsearch 基于 Lucene 的底层存储结构、倒排索引、Doc Values、BKD Tree、FST、segment、translog、集群协调、Zen2 和 primary-backup 分片复制机制。
+tags:
+  - Elasticsearch
+  - Lucene
+  - 倒排索引
+  - Zen2
+  - PacificA
+readingDirection: 适合在理解 Elasticsearch 为什么不是普通 KV 存储、Lucene 查询效率来源、分片复制一致性、Zen2 集群协调或读写路径时阅读。
+outline: deep
+---
+
 # Elasticsearch 底层架构：Lucene 存储、集群协调与复制机制分析
 
 ## 摘要
