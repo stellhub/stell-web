@@ -72,6 +72,18 @@ export const topics = [
       "Read this when reviewing high-concurrency or high-performance optimizations, defining reliability governance rules, evaluating load-test reports, performing incident reviews, planning canary releases, or setting capacity boundaries."
   },
   {
+    slug: "three_high",
+    titleEn: "Trade-Offs Among High Availability, High Performance, and High Concurrency",
+    titleZh: "高可用、高性能与高并发设计取舍研究",
+    categoryEn: "Reliability Engineering",
+    categoryZh: "可靠性工程",
+    summaryEn:
+      "A reliability-engineering analysis of conflicts among high availability, high performance, and high concurrency across resources, time, consistency, and complexity, with a production-oriented trade-off framework.",
+    tagsEn: ["High Availability", "High Performance", "High Concurrency", "Reliability Engineering", "Rate Limiting"],
+    readingDirectionEn:
+      "Read this when reviewing system architecture, capacity planning, load-test results, stability governance, rate limiting, circuit breaking, or trade-offs among the three high-level system goals."
+  },
+  {
     slug: "observability-spec",
     titleEn: "Observability Specification",
     titleZh: "可观测规范",
@@ -121,6 +133,19 @@ export const topics = [
       "Read this when studying why Elasticsearch is not a generic KV store, where Lucene query efficiency comes from, how shard replication consistency works, or how Zen2 coordination and read/write paths behave."
   },
   {
+    slug: "effective_elasticsearch",
+    titleEn:
+      "Engineering Practices for Storing Application Logs in Elasticsearch at Very Large Enterprises",
+    titleZh: "超大型企业基于 Elasticsearch 存储应用日志的工程实践研究",
+    categoryEn: "Search Infrastructure",
+    categoryZh: "搜索基础设施",
+    summaryEn:
+      "A systematic guide to storing application logs in Elasticsearch at very large enterprises, covering data streams, index templates, ILM, ECS, mappings, exception stacks, duplicate-log aggregation, multi-tenancy, high-traffic applications, and very long log handling.",
+    tagsEn: ["Elasticsearch", "Application Logs", "Data Streams", "ILM", "ECS"],
+    readingDirectionEn:
+      "Read this when designing an enterprise log platform, governing Elasticsearch log indexes, handling exception storms, planning multi-tenant isolation, or optimizing log storage cost."
+  },
+  {
     slug: "acme_https",
     titleEn: "Complete Guide to Enabling HTTPS with acme.sh and Nginx",
     titleZh: "acme.sh + Nginx 接入 HTTPS 完整操作指南",
@@ -143,6 +168,19 @@ export const topics = [
     tagsEn: ["Tracing", "Microservices", "OpenTelemetry", "Research"],
     readingDirectionEn:
       "Read this when comparing tracing architectures or planning a platform-wide tracing rollout."
+  },
+  {
+    slug: "tracing",
+    titleEn:
+      "The Evolution of Distributed Tracing: From Call-Chain Visualization to Cloud-Native Observability Standards",
+    titleZh: "分布式链路追踪的发展历程",
+    categoryEn: "Observability",
+    categoryZh: "可观测性",
+    summaryEn:
+      "A historical and architectural review of distributed tracing from Dapper, EagleEye, Zipkin, Jaeger, and SkyWalking to OpenTelemetry and Tempo, explaining how tracing became a cloud-native observability signal.",
+    tagsEn: ["Distributed Tracing", "OpenTelemetry", "Jaeger", "SkyWalking", "Tempo"],
+    readingDirectionEn:
+      "Read this when studying tracing history, evaluating observability architecture, planning OpenTelemetry adoption, or comparing Zipkin, Jaeger, SkyWalking, and Tempo."
   },
   {
     slug: "error-code-spec",
