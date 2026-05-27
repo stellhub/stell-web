@@ -1,18 +1,22 @@
 ---
 title: "Connection reset by peer：TCP RST、连接生命周期与工程排查体系研究"
-category: 网络可靠性
-summary: 系统解释 Connection reset by peer 与 TCP RST 的协议语义、生命周期位置、常见工程根因和排查治理方法。
+category: "网络可靠性"
+summary: "系统解释 Connection reset by peer 与 TCP RST 的协议语义、生命周期位置、常见工程根因和排查治理方法。"
 tags:
-  - TCP
-  - ECONNRESET
-  - RST
-  - 长连接
-  - 网络排查
-readingDirection: 适合在排查连接重置、长连接断开、连接池复用失败、idle timeout 或注册中心 watch 异常时阅读。
+  - "TCP"
+  - "ECONNRESET"
+  - "RST"
+  - "长连接"
+  - "网络排查"
+readingDirection: "适合在排查连接重置、长连接断开、连接池复用失败、idle timeout 或注册中心 watch 异常时阅读。"
 outline: deep
 ---
 
 # Connection reset by peer：TCP RST、连接生命周期与工程排查体系研究
+
+## 概览
+
+系统解释 Connection reset by peer 与 TCP RST 的协议语义、生命周期位置、常见工程根因和排查治理方法。
 
 ## 摘要
 

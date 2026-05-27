@@ -1,18 +1,22 @@
 ---
-title: 企业级注册中心的架构模型、核心设计与自研实现路径研究：以 StellMap 为例
-category: 基础设施
-summary: 系统归纳企业级注册中心的服务发现、一致性模型、存储模型、Watch 机制、跨 Region 同步、运维部署，并以 StellMap 总结轻量级强一致自研注册中心实现路径。
+title: "企业级注册中心的架构模型、核心设计与自研实现路径研究：以 StellMap 为例"
+category: "基础设施"
+summary: "系统归纳企业级注册中心的服务发现、一致性模型、存储模型、Watch 机制、跨 Region 同步、运维部署，并以 StellMap 总结轻量级强一致自研注册中心实现路径。"
 tags:
-  - 注册中心
-  - 服务发现
-  - Raft
-  - CAP
-  - StellMap
-readingDirection: 适合在比较注册中心架构、设计 CP/AP 服务发现、自研 Raft 注册中心、研究 StellMap 模块化实现或跨 Region 目录同步时阅读。
+  - "注册中心"
+  - "服务发现"
+  - "Raft"
+  - "CAP"
+  - "StellMap"
+readingDirection: "适合在比较注册中心架构、设计 CP/AP 服务发现、自研 Raft 注册中心、研究 StellMap 模块化实现或跨 Region 目录同步时阅读。"
 outline: deep
 ---
 
 # 企业级注册中心的架构模型、核心设计与自研实现路径研究：以 StellMap 为例
+
+## 概览
+
+系统归纳企业级注册中心的服务发现、一致性模型、存储模型、Watch 机制、跨 Region 同步、运维部署，并以 StellMap 总结轻量级强一致自研注册中心实现路径。
 
 ## 摘要
 

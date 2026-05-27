@@ -1,0 +1,35 @@
+{
+  "slug": "ipc",
+  "title": {
+    "en": "Linux Inter-Process Communication and the mmap User-Space Call Path",
+    "zh": "Linux 进程间通信机制及 mmap 用户态调用路径研究"
+  },
+  "category": {
+    "en": "Operating Systems",
+    "zh": "操作系统"
+  },
+  "summary": {
+    "en": "A systematic study of Linux IPC mechanisms, including signals, pipes, FIFOs, UNIX Domain Sockets, message queues, shared memory, mmap, futex, eventfd, epoll, and the mmap path from multiple user-space languages to kernel syscalls.",
+    "zh": "系统梳理 Linux IPC 机制，包括信号、管道、FIFO、UNIX Domain Socket、消息队列、共享内存、mmap、futex、eventfd、epoll，以及 mmap 在多语言用户态到内核系统调用的路径。"
+  },
+  "tags": {
+    "en": [
+      "Linux",
+      "IPC",
+      "mmap",
+      "Shared Memory",
+      "System Calls"
+    ],
+    "zh": [
+      "Linux",
+      "IPC",
+      "mmap",
+      "共享内存",
+      "系统调用"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when learning Linux inter-process communication, shared memory, mmap call paths, event loops, or cross-language local communication design choices.",
+    "zh": "适合在学习 Linux 进程间通信、共享内存、mmap 调用链、事件循环或跨语言本机通信方案选型时阅读。"
+  }
+}

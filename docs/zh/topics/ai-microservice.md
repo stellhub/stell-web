@@ -1,18 +1,22 @@
 ---
-title: AI 时代下，互联网应用应该何去何从：从流量经济到算力经济的范式迁移
-category: AI 工程
-summary: 从边际成本、token 成本、模型分层、上下文工程、工作流嵌入、价值计费和成本治理等角度，分析 AI 时代互联网应用从流量经济转向算力经济后的产品与架构选择。
+title: "AI 时代下，互联网应用应该何去何从：从流量经济到算力经济的范式迁移"
+category: "AI 工程"
+summary: "从边际成本、token 成本、模型分层、上下文工程、工作流嵌入、价值计费和成本治理等角度，分析 AI 时代互联网应用从流量经济转向算力经济后的产品与架构选择。"
 tags:
-  - AI 应用
-  - 算力经济
-  - 成本治理
-  - AI Gateway
-  - Context Engineering
-readingDirection: 适合在评估互联网产品 AI 化、设计 AI 成本治理、模型路由、上下文基础设施和商业定价模型时阅读。
+  - "AI 应用"
+  - "算力经济"
+  - "成本治理"
+  - "AI Gateway"
+  - "Context Engineering"
+readingDirection: "适合在评估互联网产品 AI 化、设计 AI 成本治理、模型路由、上下文基础设施和商业定价模型时阅读。"
 outline: deep
 ---
 
 # AI 时代下，互联网应用应该何去何从：从流量经济到算力经济的范式迁移
+
+## 概览
+
+从边际成本、token 成本、模型分层、上下文工程、工作流嵌入、价值计费和成本治理等角度，分析 AI 时代互联网应用从流量经济转向算力经济后的产品与架构选择。
 
 ## 摘要
 
@@ -1114,4 +1118,3 @@ AI 不会消灭互联网应用。
 [1]: https://developers.openai.com/api/docs/pricing?utm_source=chatgpt.com "Pricing | OpenAI API"
 [2]: https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide?utm_source=chatgpt.com "NVIDIA AI GPU Prices: H100 ($27K-$40K) & H200 ($315 ..."
 [3]: https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494?utm_source=chatgpt.com "Big Tech's $725bn AI spending spree sends free cash flow to a decade low"
-

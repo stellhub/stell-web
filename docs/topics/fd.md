@@ -1,14 +1,14 @@
 ---
 title: "Linux File Descriptors: From Everything Is a File to fd Kernel Abstractions and Engineering Practice"
-category: Operating Systems
-summary: A systematic study of Linux file descriptors, open file descriptions, VFS, inodes, sockets, epoll, inheritance semantics, and production engineering practices.
+category: "Operating Systems"
+summary: "A systematic study of Linux file descriptors, open file descriptions, VFS, inodes, sockets, epoll, inheritance semantics, and production engineering practices."
 tags:
-  - Linux
-  - File Descriptor
-  - VFS
-  - epoll
-  - System Programming
-readingDirection: Read this when learning the Linux I/O model, troubleshooting fd leaks, understanding socket and epoll lifecycles, or designing resource governance for high-concurrency services.
+  - "Linux"
+  - "File Descriptor"
+  - "VFS"
+  - "epoll"
+  - "System Programming"
+readingDirection: "Read this when learning the Linux I/O model, troubleshooting fd leaks, understanding socket and epoll lifecycles, or designing resource governance for high-concurrency services."
 outline: deep
 ---
 

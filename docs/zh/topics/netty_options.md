@@ -1,18 +1,22 @@
 ---
-title: Netty 参数调优研究：基于问题现象、参数语义与官方文档的系统化分析
-category: Java 工程
-summary: 系统分析 Netty 4.1 在连接建立、读写缓冲、背压、线程模型、内存分配、连接保活和 Linux native transport 等方面的参数语义、问题现象与调优边界。
+title: "Netty 参数调优研究：基于问题现象、参数语义与官方文档的系统化分析"
+category: "Java 工程"
+summary: "系统分析 Netty 4.1 在连接建立、读写缓冲、背压、线程模型、内存分配、连接保活和 Linux native transport 等方面的参数语义、问题现象与调优边界。"
 tags:
-  - Netty
-  - Java
-  - 网络调优
-  - 背压
-  - epoll
-readingDirection: 适合在排查 Netty 连接突增、小包延迟、写缓冲堆积、EventLoop 阻塞、direct memory 增长或 Linux native transport 选型时阅读。
+  - "Netty"
+  - "Java"
+  - "网络调优"
+  - "背压"
+  - "epoll"
+readingDirection: "适合在排查 Netty 连接突增、小包延迟、写缓冲堆积、EventLoop 阻塞、direct memory 增长或 Linux native transport 选型时阅读。"
 outline: deep
 ---
 
 # Netty 参数调优研究：基于问题现象、参数语义与官方文档的系统化分析
+
+## 概览
+
+系统分析 Netty 4.1 在连接建立、读写缓冲、背压、线程模型、内存分配、连接保活和 Linux native transport 等方面的参数语义、问题现象与调优边界。
 
 ## 摘要
 

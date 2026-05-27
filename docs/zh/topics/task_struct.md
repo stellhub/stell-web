@@ -1,18 +1,22 @@
 ---
 title: "深入研究 Linux task_struct 的设计哲学：从进程描述符到统一任务模型"
-category: 操作系统
-summary: 从统一 task 模型解释 Linux task_struct 如何连接调度、内存、文件、信号、权限、命名空间、cgroup、I/O 和观测等内核子系统。
+category: "操作系统"
+summary: "从统一 task 模型解释 Linux task_struct 如何连接调度、内存、文件、信号、权限、命名空间、cgroup、I/O 和观测等内核子系统。"
 tags:
-  - Linux
-  - task_struct
-  - 进程
-  - 线程
-  - 内核调度
-readingDirection: 适合在理解 Linux 进程线程模型、clone 资源共享、内核调度实体或用户态轻量线程边界时阅读。
+  - "Linux"
+  - "task_struct"
+  - "进程"
+  - "线程"
+  - "内核调度"
+readingDirection: "适合在理解 Linux 进程线程模型、clone 资源共享、内核调度实体或用户态轻量线程边界时阅读。"
 outline: deep
 ---
 
-# 深入研究 Linux `task_struct` 的设计哲学：从进程描述符到统一任务模型
+# 深入研究 Linux task_struct 的设计哲学：从进程描述符到统一任务模型
+
+## 概览
+
+从统一 task 模型解释 Linux task_struct 如何连接调度、内存、文件、信号、权限、命名空间、cgroup、I/O 和观测等内核子系统。
 
 ## 摘要
 

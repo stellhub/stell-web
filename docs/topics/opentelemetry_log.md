@@ -1,14 +1,14 @@
 ---
 title: "Moving Beyond ELK Dependency: Redefining Log Governance in the OpenTelemetry Era"
-category: Observability
-summary: A study of log governance evolution from local files and ELK to OpenTelemetry, covering Java and Go logging SDK choices, Collector pipelines, Kafka buffering, gateway tradeoffs, and custom Collector engineering.
+category: "Observability"
+summary: "A study of log governance evolution from local files and ELK to OpenTelemetry, covering Java and Go logging SDK choices, Collector pipelines, Kafka buffering, gateway tradeoffs, and custom Collector engineering."
 tags:
-  - OpenTelemetry
-  - Logs
-  - ELK
-  - Collector
-  - Kafka
-readingDirection: Read this when redesigning enterprise log governance, migrating from ELK-centric collection to OpenTelemetry, choosing Java or Go logging SDKs, or designing Collector-to-Kafka log pipelines.
+  - "OpenTelemetry"
+  - "Logs"
+  - "ELK"
+  - "Collector"
+  - "Kafka"
+readingDirection: "Read this when redesigning enterprise log governance, migrating from ELK-centric collection to OpenTelemetry, choosing Java or Go logging SDKs, or designing Collector-to-Kafka log pipelines."
 outline: deep
 ---
 

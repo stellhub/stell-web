@@ -1,14 +1,14 @@
 ---
 title: "Self-Built Enterprise Message Queue Architecture Based on the Distributed Log Model: Stellflow as an Example"
-category: Messaging Infrastructure
-summary: A Stellflow-based study of self-built enterprise message queue architecture, covering distributed log modeling, data-plane protocol design, broker request paths, storage, controller quorum, replicas, high-throughput data paths, and OpenTelemetry-first observability.
+category: "Messaging Infrastructure"
+summary: "A Stellflow-based study of self-built enterprise message queue architecture, covering distributed log modeling, data-plane protocol design, broker request paths, storage, controller quorum, replicas, high-throughput data paths, and OpenTelemetry-first observability."
 tags:
-  - Stellflow
-  - Message Queue
-  - Distributed Log
-  - Raft
-  - OpenTelemetry
-readingDirection: Read this when designing an enterprise message queue, building a distributed log system, planning broker/controller architecture, replication high-watermark rules, protocol evolution, or observability metrics.
+  - "Stellflow"
+  - "Message Queue"
+  - "Distributed Log"
+  - "Raft"
+  - "OpenTelemetry"
+readingDirection: "Read this when designing an enterprise message queue, building a distributed log system, planning broker/controller architecture, replication high-watermark rules, protocol evolution, or observability metrics."
 outline: deep
 ---
 

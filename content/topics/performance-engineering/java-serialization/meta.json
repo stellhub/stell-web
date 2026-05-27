@@ -1,0 +1,35 @@
+{
+  "slug": "java-serialization",
+  "title": {
+    "en": "Java Serialization Performance Study across JDK, Jackson JSON, Jackson Smile, Protobuf, Kryo, and Hessian2",
+    "zh": "Java 序列化性能调研：JDK、Jackson JSON、Jackson Smile、Protobuf、Kryo、Hessian2"
+  },
+  "category": {
+    "en": "Performance Engineering",
+    "zh": "性能工程"
+  },
+  "summary": {
+    "en": "A benchmark-backed comparison of JDK native serialization, Jackson JSON, Jackson Smile, Protobuf, Kryo, and Hessian2 across size, latency, ecosystem fit, cross-language support, schema evolution, and security boundaries.",
+    "zh": "基于 java-serialization-compare 项目的测试结果，对 JDK 原生序列化、Jackson JSON、Jackson Smile、Protobuf、Kryo 和 Hessian2 的体积、性能、生态、跨语言能力、schema 演进和安全边界进行横向对比。"
+  },
+  "tags": {
+    "en": [
+      "Java",
+      "Serialization",
+      "Benchmark",
+      "Protobuf",
+      "Kryo"
+    ],
+    "zh": [
+      "Java",
+      "序列化",
+      "性能测试",
+      "Protobuf",
+      "Kryo"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating serialization choices for Java RPC, message queues, caches, object persistence, or middleware data exchange.",
+    "zh": "适合在评估 Java 服务 RPC、消息队列、缓存、对象持久化或中间件数据交换的序列化方案时阅读。"
+  }
+}

@@ -1,14 +1,14 @@
 ---
-title: Technical Comparison and Migration Guide for Prometheus and VictoriaMetrics
-category: Observability
-summary: A systematic comparison of Prometheus and VictoriaMetrics across system positioning, data ingestion, query compatibility, storage layout, performance mechanisms, and a standard migration path from Prometheus to VictoriaMetrics.
+title: "Technical Comparison and Migration Guide for Prometheus and VictoriaMetrics"
+category: "Observability"
+summary: "A systematic comparison of Prometheus and VictoriaMetrics across system positioning, data ingestion, query compatibility, storage layout, performance mechanisms, and a standard migration path from Prometheus to VictoriaMetrics."
 tags:
-  - Prometheus
-  - VictoriaMetrics
-  - PromQL
-  - Remote Write
-  - Observability
-readingDirection: Read this when evaluating Prometheus long-term storage, VictoriaMetrics replacement paths, vmagent/vmalert migration, PromQL compatibility, or large-scale time-series storage architecture.
+  - "Prometheus"
+  - "VictoriaMetrics"
+  - "PromQL"
+  - "Remote Write"
+  - "Observability"
+readingDirection: "Read this when evaluating Prometheus long-term storage, VictoriaMetrics replacement paths, vmagent/vmalert migration, PromQL compatibility, or large-scale time-series storage architecture."
 outline: deep
 ---
 

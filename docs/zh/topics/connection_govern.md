@@ -1,19 +1,23 @@
 ---
-title: 如何做连接治理：面向高并发服务的连接生命周期、故障定位与运维 SOP 研究
-category: 网络可靠性
-summary: 系统说明高并发服务中的 TCP、HTTP/gRPC、数据库、连接池、代理层、conntrack 和文件描述符治理方法，覆盖连接生命周期、容量模型、超时分类、CLOSE_WAIT、TIME_WAIT 以及标准化排障 SOP。
+title: "如何做连接治理：面向高并发服务的连接生命周期、故障定位与运维 SOP 研究"
+category: "网络可靠性"
+summary: "系统说明高并发服务中的 TCP、HTTP/gRPC、数据库、连接池、代理层、conntrack 和文件描述符治理方法，覆盖连接生命周期、容量模型、超时分类、CLOSE_WAIT、TIME_WAIT 以及标准化排障 SOP。"
 tags:
-  - 连接治理
-  - TCP
-  - 连接池
-  - CLOSE_WAIT
-  - TIME_WAIT
-  - SOP
-readingDirection: 适合在治理连接数过多、连接超时、连接池耗尽、CLOSE_WAIT/TIME_WAIT 堆积、数据库 Too many connections、conntrack 表满或 fd 耗尽问题时阅读。
+  - "连接治理"
+  - "TCP"
+  - "连接池"
+  - "CLOSE_WAIT"
+  - "TIME_WAIT"
+  - "SOP"
+readingDirection: "适合在治理连接数过多、连接超时、连接池耗尽、CLOSE_WAIT/TIME_WAIT 堆积、数据库 Too many connections、conntrack 表满或 fd 耗尽问题时阅读。"
 outline: deep
 ---
 
 # 如何做连接治理：面向高并发服务的连接生命周期、故障定位与运维 SOP 研究
+
+## 概览
+
+系统说明高并发服务中的 TCP、HTTP/gRPC、数据库、连接池、代理层、conntrack 和文件描述符治理方法，覆盖连接生命周期、容量模型、超时分类、CLOSE_WAIT、TIME_WAIT 以及标准化排障 SOP。
 
 ## 摘要
 

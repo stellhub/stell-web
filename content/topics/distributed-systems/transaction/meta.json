@@ -1,0 +1,35 @@
+{
+  "slug": "transaction",
+  "title": {
+    "en": "Transaction Consistency Governance in Microservice Architecture",
+    "zh": "微服务架构下事务一致性治理的客观分析"
+  },
+  "category": {
+    "en": "Distributed Systems",
+    "zh": "分布式系统"
+  },
+  "summary": {
+    "en": "An objective analysis of why modern microservices no longer default to traditional strong distributed transactions, covering XA, 2PC, Saga, TCC, local message tables, Transactional Outbox, idempotency, domain boundaries, and reconciliation.",
+    "zh": "从 XA、2PC、Saga、TCC、本地消息表、Transactional Outbox、幂等、领域边界和对账补偿等角度，分析现代微服务为什么不再默认使用传统强一致分布式事务。"
+  },
+  "tags": {
+    "en": [
+      "Distributed Transactions",
+      "Microservices",
+      "Saga",
+      "TCC",
+      "Eventual Consistency"
+    ],
+    "zh": [
+      "分布式事务",
+      "微服务",
+      "Saga",
+      "TCC",
+      "最终一致性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing cross-service consistency, evaluating XA or 2PC costs, choosing Saga or TCC, governing database-and-message dual writes, or refactoring microservice transaction boundaries.",
+    "zh": "适合在设计跨服务一致性方案、评估 XA/2PC 成本、选择 Saga 或 TCC、治理消息双写或重构微服务事务边界时阅读。"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "throughput",
+  "title": {
+    "en": "How to Improve System Throughput by 10x: An End-to-End Network Optimization Guide",
+    "zh": "如何将系统吞吐量提升 10 倍？网络通信全链路优化指南"
+  },
+  "category": {
+    "en": "Performance Engineering",
+    "zh": "性能工程"
+  },
+  "summary": {
+    "en": "A systematic guide to improving network-path throughput through batching, lower copy overhead, sequential I/O, zero-copy, pipelining, and fewer repeated serialization passes.",
+    "zh": "从批量化、少拷贝、顺序 I/O、zero-copy、pipeline 与减少重复编解码六个方向，系统梳理网络通信链路的高吞吐优化方法。"
+  },
+  "tags": {
+    "en": [
+      "Throughput",
+      "Performance Optimization",
+      "Zero-Copy",
+      "Pipeline",
+      "Kafka",
+      "Redis"
+    ],
+    "zh": [
+      "吞吐量",
+      "性能优化",
+      "Zero-Copy",
+      "Pipeline",
+      "Kafka",
+      "Redis"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when diagnosing throughput bottlenecks, designing a high-throughput data path, or planning coordinated optimization across network, memory, and storage layers.",
+    "zh": "适合在排查系统吞吐瓶颈、设计高吞吐数据链路或规划网络与存储联合优化方案时阅读。"
+  }
+}

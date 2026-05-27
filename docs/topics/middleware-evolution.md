@@ -1,13 +1,13 @@
 ---
-title: Why Enterprises Build Middleware Platforms
-category: Platform Strategy
-summary: An engineering and organizational perspective on when self-built middleware becomes justified and what tradeoffs it introduces.
+title: "Why Enterprises Build Middleware Platforms"
+category: "Platform Strategy"
+summary: "An engineering and organizational perspective on when self-built middleware becomes justified and what tradeoffs it introduces."
 tags:
-  - Middleware
-  - Platform
-  - Architecture
-  - Strategy
-readingDirection: Read this when evaluating build-vs-buy decisions or the long-term cost model of infrastructure platforms.
+  - "Middleware"
+  - "Platform"
+  - "Architecture"
+  - "Strategy"
+readingDirection: "Read this when evaluating build-vs-buy decisions or the long-term cost model of infrastructure platforms."
 outline: deep
 ---
 

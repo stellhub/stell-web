@@ -1,14 +1,14 @@
 ---
-title: Transaction Consistency Governance in Microservice Architecture
-category: Distributed Systems
-summary: An objective analysis of why modern microservices no longer default to traditional strong distributed transactions, covering XA, 2PC, Saga, TCC, local message tables, Transactional Outbox, idempotency, domain boundaries, and reconciliation.
+title: "Transaction Consistency Governance in Microservice Architecture"
+category: "Distributed Systems"
+summary: "An objective analysis of why modern microservices no longer default to traditional strong distributed transactions, covering XA, 2PC, Saga, TCC, local message tables, Transactional Outbox, idempotency, domain boundaries, and reconciliation."
 tags:
-  - Distributed Transactions
-  - Microservices
-  - Saga
-  - TCC
-  - Eventual Consistency
-readingDirection: Read this when designing cross-service consistency, evaluating XA or 2PC costs, choosing Saga or TCC, governing database-and-message dual writes, or refactoring microservice transaction boundaries.
+  - "Distributed Transactions"
+  - "Microservices"
+  - "Saga"
+  - "TCC"
+  - "Eventual Consistency"
+readingDirection: "Read this when designing cross-service consistency, evaluating XA or 2PC costs, choosing Saga or TCC, governing database-and-message dual writes, or refactoring microservice transaction boundaries."
 outline: deep
 ---
 

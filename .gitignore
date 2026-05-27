@@ -3,3 +3,5 @@
 /logs/
 /docs/.vitepress/cache/
 /docs/.vitepress/dist/
+/docs/topics/
+/docs/zh/

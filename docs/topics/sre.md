@@ -1,15 +1,15 @@
 ---
-title: Site Reliability Engineering for Middleware Platforms
-category: Service Reliability
-summary: A systematic study of how middleware and microservice teams should define SLI, SLO, and SLA, and how observability and service governance should form a closed reliability loop.
+title: "Site Reliability Engineering for Middleware Platforms"
+category: "Service Reliability"
+summary: "A systematic study of how middleware and microservice teams should define SLI, SLO, and SLA, and how observability and service governance should form a closed reliability loop."
 tags:
-  - SRE
-  - SLI
-  - SLO
-  - SLA
-  - Service Governance
-  - Observability
-readingDirection: Read this when designing reliability contracts, error-budget policies, or observability-driven governance for middleware and microservice platforms.
+  - "SRE"
+  - "SLI"
+  - "SLO"
+  - "SLA"
+  - "Service Governance"
+  - "Observability"
+readingDirection: "Read this when designing reliability contracts, error-budget policies, or observability-driven governance for middleware and microservice platforms."
 outline: deep
 ---
 
@@ -1095,3 +1095,7 @@ That is what site reliability engineering should look like for modern microservi
 [8]: https://opentelemetry.io/docs/collector/?utm_source=chatgpt.com "Collector"
 [9]: https://istio.io/latest/about/service-mesh/?utm_source=chatgpt.com "The Istio service mesh"
 [10]: https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/observability/observability?utm_source=chatgpt.com "Observability"
+
+## Chinese Reference
+
+- [Read the original Chinese article](/zh/topics/sre)

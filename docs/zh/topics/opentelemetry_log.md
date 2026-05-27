@@ -1,18 +1,22 @@
 ---
-title: 告别 ELK 依赖？在 OpenTelemetry 时代重新定义日志治理
-category: 可观测性
-summary: 从本机文件、集中采集、ELK 平台化到 OpenTelemetry 标准化，系统分析日志治理演进、Java/Go 日志 SDK 选择、Collector 管线、Kafka 缓冲、Gateway 取舍和自定义 Collector 工程价值。
+title: "告别 ELK 依赖？在 OpenTelemetry 时代重新定义日志治理"
+category: "可观测性"
+summary: "从本机文件、集中采集、ELK 平台化到 OpenTelemetry 标准化，系统分析日志治理演进、Java/Go 日志 SDK 选择、Collector 管线、Kafka 缓冲、Gateway 取舍和自定义 Collector 工程价值。"
 tags:
-  - OpenTelemetry
-  - 日志治理
-  - ELK
-  - Collector
-  - Kafka
-readingDirection: 适合在重新设计企业日志治理、从 ELK 中心化采集迁移到 OpenTelemetry、选择 Java/Go 日志 SDK 或设计 Collector 到 Kafka 日志链路时阅读。
+  - "OpenTelemetry"
+  - "日志治理"
+  - "ELK"
+  - "Collector"
+  - "Kafka"
+readingDirection: "适合在重新设计企业日志治理、从 ELK 中心化采集迁移到 OpenTelemetry、选择 Java/Go 日志 SDK 或设计 Collector 到 Kafka 日志链路时阅读。"
 outline: deep
 ---
 
 # 告别 ELK 依赖？在 OpenTelemetry 时代重新定义日志治理
+
+## 概览
+
+从本机文件、集中采集、ELK 平台化到 OpenTelemetry 标准化，系统分析日志治理演进、Java/Go 日志 SDK 选择、Collector 管线、Kafka 缓冲、Gateway 取舍和自定义 Collector 工程价值。
 
 ## 摘要
 

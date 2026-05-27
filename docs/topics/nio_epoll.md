@@ -1,14 +1,14 @@
 ---
-title: Evolution of epoll-Based NIO Network Models and Multi-Framework Implementations
-category: Java Engineering
-summary: A study of Linux epoll, NIO network model evolution, epoll system call semantics, differences between select, poll, and epoll, and event-driven implementations in Netty, Go, Redis, and Nginx.
+title: "Evolution of epoll-Based NIO Network Models and Multi-Framework Implementations"
+category: "Java Engineering"
+summary: "A study of Linux epoll, NIO network model evolution, epoll system call semantics, differences between select, poll, and epoll, and event-driven implementations in Netty, Go, Redis, and Nginx."
 tags:
-  - epoll
-  - NIO
-  - Netty
-  - Go
-  - Virtual Threads
-readingDirection: Read this when studying the Linux NIO network model, Netty native epoll, Go runtime netpoll, Redis and Nginx event models, or the boundary between virtual threads and EventLoop.
+  - "epoll"
+  - "NIO"
+  - "Netty"
+  - "Go"
+  - "Virtual Threads"
+readingDirection: "Read this when studying the Linux NIO network model, Netty native epoll, Go runtime netpoll, Redis and Nginx event models, or the boundary between virtual threads and EventLoop."
 outline: deep
 ---
 

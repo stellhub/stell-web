@@ -1,14 +1,14 @@
 ---
 title: "The Evolution of Distributed Tracing: From Call-Chain Visualization to Cloud-Native Observability Standards"
-category: Observability
-summary: A historical and architectural review of distributed tracing from Dapper, EagleEye, Zipkin, Jaeger, and SkyWalking to OpenTelemetry and Tempo, explaining how tracing became a cloud-native observability signal.
+category: "Observability"
+summary: "A historical and architectural review of distributed tracing from Dapper, EagleEye, Zipkin, Jaeger, and SkyWalking to OpenTelemetry and Tempo, explaining how tracing became a cloud-native observability signal."
 tags:
-  - Distributed Tracing
-  - OpenTelemetry
-  - Jaeger
-  - SkyWalking
-  - Tempo
-readingDirection: Read this when studying tracing history, evaluating observability architecture, planning OpenTelemetry adoption, or comparing Zipkin, Jaeger, SkyWalking, and Tempo.
+  - "Distributed Tracing"
+  - "OpenTelemetry"
+  - "Jaeger"
+  - "SkyWalking"
+  - "Tempo"
+readingDirection: "Read this when studying tracing history, evaluating observability architecture, planning OpenTelemetry adoption, or comparing Zipkin, Jaeger, SkyWalking, and Tempo."
 outline: deep
 ---
 

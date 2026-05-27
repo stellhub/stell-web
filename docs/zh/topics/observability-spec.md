@@ -1,18 +1,22 @@
 ---
-title: 可观测规范
-category: 体系规范
-summary: 以 OpenTelemetry 与 Kubernetes 为主标准，统一定义资源语义、日志 KV 视角、上下文传播、客户端与服务端指标模型及平台落地职责，Stellar 仅承担最小补差角色。
+title: "可观测规范"
+category: "可观测性"
+summary: "以 OpenTelemetry 与 Kubernetes 为主标准，统一定义资源语义、日志 KV 视角、上下文传播、客户端与服务端指标模型及平台落地职责，Stellar 仅承担最小补差角色。"
 tags:
-  - 可观测性
-  - OpenTelemetry
-  - Kubernetes
-  - 规范设计
-  - 平台工程
-readingDirection: 适合在准备统一日志、链路、指标语义并推动平台化落地时优先阅读。
+  - "可观测性"
+  - "OpenTelemetry"
+  - "Kubernetes"
+  - "规范设计"
+  - "平台工程"
+readingDirection: "适合在准备统一日志、链路、指标语义并推动平台化落地时优先阅读。"
 outline: deep
 ---
 
 # 可观测规范
+
+## 概览
+
+以 OpenTelemetry 与 Kubernetes 为主标准，统一定义资源语义、日志 KV 视角、上下文传播、客户端与服务端指标模型及平台落地职责，Stellar 仅承担最小补差角色。
 
 ## 摘要
 

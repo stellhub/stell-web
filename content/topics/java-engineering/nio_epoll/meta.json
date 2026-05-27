@@ -1,0 +1,35 @@
+{
+  "slug": "nio_epoll",
+  "title": {
+    "en": "Evolution of epoll-Based NIO Network Models and Multi-Framework Implementations",
+    "zh": "基于 epoll 的 NIO 网络模型演进与多框架实现研究"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A study of Linux epoll, NIO network model evolution, epoll system call semantics, differences between select, poll, and epoll, and event-driven implementations in Netty, Go, Redis, and Nginx.",
+    "zh": "围绕 Linux epoll 机制分析 NIO 网络模型演进、epoll 系统调用语义、select/poll/epoll 差异，以及 Netty、Go、Redis、Nginx 的事件驱动实现和虚拟线程边界。"
+  },
+  "tags": {
+    "en": [
+      "epoll",
+      "NIO",
+      "Netty",
+      "Go",
+      "Virtual Threads"
+    ],
+    "zh": [
+      "epoll",
+      "NIO",
+      "Netty",
+      "Go",
+      "虚拟线程"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when studying the Linux NIO network model, Netty native epoll, Go runtime netpoll, Redis and Nginx event models, or the boundary between virtual threads and EventLoop.",
+    "zh": "适合在理解 Linux NIO 网络模型、Netty native epoll、Go runtime netpoll、Redis/Nginx 事件模型，或评估虚拟线程与 EventLoop 边界时阅读。"
+  }
+}

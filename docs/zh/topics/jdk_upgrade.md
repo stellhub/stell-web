@@ -1,18 +1,22 @@
 ---
-title: 从 JDK 8 / 11 / 17 迁移至 JDK 21 及以上版本的技术指南
-category: Java 工程
-summary: 系统分析从 JDK 8、JDK 11、JDK 17 迁移到 JDK 21 及以上版本的路径、收益来源、升级成本、ROI、风险控制、观测手段与回归测试策略。
+title: "从 JDK 8 / 11 / 17 迁移至 JDK 21 及以上版本的技术指南"
+category: "Java 工程"
+summary: "系统分析从 JDK 8、JDK 11、JDK 17 迁移到 JDK 21 及以上版本的路径、收益来源、升级成本、ROI、风险控制、观测手段与回归测试策略。"
 tags:
-  - JDK
-  - Java
-  - 虚拟线程
-  - ZGC
-  - 性能回归
-readingDirection: 适合在规划企业 Java 运行时升级、评估 JDK 21/JDK 25、验证虚拟线程或 Generational ZGC 收益，以及设计灰度和回归策略时阅读。
+  - "JDK"
+  - "Java"
+  - "虚拟线程"
+  - "ZGC"
+  - "性能回归"
+readingDirection: "适合在规划企业 Java 运行时升级、评估 JDK 21/JDK 25、验证虚拟线程或 Generational ZGC 收益，以及设计灰度和回归策略时阅读。"
 outline: deep
 ---
 
 # 从 JDK 8 / 11 / 17 迁移至 JDK 21 及以上版本的技术指南
+
+## 概览
+
+系统分析从 JDK 8、JDK 11、JDK 17 迁移到 JDK 21 及以上版本的路径、收益来源、升级成本、ROI、风险控制、观测手段与回归测试策略。
 
 ## 摘要
 

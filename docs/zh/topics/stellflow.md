@@ -1,18 +1,22 @@
 ---
-title: 基于分布式日志模型的企业级消息队列自研架构研究：以 Stellflow 为例
-category: 消息中间件
-summary: 以 Stellflow 为例，系统归纳企业级消息队列自研架构中的分布式日志模型、数据面协议、Broker 请求链路、存储层、Controller Quorum、Replica、高吞吐数据面和 OpenTelemetry-first 可观测性。
+title: "基于分布式日志模型的企业级消息队列自研架构研究：以 Stellflow 为例"
+category: "消息中间件"
+summary: "以 Stellflow 为例，系统归纳企业级消息队列自研架构中的分布式日志模型、数据面协议、Broker 请求链路、存储层、Controller Quorum、Replica、高吞吐数据面和 OpenTelemetry-first 可观测性。"
 tags:
-  - Stellflow
-  - 消息队列
-  - 分布式日志
-  - Raft
-  - OpenTelemetry
-readingDirection: 适合在设计企业级消息队列、自研分布式日志系统、规划 Broker/Controller 架构、复制高水位、协议演进或可观测指标体系时阅读。
+  - "Stellflow"
+  - "消息队列"
+  - "分布式日志"
+  - "Raft"
+  - "OpenTelemetry"
+readingDirection: "适合在设计企业级消息队列、自研分布式日志系统、规划 Broker/Controller 架构、复制高水位、协议演进或可观测指标体系时阅读。"
 outline: deep
 ---
 
 # 基于分布式日志模型的企业级消息队列自研架构研究：以 Stellflow 为例
+
+## 概览
+
+以 Stellflow 为例，系统归纳企业级消息队列自研架构中的分布式日志模型、数据面协议、Broker 请求链路、存储层、Controller Quorum、Replica、高吞吐数据面和 OpenTelemetry-first 可观测性。
 
 ## 摘要
 

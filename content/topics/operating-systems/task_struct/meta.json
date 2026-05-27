@@ -1,0 +1,35 @@
+{
+  "slug": "task_struct",
+  "title": {
+    "en": "Linux task_struct Design Philosophy: From Process Descriptor to Unified Task Model",
+    "zh": "深入研究 Linux task_struct 的设计哲学：从进程描述符到统一任务模型"
+  },
+  "category": {
+    "en": "Operating Systems",
+    "zh": "操作系统"
+  },
+  "summary": {
+    "en": "A layered study of how Linux uses task_struct as the central index for schedulable tasks, connecting scheduling, memory, files, signals, credentials, namespaces, cgroups, I/O, and observability.",
+    "zh": "从统一 task 模型解释 Linux task_struct 如何连接调度、内存、文件、信号、权限、命名空间、cgroup、I/O 和观测等内核子系统。"
+  },
+  "tags": {
+    "en": [
+      "Linux",
+      "task_struct",
+      "Process Model",
+      "Threads",
+      "Kernel Scheduling"
+    ],
+    "zh": [
+      "Linux",
+      "task_struct",
+      "进程",
+      "线程",
+      "内核调度"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when studying Linux process and thread semantics, clone resource sharing, kernel scheduling entities, or the boundary between OS threads and user-mode lightweight threads.",
+    "zh": "适合在理解 Linux 进程线程模型、clone 资源共享、内核调度实体或用户态轻量线程边界时阅读。"
+  }
+}

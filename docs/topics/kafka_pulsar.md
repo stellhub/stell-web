@@ -1,14 +1,14 @@
 ---
 title: "Message Middleware Architecture Evolution in the Cloud-Native Era: Apache Kafka and Apache Pulsar"
-category: Messaging Infrastructure
-summary: A study of message middleware architecture evolution in the cloud-native era through Apache Kafka and Apache Pulsar, covering state organization, storage separation, multi-tenancy, containerization, and stateful system boundaries.
+category: "Messaging Infrastructure"
+summary: "A study of message middleware architecture evolution in the cloud-native era through Apache Kafka and Apache Pulsar, covering state organization, storage separation, multi-tenancy, containerization, and stateful system boundaries."
 tags:
-  - Kafka
-  - Pulsar
-  - Message Queue
-  - Cloud Native
-  - Stateful Middleware
-readingDirection: Read this when comparing Kafka and Pulsar architectures, or evaluating whether middleware should become stateless, containerized, or separated into service and storage layers.
+  - "Kafka"
+  - "Pulsar"
+  - "Message Queue"
+  - "Cloud Native"
+  - "Stateful Middleware"
+readingDirection: "Read this when comparing Kafka and Pulsar architectures, or evaluating whether middleware should become stateless, containerized, or separated into service and storage layers."
 outline: deep
 ---
 

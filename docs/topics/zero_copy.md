@@ -1,14 +1,14 @@
 ---
-title: Linux Data Loading, Access, Transfer, and Zero-Copy Mechanisms
-category: Performance Engineering
-summary: A study of Linux data access paths, virtual-to-physical memory mapping, page cache, task_struct, mm_struct, files_struct, address_space, and zero-copy techniques including Direct Memory, sendfile, and mmap plus write.
+title: "Linux Data Loading, Access, Transfer, and Zero-Copy Mechanisms"
+category: "Performance Engineering"
+summary: "A study of Linux data access paths, virtual-to-physical memory mapping, page cache, task_struct, mm_struct, files_struct, address_space, and zero-copy techniques including Direct Memory, sendfile, and mmap plus write."
 tags:
-  - Linux
-  - Zero Copy
-  - Page Cache
-  - mmap
-  - sendfile
-readingDirection: Read this when studying Linux data paths, page cache behavior, Java NIO transferTo, mmap, Direct Memory, or zero-copy performance experiments.
+  - "Linux"
+  - "Zero Copy"
+  - "Page Cache"
+  - "mmap"
+  - "sendfile"
+readingDirection: "Read this when studying Linux data paths, page cache behavior, Java NIO transferTo, mmap, Direct Memory, or zero-copy performance experiments."
 outline: deep
 ---
 

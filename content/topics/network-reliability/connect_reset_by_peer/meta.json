@@ -1,0 +1,35 @@
+{
+  "slug": "connect_reset_by_peer",
+  "title": {
+    "en": "Connection Reset by Peer: TCP RST, Connection Lifecycle, and Engineering Troubleshooting",
+    "zh": "Connection reset by peer：TCP RST、连接生命周期与工程排查体系研究"
+  },
+  "category": {
+    "en": "Network Reliability",
+    "zh": "网络可靠性"
+  },
+  "summary": {
+    "en": "A systematic explanation of Connection reset by peer, TCP RST semantics, lifecycle timing, common production causes, and practical troubleshooting methods for long-lived network connections.",
+    "zh": "系统解释 Connection reset by peer 与 TCP RST 的协议语义、生命周期位置、常见工程根因和排查治理方法。"
+  },
+  "tags": {
+    "en": [
+      "TCP",
+      "ECONNRESET",
+      "RST",
+      "Keepalive",
+      "Network Troubleshooting"
+    ],
+    "zh": [
+      "TCP",
+      "ECONNRESET",
+      "RST",
+      "长连接",
+      "网络排查"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when diagnosing connection resets, long-connection disconnects, stale connection-pool reuse, idle timeouts, or registry watch failures.",
+    "zh": "适合在排查连接重置、长连接断开、连接池复用失败、idle timeout 或注册中心 watch 异常时阅读。"
+  }
+}

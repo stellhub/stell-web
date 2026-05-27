@@ -1,13 +1,13 @@
 ---
-title: Consistency Challenges in Distributed Systems
-category: Distributed Systems
-summary: A concise discussion of consistency challenges, failure modes, and the decision paths commonly used to address them in distributed systems.
+title: "Consistency Challenges in Distributed Systems"
+category: "Distributed Systems"
+summary: "A concise discussion of consistency challenges, failure modes, and the decision paths commonly used to address them in distributed systems."
 tags:
-  - Consistency
-  - Distributed Systems
-  - Reliability
-  - Transactions
-readingDirection: Read this when comparing consistency strategies or selecting a reliability model for cross-service workflows.
+  - "Consistency"
+  - "Distributed Systems"
+  - "Reliability"
+  - "Transactions"
+readingDirection: "Read this when comparing consistency strategies or selecting a reliability model for cross-service workflows."
 outline: deep
 ---
 

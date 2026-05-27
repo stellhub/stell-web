@@ -1,0 +1,33 @@
+{
+  "slug": "dsl",
+  "title": {
+    "en": "Why CUE Works Well as a Configuration DSL",
+    "zh": "最佳 DSL 语言：CUE"
+  },
+  "category": {
+    "en": "Configuration Engineering",
+    "zh": "配置工程"
+  },
+  "summary": {
+    "en": "A practical comparison of type constraints, reuse, validation, and multi-environment governance to explain why CUE is a strong fit for complex declarative configuration.",
+    "zh": "从类型约束、复用能力、一致性校验与多环境配置治理几个维度，分析为什么 CUE 更适合作为复杂系统中的声明式配置 DSL。"
+  },
+  "tags": {
+    "en": [
+      "DSL",
+      "CUE",
+      "Configuration Language",
+      "Config Governance"
+    ],
+    "zh": [
+      "DSL",
+      "CUE",
+      "配置语言",
+      "配置治理"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating configuration language choices, schema unification, or platform-level configuration engineering.",
+    "zh": "适合在评估配置语言选型、统一 Schema 与数据表达，或准备建设平台级配置工程体系时阅读。"
+  }
+}

@@ -1,15 +1,15 @@
 ---
 title: "How to Improve System Throughput by 10x: An End-to-End Network Optimization Guide"
-category: Performance Engineering
-summary: A systematic guide to improving network-path throughput through batching, lower copy overhead, sequential I/O, zero-copy, pipelining, and fewer repeated serialization passes.
+category: "Performance Engineering"
+summary: "A systematic guide to improving network-path throughput through batching, lower copy overhead, sequential I/O, zero-copy, pipelining, and fewer repeated serialization passes."
 tags:
-  - Throughput
-  - Performance Optimization
-  - Zero-Copy
-  - Pipeline
-  - Kafka
-  - Redis
-readingDirection: Read this when diagnosing throughput bottlenecks, designing a high-throughput data path, or planning coordinated optimization across network, memory, and storage layers.
+  - "Throughput"
+  - "Performance Optimization"
+  - "Zero-Copy"
+  - "Pipeline"
+  - "Kafka"
+  - "Redis"
+readingDirection: "Read this when diagnosing throughput bottlenecks, designing a high-throughput data path, or planning coordinated optimization across network, memory, and storage layers."
 outline: deep
 ---
 
@@ -873,3 +873,7 @@ When a system moves from per-request handling to batched streaming, from JSON ob
 [13]: https://grpc.io/docs/guides/performance/ "Performance Best Practices | gRPC"
 [14]: https://protobuf.dev/overview/ "Overview | Protocol Buffers Documentation"
 [15]: https://flatbuffers.dev/ "FlatBuffers Docs"
+
+## Chinese Reference
+
+- [Read the original Chinese article](/zh/topics/throughput)

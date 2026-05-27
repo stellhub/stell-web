@@ -1,14 +1,14 @@
 ---
-title: Typical Cases Where Local Performance Optimization Reduces System Availability
-category: Service Reliability
-summary: A systematic analysis of how local optimizations around thread pools, timeouts, retries, caches, connection pools, aggregation APIs, async execution, read/write splitting, batching, local caches, rate limiting, releases, resource isolation, idempotency, and observability can reduce system-wide availability.
+title: "Typical Cases Where Local Performance Optimization Reduces System Availability"
+category: "Service Reliability"
+summary: "A systematic analysis of how local optimizations around thread pools, timeouts, retries, caches, connection pools, aggregation APIs, async execution, read/write splitting, batching, local caches, rate limiting, releases, resource isolation, idempotency, and observability can reduce system-wide availability."
 tags:
-  - High Availability
-  - Performance Optimization
-  - Fault Isolation
-  - Rate Limiting
-  - Idempotency
-readingDirection: Read this when reviewing high-concurrency or high-performance optimizations, defining reliability governance rules, evaluating load-test reports, performing incident reviews, planning canary releases, or setting capacity boundaries.
+  - "High Availability"
+  - "Performance Optimization"
+  - "Fault Isolation"
+  - "Rate Limiting"
+  - "Idempotency"
+readingDirection: "Read this when reviewing high-concurrency or high-performance optimizations, defining reliability governance rules, evaluating load-test reports, performing incident reviews, planning canary releases, or setting capacity boundaries."
 outline: deep
 ---
 

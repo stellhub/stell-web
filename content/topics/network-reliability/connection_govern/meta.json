@@ -1,0 +1,37 @@
+{
+  "slug": "connection_govern",
+  "title": {
+    "en": "Connection Governance for High-Concurrency Services: Connection Lifecycle, Troubleshooting, and Operations SOP",
+    "zh": "如何做连接治理：面向高并发服务的连接生命周期、故障定位与运维 SOP 研究"
+  },
+  "category": {
+    "en": "Network Reliability",
+    "zh": "网络可靠性"
+  },
+  "summary": {
+    "en": "A systematic connection-governance guide for high-concurrency services, covering TCP, HTTP/gRPC, databases, connection pools, proxies, conntrack, file descriptors, lifecycle management, capacity models, timeout classification, CLOSE_WAIT, TIME_WAIT, and standardized troubleshooting SOPs.",
+    "zh": "系统说明高并发服务中的 TCP、HTTP/gRPC、数据库、连接池、代理层、conntrack 和文件描述符治理方法，覆盖连接生命周期、容量模型、超时分类、CLOSE_WAIT、TIME_WAIT 以及标准化排障 SOP。"
+  },
+  "tags": {
+    "en": [
+      "Connection Governance",
+      "TCP",
+      "Connection Pool",
+      "CLOSE_WAIT",
+      "TIME_WAIT",
+      "SOP"
+    ],
+    "zh": [
+      "连接治理",
+      "TCP",
+      "连接池",
+      "CLOSE_WAIT",
+      "TIME_WAIT",
+      "SOP"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when handling excessive connection counts, connection timeouts, exhausted pools, CLOSE_WAIT or TIME_WAIT buildup, database Too many connections errors, full conntrack tables, or file descriptor exhaustion.",
+    "zh": "适合在治理连接数过多、连接超时、连接池耗尽、CLOSE_WAIT/TIME_WAIT 堆积、数据库 Too many connections、conntrack 表满或 fd 耗尽问题时阅读。"
+  }
+}

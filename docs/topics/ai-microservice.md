@@ -1,14 +1,14 @@
 ---
-title: Where Should Internet Applications Go in the AI Era? From Traffic Economy to Compute Economy
-category: AI Engineering
-summary: A strategic and engineering analysis of how AI changes internet application economics, covering token cost, model tiering, context infrastructure, workflow automation, value-based pricing, and AI cost governance.
+title: "Where Should Internet Applications Go in the AI Era? From Traffic Economy to Compute Economy"
+category: "AI Engineering"
+summary: "A strategic and engineering analysis of how AI changes internet application economics, covering token cost, model tiering, context infrastructure, workflow automation, value-based pricing, and AI cost governance."
 tags:
-  - AI Applications
-  - Compute Economy
-  - Cost Governance
-  - AI Gateway
-  - Context Engineering
-readingDirection: Read this when evaluating AI-enabled product strategy, model routing, cost governance, context infrastructure, or pricing models for internet applications.
+  - "AI Applications"
+  - "Compute Economy"
+  - "Cost Governance"
+  - "AI Gateway"
+  - "Context Engineering"
+readingDirection: "Read this when evaluating AI-enabled product strategy, model routing, cost governance, context infrastructure, or pricing models for internet applications."
 outline: deep
 ---
 

@@ -1,0 +1,35 @@
+{
+  "slug": "connection",
+  "title": {
+    "en": "Beware Unintentional Short Connections: How Frequent Middleware Client Creation Causes Connection Avalanches",
+    "zh": "警惕无意识的“短连接”：深挖中间件客户端频繁创建引发的连接雪崩"
+  },
+  "category": {
+    "en": "Network Reliability",
+    "zh": "网络可靠性"
+  },
+  "summary": {
+    "en": "A practical analysis of how repeatedly creating HTTP, gRPC, registry, configuration, and middleware SDK clients on hot paths can bypass connection reuse and trigger connection avalanches.",
+    "zh": "分析在高频路径反复创建 HTTP、gRPC、注册中心、配置中心和中间件 SDK 客户端时，如何绕过连接复用并触发连接雪崩。"
+  },
+  "tags": {
+    "en": [
+      "Connection Reuse",
+      "HTTP",
+      "gRPC",
+      "Middleware",
+      "Client Lifecycle"
+    ],
+    "zh": [
+      "连接复用",
+      "HTTP",
+      "gRPC",
+      "中间件",
+      "客户端生命周期"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when diagnosing connection storms, fallback-path client creation, HTTP client lifecycle issues, gRPC channel reuse problems, or middleware SDK resource churn.",
+    "zh": "适合在排查连接风暴、降级路径客户端创建、HTTP client 生命周期、gRPC channel 复用或中间件 SDK 资源抖动问题时阅读。"
+  }
+}

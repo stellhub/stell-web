@@ -1,18 +1,22 @@
 ---
-title: 从 Linux 内核视角理解 Kubernetes 与 Docker：Pod / 容器的创建、运行、系统调用与销毁机制
-category: 云原生
-summary: 从 Pod 生命周期、CRI、containerd、Docker、runc、Linux syscall、namespace、nsproxy 与 cgroup 视角解释容器创建、运行和销毁机制。
+title: "从 Linux 内核视角理解 Kubernetes 与 Docker：Pod / 容器的创建、运行、系统调用与销毁机制"
+category: "云原生"
+summary: "从 Pod 生命周期、CRI、containerd、Docker、runc、Linux syscall、namespace、nsproxy 与 cgroup 视角解释容器创建、运行和销毁机制。"
 tags:
-  - Kubernetes
-  - Docker
-  - containerd
-  - runc
-  - Linux Kernel
-readingDirection: 适合在理解 Kubernetes 容器运行时链路、OCI runtime、namespace/cgroup 隔离机制，或排查容器启动与系统调用行为时阅读。
+  - "Kubernetes"
+  - "Docker"
+  - "containerd"
+  - "runc"
+  - "Linux Kernel"
+readingDirection: "适合在理解 Kubernetes 容器运行时链路、OCI runtime、namespace/cgroup 隔离机制，或排查容器启动与系统调用行为时阅读。"
 outline: deep
 ---
 
 # 从 Linux 内核视角理解 Kubernetes 与 Docker：Pod / 容器的创建、运行、系统调用与销毁机制
+
+## 概览
+
+从 Pod 生命周期、CRI、containerd、Docker、runc、Linux syscall、namespace、nsproxy 与 cgroup 视角解释容器创建、运行和销毁机制。
 
 ## 摘要
 

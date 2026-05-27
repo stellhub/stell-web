@@ -1,0 +1,33 @@
+{
+  "slug": "timeout",
+  "title": {
+    "en": "Timeout Definitions and Configuration in Network Communication",
+    "zh": "网络通信中的超时定义与设置"
+  },
+  "category": {
+    "en": "Service Reliability",
+    "zh": "服务可靠性"
+  },
+  "summary": {
+    "en": "A structured guide to timeout types, root-cause analysis, observability, and configuration principles across clients, servers, gateways, and gRPC.",
+    "zh": "系统梳理客户端、服务端、代理网关与 gRPC 中的超时类型、根因模型、观测方法和配置原则，强调以阶段化定位和端到端 deadline 治理超时问题。"
+  },
+  "tags": {
+    "en": [
+      "Timeout",
+      "Network Communication",
+      "gRPC",
+      "Service Reliability"
+    ],
+    "zh": [
+      "超时",
+      "网络通信",
+      "gRPC",
+      "服务可靠性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when diagnosing timeout failures, designing layered timeout models, or standardizing request deadlines across distributed services.",
+    "zh": "适合在排查超时根因、设计分层超时模型或统一服务间通信超时规范时阅读。"
+  }
+}

@@ -1,18 +1,22 @@
 ---
-title: Java 序列化性能调研：JDK、Jackson JSON、Jackson Smile、Protobuf、Kryo、Hessian2
-category: 性能工程
-summary: 基于 java-serialization-compare 项目的测试结果，对 JDK 原生序列化、Jackson JSON、Jackson Smile、Protobuf、Kryo 和 Hessian2 的体积、性能、生态、跨语言能力、schema 演进和安全边界进行横向对比。
+title: "Java 序列化性能调研：JDK、Jackson JSON、Jackson Smile、Protobuf、Kryo、Hessian2"
+category: "性能工程"
+summary: "基于 java-serialization-compare 项目的测试结果，对 JDK 原生序列化、Jackson JSON、Jackson Smile、Protobuf、Kryo 和 Hessian2 的体积、性能、生态、跨语言能力、schema 演进和安全边界进行横向对比。"
 tags:
-  - Java
-  - 序列化
-  - 性能测试
-  - Protobuf
-  - Kryo
-readingDirection: 适合在评估 Java 服务 RPC、消息队列、缓存、对象持久化或中间件数据交换的序列化方案时阅读。
+  - "Java"
+  - "序列化"
+  - "性能测试"
+  - "Protobuf"
+  - "Kryo"
+readingDirection: "适合在评估 Java 服务 RPC、消息队列、缓存、对象持久化或中间件数据交换的序列化方案时阅读。"
 outline: deep
 ---
 
 # Java 序列化性能调研：JDK、Jackson JSON、Jackson Smile、Protobuf、Kryo、Hessian2
+
+## 概览
+
+基于 java-serialization-compare 项目的测试结果，对 JDK 原生序列化、Jackson JSON、Jackson Smile、Protobuf、Kryo 和 Hessian2 的体积、性能、生态、跨语言能力、schema 演进和安全边界进行横向对比。
 
 ## 1. 调研背景
 

@@ -1,14 +1,14 @@
 ---
-title: Trade-Offs Among High Availability, High Performance, and High Concurrency
-category: Reliability Engineering
-summary: A reliability-engineering analysis of conflicts among high availability, high performance, and high concurrency across resources, time, consistency, and complexity, with a production-oriented trade-off framework.
+title: "Trade-Offs Among High Availability, High Performance, and High Concurrency"
+category: "Reliability Engineering"
+summary: "A reliability-engineering analysis of conflicts among high availability, high performance, and high concurrency across resources, time, consistency, and complexity, with a production-oriented trade-off framework."
 tags:
-  - High Availability
-  - High Performance
-  - High Concurrency
-  - Reliability Engineering
-  - Rate Limiting
-readingDirection: Read this when reviewing system architecture, capacity planning, load-test results, stability governance, rate limiting, circuit breaking, or trade-offs among the three high-level system goals.
+  - "High Availability"
+  - "High Performance"
+  - "High Concurrency"
+  - "Reliability Engineering"
+  - "Rate Limiting"
+readingDirection: "Read this when reviewing system architecture, capacity planning, load-test results, stability governance, rate limiting, circuit breaking, or trade-offs among the three high-level system goals."
 outline: deep
 ---
 

@@ -1,18 +1,22 @@
 ---
-title: Linux 文件描述符研究：从“一切皆文件”到 fd 的内核抽象与工程实践
-category: 操作系统
-summary: 系统梳理 Linux 文件描述符的来源、open file description、VFS、inode、socket、epoll、继承语义和线上工程实践。
+title: "Linux 文件描述符研究：从“一切皆文件”到 fd 的内核抽象与工程实践"
+category: "操作系统"
+summary: "系统梳理 Linux 文件描述符的来源、open file description、VFS、inode、socket、epoll、继承语义和线上工程实践。"
 tags:
-  - Linux
-  - 文件描述符
-  - VFS
-  - epoll
-  - 系统编程
-readingDirection: 适合在学习 Linux I/O 模型、排查 fd 泄漏、理解 socket/epoll 生命周期，或设计高并发服务资源治理时阅读。
+  - "Linux"
+  - "文件描述符"
+  - "VFS"
+  - "epoll"
+  - "系统编程"
+readingDirection: "适合在学习 Linux I/O 模型、排查 fd 泄漏、理解 socket/epoll 生命周期，或设计高并发服务资源治理时阅读。"
 outline: deep
 ---
 
 # Linux 文件描述符研究：从“一切皆文件”到 fd 的内核抽象与工程实践
+
+## 概览
+
+系统梳理 Linux 文件描述符的来源、open file description、VFS、inode、socket、epoll、继承语义和线上工程实践。
 
 ## 摘要
 

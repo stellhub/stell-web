@@ -1,0 +1,33 @@
+{
+  "slug": "distributed-consistency",
+  "title": {
+    "en": "Consistency Challenges in Distributed Systems",
+    "zh": "分布式系统中的一致性挑战及其解决路径"
+  },
+  "category": {
+    "en": "Distributed Systems",
+    "zh": "分布式系统"
+  },
+  "summary": {
+    "en": "A concise discussion of consistency challenges, failure modes, and the decision paths commonly used to address them in distributed systems.",
+    "zh": "从 FLP、CAP、PACELC 到 Paxos、Raft、Zab、PBFT，再到 Spanner、etcd 与 KRaft，系统梳理一致性问题的理论边界与工程落地。"
+  },
+  "tags": {
+    "en": [
+      "Consistency",
+      "Distributed Systems",
+      "Reliability",
+      "Transactions"
+    ],
+    "zh": [
+      "分布式一致性",
+      "共识协议",
+      "Paxos",
+      "Raft"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing consistency strategies or selecting a reliability model for cross-service workflows.",
+    "zh": "适合在补分布式系统理论基础，或想把共识协议和工业系统实现串起来时阅读。"
+  }
+}

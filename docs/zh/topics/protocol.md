@@ -1,19 +1,23 @@
 ---
-title: 基于 TCP 的自定义应用层协议研究：以 Kafka、Redis、MySQL 为例
-category: 网络协议
-summary: 结合 Kafka、Redis 和 MySQL，分析基础设施系统为什么会在 TCP 之上设计自定义应用层协议，以及这种设计在性能、语义表达和协议演进上的价值。
+title: "基于 TCP 的自定义应用层协议研究：以 Kafka、Redis、MySQL 为例"
+category: "网络协议"
+summary: "结合 Kafka、Redis 和 MySQL，分析基础设施系统为什么会在 TCP 之上设计自定义应用层协议，以及这种设计在性能、语义表达和协议演进上的价值。"
 tags:
-  - TCP
-  - 自定义协议
-  - Kafka
-  - Redis
-  - MySQL
-  - gRPC
-readingDirection: 适合在评估基础设施通信协议、比较 HTTP 与自定义协议边界，或设计高性能中间件传输层时阅读。
+  - "TCP"
+  - "自定义协议"
+  - "Kafka"
+  - "Redis"
+  - "MySQL"
+  - "gRPC"
+readingDirection: "适合在评估基础设施通信协议、比较 HTTP 与自定义协议边界，或设计高性能中间件传输层时阅读。"
 outline: deep
 ---
 
 # 基于 TCP 的自定义应用层协议研究：以 Kafka、Redis、MySQL 为例
+
+## 概览
+
+结合 Kafka、Redis 和 MySQL，分析基础设施系统为什么会在 TCP 之上设计自定义应用层协议，以及这种设计在性能、语义表达和协议演进上的价值。
 
 ## 摘要
 

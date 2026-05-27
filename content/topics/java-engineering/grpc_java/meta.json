@@ -1,0 +1,35 @@
+{
+  "slug": "grpc_java",
+  "title": {
+    "en": "gRPC Java's Netty-Based Layered Abstractions and Execution Model",
+    "zh": "gRPC Java 基于 Netty 的分层封装与执行模型研究"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A systematic study of how gRPC Java wraps Netty HTTP/2 transport with RPC abstractions such as Stub, Channel, Transport, Stream, Call, Interceptor, Listener, and Observer.",
+    "zh": "系统分析 gRPC Java 如何在 Netty HTTP/2 transport 之上封装 Stub、Channel、Transport、Stream、Call、Interceptor、Listener 和 Observer 等 RPC 语义抽象。"
+  },
+  "tags": {
+    "en": [
+      "gRPC Java",
+      "Netty",
+      "HTTP/2",
+      "RPC",
+      "StreamObserver"
+    ],
+    "zh": [
+      "gRPC Java",
+      "Netty",
+      "HTTP/2",
+      "RPC",
+      "StreamObserver"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when studying the layering boundary between gRPC Java and Netty, the difference between Interceptor and ChannelHandler, RPC call lifecycles, or asynchronous streaming execution.",
+    "zh": "适合在理解 gRPC Java 与 Netty 的分层边界、Interceptor 与 ChannelHandler 的区别、RPC call 生命周期或异步流式执行模型时阅读。"
+  }
+}

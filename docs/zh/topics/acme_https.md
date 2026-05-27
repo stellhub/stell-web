@@ -1,18 +1,22 @@
 ---
-title: acme.sh + Nginx 接入 HTTPS 完整操作指南
-category: 安全运维
-summary: 基于 stellhub.top 的真实 HTTPS 接入过程，整理 acme.sh、Let's Encrypt、Nginx、HTTP-01 验证、证书安装、自动续期和常见故障排查流程。
+title: "acme.sh + Nginx 接入 HTTPS 完整操作指南"
+category: "安全运维"
+summary: "基于 stellhub.top 的真实 HTTPS 接入过程，整理 acme.sh、Let's Encrypt、Nginx、HTTP-01 验证、证书安装、自动续期和常见故障排查流程。"
 tags:
-  - HTTPS
-  - acme.sh
-  - Nginx
-  - Let's Encrypt
-  - TLS
-readingDirection: 适合在为自建网站、博客、API 网关或 SaaS 服务配置 HTTPS、申请 Let's Encrypt 证书、排查 ACME HTTP-01 验证或 Nginx TLS 配置问题时阅读。
+  - "HTTPS"
+  - "acme.sh"
+  - "Nginx"
+  - "Let's Encrypt"
+  - "TLS"
+readingDirection: "适合在为自建网站、博客、API 网关或 SaaS 服务配置 HTTPS、申请 Let's Encrypt 证书、排查 ACME HTTP-01 验证或 Nginx TLS 配置问题时阅读。"
 outline: deep
 ---
 
 # acme.sh + Nginx 接入 HTTPS 完整操作指南
+
+## 概览
+
+基于 stellhub.top 的真实 HTTPS 接入过程，整理 acme.sh、Let's Encrypt、Nginx、HTTP-01 验证、证书安装、自动续期和常见故障排查流程。
 
 > 本文基于一次真实的 `stellhub.top` HTTPS 接入过程整理，覆盖从 0 准备、申请证书、Nginx 接入 HTTPS、自动续期，到常见错误 FAQ。
 

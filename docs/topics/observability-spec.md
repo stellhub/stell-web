@@ -1,13 +1,13 @@
 ---
-title: Observability Specification
-category: Observability
-summary: A baseline observability specification covering signals, naming, and operational expectations across infrastructure and application layers.
+title: "Observability Specification"
+category: "Observability"
+summary: "A baseline observability specification covering signals, naming, and operational expectations across infrastructure and application layers."
 tags:
-  - Observability
-  - Tracing
-  - Metrics
-  - Logging
-readingDirection: Read this when standardizing telemetry conventions or defining platform-wide observability contracts.
+  - "Observability"
+  - "Tracing"
+  - "Metrics"
+  - "Logging"
+readingDirection: "Read this when standardizing telemetry conventions or defining platform-wide observability contracts."
 outline: deep
 ---
 

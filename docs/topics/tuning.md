@@ -1,14 +1,14 @@
 ---
 title: "Fast Is Not the Same as Good: Local Performance Optimum Is Not Equivalent to System-Wide Optimum"
-category: Performance Engineering
-summary: A systematic analysis of in-container communication choices using OpenTelemetry Collector, configuration sidecars, and log agents, grounded in Amdahl's Law, Little's Law, tail latency, and cloud-native official practices.
+category: "Performance Engineering"
+summary: "A systematic analysis of in-container communication choices using OpenTelemetry Collector, configuration sidecars, and log agents, grounded in Amdahl's Law, Little's Law, tail latency, and cloud-native official practices."
 tags:
-  - Performance Tuning
-  - Container Communication
-  - IPC
-  - OpenTelemetry
-  - Sidecar
-readingDirection: Read this when evaluating in-container process communication, sidecar data sharing, log collection, telemetry reporting, or shared-memory optimization.
+  - "Performance Tuning"
+  - "Container Communication"
+  - "IPC"
+  - "OpenTelemetry"
+  - "Sidecar"
+readingDirection: "Read this when evaluating in-container process communication, sidecar data sharing, log collection, telemetry reporting, or shared-memory optimization."
 outline: deep
 ---
 

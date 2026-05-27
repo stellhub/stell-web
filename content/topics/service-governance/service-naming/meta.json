@@ -1,0 +1,33 @@
+{
+  "slug": "service-naming",
+  "title": {
+    "en": "Service Naming for Very Large Enterprises",
+    "zh": "面向超大型企业的微服务命名体系研究"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A naming-system discussion for large organizations that need stable, expressive, and governable service identities across many business domains.",
+    "zh": "提出一种五段式服务命名模型，用来统一组织边界、业务语义与技术职责表达，支撑超大型企业的服务发现、治理和可观测体系演进。"
+  },
+  "tags": {
+    "en": [
+      "Microservices",
+      "Naming",
+      "Governance",
+      "Architecture"
+    ],
+    "zh": [
+      "服务命名",
+      "微服务治理",
+      "命名规范",
+      "服务发现"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when defining service identity rules or cleaning up inconsistent naming across large service estates.",
+    "zh": "适合在设计企业级服务命名规范、统一注册中心命名空间，或梳理服务治理规则时优先阅读。"
+  }
+}

@@ -1,18 +1,22 @@
 ---
-title: Linux 进程间通信机制及 mmap 用户态调用路径研究
-category: 操作系统
-summary: 系统梳理 Linux IPC 机制，包括信号、管道、FIFO、UNIX Domain Socket、消息队列、共享内存、mmap、futex、eventfd、epoll，以及 mmap 在多语言用户态到内核系统调用的路径。
+title: "Linux 进程间通信机制及 mmap 用户态调用路径研究"
+category: "操作系统"
+summary: "系统梳理 Linux IPC 机制，包括信号、管道、FIFO、UNIX Domain Socket、消息队列、共享内存、mmap、futex、eventfd、epoll，以及 mmap 在多语言用户态到内核系统调用的路径。"
 tags:
-  - Linux
-  - IPC
-  - mmap
-  - 共享内存
-  - 系统调用
-readingDirection: 适合在学习 Linux 进程间通信、共享内存、mmap 调用链、事件循环或跨语言本机通信方案选型时阅读。
+  - "Linux"
+  - "IPC"
+  - "mmap"
+  - "共享内存"
+  - "系统调用"
+readingDirection: "适合在学习 Linux 进程间通信、共享内存、mmap 调用链、事件循环或跨语言本机通信方案选型时阅读。"
 outline: deep
 ---
 
 # Linux 进程间通信机制及 mmap 用户态调用路径研究
+
+## 概览
+
+系统梳理 Linux IPC 机制，包括信号、管道、FIFO、UNIX Domain Socket、消息队列、共享内存、mmap、futex、eventfd、epoll，以及 mmap 在多语言用户态到内核系统调用的路径。
 
 ## 摘要
 

@@ -1,18 +1,22 @@
 ---
-title: 分布式链路追踪的发展历程
-category: 可观测性
-summary: 梳理分布式链路追踪从 Dapper、EagleEye、Zipkin、Jaeger、SkyWalking 到 OpenTelemetry 与 Tempo 的演进路径，说明其如何从调用链可视化发展为云原生可观测性标准。
+title: "分布式链路追踪的发展历程"
+category: "可观测性"
+summary: "梳理分布式链路追踪从 Dapper、EagleEye、Zipkin、Jaeger、SkyWalking 到 OpenTelemetry 与 Tempo 的演进路径，说明其如何从调用链可视化发展为云原生可观测性标准。"
 tags:
-  - 分布式追踪
-  - OpenTelemetry
-  - Jaeger
-  - SkyWalking
-  - Tempo
-readingDirection: 适合在理解链路追踪历史、评估可观测性架构、规划 OpenTelemetry 接入或比较 Zipkin、Jaeger、SkyWalking、Tempo 等系统时阅读。
+  - "分布式追踪"
+  - "OpenTelemetry"
+  - "Jaeger"
+  - "SkyWalking"
+  - "Tempo"
+readingDirection: "适合在理解链路追踪历史、评估可观测性架构、规划 OpenTelemetry 接入或比较 Zipkin、Jaeger、SkyWalking、Tempo 等系统时阅读。"
 outline: deep
 ---
 
-# 分布式链路追踪（Distributed Tracing）的发展历程：从调用链可视化到云原生可观测性标准
+# 分布式链路追踪的发展历程
+
+## 概览
+
+梳理分布式链路追踪从 Dapper、EagleEye、Zipkin、Jaeger、SkyWalking 到 OpenTelemetry 与 Tempo 的演进路径，说明其如何从调用链可视化发展为云原生可观测性标准。
 
 ## 摘要
 

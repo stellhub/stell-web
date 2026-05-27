@@ -1,13 +1,13 @@
 ---
-title: Error Code Specification
-category: Application Contract
-summary: A specification for shaping error codes into a stable contract that is easier to govern, observe, and consume across teams.
+title: "Error Code Specification"
+category: "Application Contract"
+summary: "A specification for shaping error codes into a stable contract that is easier to govern, observe, and consume across teams."
 tags:
-  - Error Code
-  - Contract
-  - API
-  - Governance
-readingDirection: Read this when trying to make service errors more structured, machine-readable, and operationally useful.
+  - "Error Code"
+  - "Contract"
+  - "API"
+  - "Governance"
+readingDirection: "Read this when trying to make service errors more structured, machine-readable, and operationally useful."
 outline: deep
 ---
 

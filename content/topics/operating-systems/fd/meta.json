@@ -1,0 +1,35 @@
+{
+  "slug": "fd",
+  "title": {
+    "en": "Linux File Descriptors: From Everything Is a File to fd Kernel Abstractions and Engineering Practice",
+    "zh": "Linux 文件描述符研究：从“一切皆文件”到 fd 的内核抽象与工程实践"
+  },
+  "category": {
+    "en": "Operating Systems",
+    "zh": "操作系统"
+  },
+  "summary": {
+    "en": "A systematic study of Linux file descriptors, open file descriptions, VFS, inodes, sockets, epoll, inheritance semantics, and production engineering practices.",
+    "zh": "系统梳理 Linux 文件描述符的来源、open file description、VFS、inode、socket、epoll、继承语义和线上工程实践。"
+  },
+  "tags": {
+    "en": [
+      "Linux",
+      "File Descriptor",
+      "VFS",
+      "epoll",
+      "System Programming"
+    ],
+    "zh": [
+      "Linux",
+      "文件描述符",
+      "VFS",
+      "epoll",
+      "系统编程"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when learning the Linux I/O model, troubleshooting fd leaks, understanding socket and epoll lifecycles, or designing resource governance for high-concurrency services.",
+    "zh": "适合在学习 Linux I/O 模型、排查 fd 泄漏、理解 socket/epoll 生命周期，或设计高并发服务资源治理时阅读。"
+  }
+}

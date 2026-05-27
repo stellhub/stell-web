@@ -1,19 +1,74 @@
 import { defineConfig } from "vitepress";
-import { topics } from "../../scripts/bilingual-metadata.mjs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const repoRoot = path.resolve(__dirname, "../..");
+const contentRoot = path.resolve(repoRoot, "content", "topics");
+
+interface TopicMeta {
+  slug: string;
+  title: {
+    en: string;
+    zh: string;
+  };
+  category: {
+    en: string;
+    zh: string;
+  };
+}
+
+const findTopicMetaFiles = (dir: string): string[] => {
+  if (!existsSync(dir)) {
+    return [];
+  }
+
+  const entries = readdirSync(dir, { withFileTypes: true });
+  const hasMeta = entries.some((entry) => entry.isFile() && entry.name === "meta.json");
+  if (hasMeta) {
+    return [path.join(dir, "meta.json")];
+  }
+
+  return entries
+    .filter((entry) => entry.isDirectory())
+    .flatMap((entry) => findTopicMetaFiles(path.join(dir, entry.name)));
+};
+
+const topics = findTopicMetaFiles(contentRoot)
+  .map((file) => JSON.parse(readFileSync(file, "utf8")) as TopicMeta)
+  .sort((left, right) => {
+    const category = left.category.en.localeCompare(right.category.en);
+    return category === 0 ? left.title.en.localeCompare(right.title.en) : category;
+  });
 
 const buildPath = (base: string, value: string) => `${base}${value}`;
 const buildHomeLink = (base: string) => (base ? `${base}/` : "/");
 
-const buildPostMenu = (base: string, isZh: boolean) => [
-  {
-    text: isZh ? "论坛首页" : "Forum Home",
-    link: buildPath(base, "/topics/")
-  },
-  ...topics.map((topic) => ({
-    text: isZh ? topic.titleZh : topic.titleEn,
-    link: buildPath(base, `/topics/${topic.slug}`)
-  }))
-];
+const buildPostMenu = (base: string, isZh: boolean) => {
+  const groups = new Map<string, TopicMeta[]>();
+
+  for (const topic of topics) {
+    const category = isZh ? topic.category.zh : topic.category.en;
+    groups.set(category, [...(groups.get(category) ?? []), topic]);
+  }
+
+  return [
+    {
+      text: isZh ? "论坛首页" : "Forum Home",
+      link: buildPath(base, "/topics/")
+    },
+    ...Array.from(groups.entries()).map(([category, items]) => ({
+      text: category,
+      collapsed: true,
+      items: items.map((topic) => ({
+        text: isZh ? topic.title.zh : topic.title.en,
+        link: buildPath(base, `/topics/${topic.slug}`)
+      }))
+    }))
+  ];
+};
 
 const buildLocaleTheme = (base: string, isZh: boolean) => {
   const homeLink = buildHomeLink(base);

@@ -1,15 +1,15 @@
 ---
 title: "Custom Application Protocols over TCP: Kafka, Redis, and MySQL as Case Studies"
-category: Network Protocols
-summary: Using Kafka, Redis, and MySQL as examples, this article explains why infrastructure systems design custom application protocols on top of TCP and what that buys them in performance, semantics, and long-term evolution.
+category: "Network Protocols"
+summary: "Using Kafka, Redis, and MySQL as examples, this article explains why infrastructure systems design custom application protocols on top of TCP and what that buys them in performance, semantics, and long-term evolution."
 tags:
-  - TCP
-  - Custom Protocol
-  - Kafka
-  - Redis
-  - MySQL
-  - gRPC
-readingDirection: Read this when evaluating transport choices for infrastructure software, comparing HTTP or gRPC with custom protocols, or designing a high-performance middleware wire protocol.
+  - "TCP"
+  - "Custom Protocol"
+  - "Kafka"
+  - "Redis"
+  - "MySQL"
+  - "gRPC"
+readingDirection: "Read this when evaluating transport choices for infrastructure software, comparing HTTP or gRPC with custom protocols, or designing a high-performance middleware wire protocol."
 outline: deep
 ---
 
@@ -1054,12 +1054,12 @@ more suitable as a long-term infrastructure boundary
 
 That is why serious middleware and database systems so often end up with their own wire protocols.
 
-## Chinese Reference
-
-- [Read the original Chinese article](/zh/topics/protocol)
-
 [1]: https://kafka.apache.org/42/design/protocol "Protocol | Apache Kafka"
 [2]: https://grpc.github.io/grpc/core/md_doc__p_r_o_t_o_c_o_l-_h_t_t_p2.html "GRPC Core: gRPC over HTTP2"
 [3]: https://redis.io/docs/latest/develop/reference/protocol-spec/ "Redis serialization protocol specification | Docs"
 [4]: https://dev.mysql.com/doc/dev/mysql-server/8.0.46/page_protocol_basic_packets.html?utm_source=chatgpt.com "MySQL Packets"
 [5]: https://dev.mysql.com/doc/dev/mysql-server/9.5.0/page_protocol_connection_phase_packets_protocol_handshake_v10.html?utm_source=chatgpt.com "MySQL: Protocol::HandshakeV10"
+
+## Chinese Reference
+
+- [Read the original Chinese article](/zh/topics/protocol)

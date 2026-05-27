@@ -1,0 +1,33 @@
+{
+  "slug": "middleware-evolution",
+  "title": {
+    "en": "Why Enterprises Build Middleware Platforms",
+    "zh": "为什么企业要自研中间件"
+  },
+  "category": {
+    "en": "Platform Strategy",
+    "zh": "平台战略"
+  },
+  "summary": {
+    "en": "An engineering and organizational perspective on when self-built middleware becomes justified and what tradeoffs it introduces.",
+    "zh": "从技术演进、企业规模与组织治理三个维度，讨论企业为什么会在开源、二开、自研之间反复摇摆，以及基础架构团队的真正边界。"
+  },
+  "tags": {
+    "en": [
+      "Middleware",
+      "Platform",
+      "Architecture",
+      "Strategy"
+    ],
+    "zh": [
+      "中间件演进",
+      "平台工程",
+      "组织治理",
+      "技术选型"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating build-vs-buy decisions or the long-term cost model of infrastructure platforms.",
+    "zh": "适合在评估中间件建设边界、平台团队职责和企业规模对技术决策影响时阅读。"
+  }
+}

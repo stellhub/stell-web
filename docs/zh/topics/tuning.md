@@ -1,18 +1,22 @@
 ---
-title: 快不等于优：局部性能最优并不等价于系统整体最优
-category: 性能工程
-summary: 以 OpenTelemetry Collector、配置中心 Sidecar 和日志 Agent 为案例，结合 Amdahl 定律、Little 定律、尾延迟与云原生官方实践，分析容器内通信机制的系统化选型。
+title: "快不等于优：局部性能最优并不等价于系统整体最优"
+category: "性能工程"
+summary: "以 OpenTelemetry Collector、配置中心 Sidecar 和日志 Agent 为案例，结合 Amdahl 定律、Little 定律、尾延迟与云原生官方实践，分析容器内通信机制的系统化选型。"
 tags:
-  - 性能调优
-  - 容器通信
-  - IPC
-  - OpenTelemetry
-  - Sidecar
-readingDirection: 适合在评估容器内进程通信、Sidecar 数据共享、日志采集、遥测上报或共享内存优化方案时阅读。
+  - "性能调优"
+  - "容器通信"
+  - "IPC"
+  - "OpenTelemetry"
+  - "Sidecar"
+readingDirection: "适合在评估容器内进程通信、Sidecar 数据共享、日志采集、遥测上报或共享内存优化方案时阅读。"
 outline: deep
 ---
 
 # 快不等于优：局部性能最优并不等价于系统整体最优
+
+## 概览
+
+以 OpenTelemetry Collector、配置中心 Sidecar 和日志 Agent 为案例，结合 Amdahl 定律、Little 定律、尾延迟与云原生官方实践，分析容器内通信机制的系统化选型。
 
 ## ——容器内进程间数据共享与通信机制的系统化选型研究
 

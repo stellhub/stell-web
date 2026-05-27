@@ -1,0 +1,33 @@
+{
+  "slug": "retry",
+  "title": {
+    "en": "Retry Strategy Best Practices in Software Development",
+    "zh": "软件开发中的重试策略最佳实践"
+  },
+  "category": {
+    "en": "Service Reliability",
+    "zh": "服务可靠性"
+  },
+  "summary": {
+    "en": "A practical guide to retry boundaries, strategy selection, idempotency, and production rollout across thread pools, message queues, HTTP, and gRPC.",
+    "zh": "从线程池、消息队列、HTTP 和 gRPC 四类典型场景出发，系统总结生产环境中的重试边界、策略选择、幂等要求与落地规范。"
+  },
+  "tags": {
+    "en": [
+      "Retry",
+      "Distributed Systems",
+      "Idempotency",
+      "gRPC"
+    ],
+    "zh": [
+      "重试",
+      "分布式系统",
+      "幂等性",
+      "gRPC"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when standardizing fault-tolerance policy, handling transient downstream failures, or defining an enterprise-wide retry baseline.",
+    "zh": "适合在设计服务容错机制、治理下游瞬时故障或统一企业级重试规范时阅读。"
+  }
+}

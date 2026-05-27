@@ -1,18 +1,22 @@
 ---
-title: Prometheus 与 VictoriaMetrics 的技术比较及迁移方法研究
-category: 可观测性
-summary: 系统比较 Prometheus 与 VictoriaMetrics 的系统定位、数据写入、查询兼容性、存储结构、性能机制，并整理从 Prometheus 迁移到 VictoriaMetrics 的标准路径。
+title: "Prometheus 与 VictoriaMetrics 的技术比较及迁移方法研究"
+category: "可观测性"
+summary: "系统比较 Prometheus 与 VictoriaMetrics 的系统定位、数据写入、查询兼容性、存储结构、性能机制，并整理从 Prometheus 迁移到 VictoriaMetrics 的标准路径。"
 tags:
-  - Prometheus
-  - VictoriaMetrics
-  - PromQL
-  - Remote Write
-  - 可观测性
-readingDirection: 适合在评估 Prometheus 长期存储、VictoriaMetrics 替换方案、vmagent/vmalert 迁移、PromQL 兼容性或大规模时序数据存储架构时阅读。
+  - "Prometheus"
+  - "VictoriaMetrics"
+  - "PromQL"
+  - "Remote Write"
+  - "可观测性"
+readingDirection: "适合在评估 Prometheus 长期存储、VictoriaMetrics 替换方案、vmagent/vmalert 迁移、PromQL 兼容性或大规模时序数据存储架构时阅读。"
 outline: deep
 ---
 
 # Prometheus 与 VictoriaMetrics 的技术比较及迁移方法研究
+
+## 概览
+
+系统比较 Prometheus 与 VictoriaMetrics 的系统定位、数据写入、查询兼容性、存储结构、性能机制，并整理从 Prometheus 迁移到 VictoriaMetrics 的标准路径。
 
 ## 摘要
 

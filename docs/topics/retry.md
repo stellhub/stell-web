@@ -1,13 +1,13 @@
 ---
-title: Retry Strategy Best Practices in Software Development
-category: Service Reliability
-summary: A practical guide to retry boundaries, strategy selection, idempotency, and production rollout across thread pools, message queues, HTTP, and gRPC.
+title: "Retry Strategy Best Practices in Software Development"
+category: "Service Reliability"
+summary: "A practical guide to retry boundaries, strategy selection, idempotency, and production rollout across thread pools, message queues, HTTP, and gRPC."
 tags:
-  - Retry
-  - Distributed Systems
-  - Idempotency
-  - gRPC
-readingDirection: Read this when standardizing fault-tolerance policy, handling transient downstream failures, or defining an enterprise-wide retry baseline.
+  - "Retry"
+  - "Distributed Systems"
+  - "Idempotency"
+  - "gRPC"
+readingDirection: "Read this when standardizing fault-tolerance policy, handling transient downstream failures, or defining an enterprise-wide retry baseline."
 outline: deep
 ---
 

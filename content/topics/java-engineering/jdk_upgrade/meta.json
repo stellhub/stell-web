@@ -1,0 +1,35 @@
+{
+  "slug": "jdk_upgrade",
+  "title": {
+    "en": "Technical Guide for Migrating from JDK 8, 11, and 17 to JDK 21 and Later",
+    "zh": "从 JDK 8 / 11 / 17 迁移至 JDK 21 及以上版本的技术指南"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A systematic guide to migrating from JDK 8, JDK 11, and JDK 17 to JDK 21 and later, covering migration paths, benefit sources, upgrade cost, ROI, risk control, observability, and regression testing.",
+    "zh": "系统分析从 JDK 8、JDK 11、JDK 17 迁移到 JDK 21 及以上版本的路径、收益来源、升级成本、ROI、风险控制、观测手段与回归测试策略。"
+  },
+  "tags": {
+    "en": [
+      "JDK",
+      "Java",
+      "Virtual Threads",
+      "ZGC",
+      "Performance Regression"
+    ],
+    "zh": [
+      "JDK",
+      "Java",
+      "虚拟线程",
+      "ZGC",
+      "性能回归"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when planning enterprise Java runtime upgrades, evaluating JDK 21 or JDK 25, validating virtual threads or Generational ZGC, or designing canary and regression strategies.",
+    "zh": "适合在规划企业 Java 运行时升级、评估 JDK 21/JDK 25、验证虚拟线程或 Generational ZGC 收益，以及设计灰度和回归策略时阅读。"
+  }
+}

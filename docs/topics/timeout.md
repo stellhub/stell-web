@@ -1,13 +1,13 @@
 ---
-title: Timeout Definitions and Configuration in Network Communication
-category: Service Reliability
-summary: A structured guide to timeout types, root-cause analysis, observability, and configuration principles across clients, servers, gateways, and gRPC.
+title: "Timeout Definitions and Configuration in Network Communication"
+category: "Service Reliability"
+summary: "A structured guide to timeout types, root-cause analysis, observability, and configuration principles across clients, servers, gateways, and gRPC."
 tags:
-  - Timeout
-  - Network Communication
-  - gRPC
-  - Service Reliability
-readingDirection: Read this when diagnosing timeout failures, designing layered timeout models, or standardizing request deadlines across distributed services.
+  - "Timeout"
+  - "Network Communication"
+  - "gRPC"
+  - "Service Reliability"
+readingDirection: "Read this when diagnosing timeout failures, designing layered timeout models, or standardizing request deadlines across distributed services."
 outline: deep
 ---
 

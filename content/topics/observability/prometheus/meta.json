@@ -1,0 +1,35 @@
+{
+  "slug": "prometheus",
+  "title": {
+    "en": "Technical Comparison and Migration Guide for Prometheus and VictoriaMetrics",
+    "zh": "Prometheus 与 VictoriaMetrics 的技术比较及迁移方法研究"
+  },
+  "category": {
+    "en": "Observability",
+    "zh": "可观测性"
+  },
+  "summary": {
+    "en": "A systematic comparison of Prometheus and VictoriaMetrics across system positioning, data ingestion, query compatibility, storage layout, performance mechanisms, and a standard migration path from Prometheus to VictoriaMetrics.",
+    "zh": "系统比较 Prometheus 与 VictoriaMetrics 的系统定位、数据写入、查询兼容性、存储结构、性能机制，并整理从 Prometheus 迁移到 VictoriaMetrics 的标准路径。"
+  },
+  "tags": {
+    "en": [
+      "Prometheus",
+      "VictoriaMetrics",
+      "PromQL",
+      "Remote Write",
+      "Observability"
+    ],
+    "zh": [
+      "Prometheus",
+      "VictoriaMetrics",
+      "PromQL",
+      "Remote Write",
+      "可观测性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating Prometheus long-term storage, VictoriaMetrics replacement paths, vmagent/vmalert migration, PromQL compatibility, or large-scale time-series storage architecture.",
+    "zh": "适合在评估 Prometheus 长期存储、VictoriaMetrics 替换方案、vmagent/vmalert 迁移、PromQL 兼容性或大规模时序数据存储架构时阅读。"
+  }
+}

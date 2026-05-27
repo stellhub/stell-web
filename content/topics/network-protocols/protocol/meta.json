@@ -1,0 +1,37 @@
+{
+  "slug": "protocol",
+  "title": {
+    "en": "Custom Application Protocols over TCP: Kafka, Redis, and MySQL as Case Studies",
+    "zh": "基于 TCP 的自定义应用层协议研究：以 Kafka、Redis、MySQL 为例"
+  },
+  "category": {
+    "en": "Network Protocols",
+    "zh": "网络协议"
+  },
+  "summary": {
+    "en": "Using Kafka, Redis, and MySQL as examples, this article explains why infrastructure systems design custom application protocols on top of TCP and what that buys them in performance, semantics, and long-term evolution.",
+    "zh": "结合 Kafka、Redis 和 MySQL，分析基础设施系统为什么会在 TCP 之上设计自定义应用层协议，以及这种设计在性能、语义表达和协议演进上的价值。"
+  },
+  "tags": {
+    "en": [
+      "TCP",
+      "Custom Protocol",
+      "Kafka",
+      "Redis",
+      "MySQL",
+      "gRPC"
+    ],
+    "zh": [
+      "TCP",
+      "自定义协议",
+      "Kafka",
+      "Redis",
+      "MySQL",
+      "gRPC"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating transport choices for infrastructure software, comparing HTTP or gRPC with custom protocols, or designing a high-performance middleware wire protocol.",
+    "zh": "适合在评估基础设施通信协议、比较 HTTP 与自定义协议边界，或设计高性能中间件传输层时阅读。"
+  }
+}

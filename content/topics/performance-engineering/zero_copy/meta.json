@@ -1,0 +1,35 @@
+{
+  "slug": "zero_copy",
+  "title": {
+    "en": "Linux Data Loading, Access, Transfer, and Zero-Copy Mechanisms",
+    "zh": "Linux 系统中的数据加载、访问、传输与零拷贝机制研究"
+  },
+  "category": {
+    "en": "Performance Engineering",
+    "zh": "性能工程"
+  },
+  "summary": {
+    "en": "A study of Linux data access paths, virtual-to-physical memory mapping, page cache, task_struct, mm_struct, files_struct, address_space, and zero-copy techniques including Direct Memory, sendfile, and mmap plus write.",
+    "zh": "研究 Linux 数据访问路径、虚拟内存到物理内存映射、页缓存、task_struct、mm_struct、files_struct、address_space，以及 Direct Memory、sendfile、mmap + write 等零拷贝机制。"
+  },
+  "tags": {
+    "en": [
+      "Linux",
+      "Zero Copy",
+      "Page Cache",
+      "mmap",
+      "sendfile"
+    ],
+    "zh": [
+      "Linux",
+      "零拷贝",
+      "页缓存",
+      "mmap",
+      "sendfile"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when studying Linux data paths, page cache behavior, Java NIO transferTo, mmap, Direct Memory, or zero-copy performance experiments.",
+    "zh": "适合在学习 Linux 数据路径、页缓存行为、Java NIO transferTo、mmap、Direct Memory 或零拷贝性能实验时阅读。"
+  }
+}

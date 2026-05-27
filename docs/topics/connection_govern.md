@@ -1,15 +1,15 @@
 ---
 title: "Connection Governance for High-Concurrency Services: Connection Lifecycle, Troubleshooting, and Operations SOP"
-category: Network Reliability
-summary: A systematic connection-governance guide for high-concurrency services, covering TCP, HTTP/gRPC, databases, connection pools, proxies, conntrack, file descriptors, lifecycle management, capacity models, timeout classification, CLOSE_WAIT, TIME_WAIT, and standardized troubleshooting SOPs.
+category: "Network Reliability"
+summary: "A systematic connection-governance guide for high-concurrency services, covering TCP, HTTP/gRPC, databases, connection pools, proxies, conntrack, file descriptors, lifecycle management, capacity models, timeout classification, CLOSE_WAIT, TIME_WAIT, and standardized troubleshooting SOPs."
 tags:
-  - Connection Governance
-  - TCP
-  - Connection Pool
-  - CLOSE_WAIT
-  - TIME_WAIT
-  - SOP
-readingDirection: Read this when handling excessive connection counts, connection timeouts, exhausted pools, CLOSE_WAIT or TIME_WAIT buildup, database Too many connections errors, full conntrack tables, or file descriptor exhaustion.
+  - "Connection Governance"
+  - "TCP"
+  - "Connection Pool"
+  - "CLOSE_WAIT"
+  - "TIME_WAIT"
+  - "SOP"
+readingDirection: "Read this when handling excessive connection counts, connection timeouts, exhausted pools, CLOSE_WAIT or TIME_WAIT buildup, database Too many connections errors, full conntrack tables, or file descriptor exhaustion."
 outline: deep
 ---
 

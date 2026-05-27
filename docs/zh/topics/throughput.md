@@ -1,19 +1,23 @@
 ---
-title: 如何将系统吞吐量提升 10 倍？网络通信全链路优化指南
-category: 性能工程
-summary: 从批量化、少拷贝、顺序 I/O、zero-copy、pipeline 与减少重复编解码六个方向，系统梳理网络通信链路的高吞吐优化方法。
+title: "如何将系统吞吐量提升 10 倍？网络通信全链路优化指南"
+category: "性能工程"
+summary: "从批量化、少拷贝、顺序 I/O、zero-copy、pipeline 与减少重复编解码六个方向，系统梳理网络通信链路的高吞吐优化方法。"
 tags:
-  - 吞吐量
-  - 性能优化
-  - Zero-Copy
-  - Pipeline
-  - Kafka
-  - Redis
-readingDirection: 适合在排查系统吞吐瓶颈、设计高吞吐数据链路或规划网络与存储联合优化方案时阅读。
+  - "吞吐量"
+  - "性能优化"
+  - "Zero-Copy"
+  - "Pipeline"
+  - "Kafka"
+  - "Redis"
+readingDirection: "适合在排查系统吞吐瓶颈、设计高吞吐数据链路或规划网络与存储联合优化方案时阅读。"
 outline: deep
 ---
 
 # 如何将系统吞吐量提升 10 倍？网络通信全链路优化指南
+
+## 概览
+
+从批量化、少拷贝、顺序 I/O、zero-copy、pipeline 与减少重复编解码六个方向，系统梳理网络通信链路的高吞吐优化方法。
 
 ## 摘要
 

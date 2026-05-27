@@ -1,18 +1,22 @@
 ---
-title: 基于 epoll 的 NIO 网络模型演进与多框架实现研究
-category: Java 工程
-summary: 围绕 Linux epoll 机制分析 NIO 网络模型演进、epoll 系统调用语义、select/poll/epoll 差异，以及 Netty、Go、Redis、Nginx 的事件驱动实现和虚拟线程边界。
+title: "基于 epoll 的 NIO 网络模型演进与多框架实现研究"
+category: "Java 工程"
+summary: "围绕 Linux epoll 机制分析 NIO 网络模型演进、epoll 系统调用语义、select/poll/epoll 差异，以及 Netty、Go、Redis、Nginx 的事件驱动实现和虚拟线程边界。"
 tags:
-  - epoll
-  - NIO
-  - Netty
-  - Go
-  - 虚拟线程
-readingDirection: 适合在理解 Linux NIO 网络模型、Netty native epoll、Go runtime netpoll、Redis/Nginx 事件模型，或评估虚拟线程与 EventLoop 边界时阅读。
+  - "epoll"
+  - "NIO"
+  - "Netty"
+  - "Go"
+  - "虚拟线程"
+readingDirection: "适合在理解 Linux NIO 网络模型、Netty native epoll、Go runtime netpoll、Redis/Nginx 事件模型，或评估虚拟线程与 EventLoop 边界时阅读。"
 outline: deep
 ---
 
 # 基于 epoll 的 NIO 网络模型演进与多框架实现研究
+
+## 概览
+
+围绕 Linux epoll 机制分析 NIO 网络模型演进、epoll 系统调用语义、select/poll/epoll 差异，以及 Netty、Go、Redis、Nginx 的事件驱动实现和虚拟线程边界。
 
 ## 摘要
 

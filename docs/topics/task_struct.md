@@ -1,14 +1,14 @@
 ---
 title: "Linux task_struct Design Philosophy: From Process Descriptor to Unified Task Model"
-category: Operating Systems
-summary: A layered study of how Linux uses task_struct as the central index for schedulable tasks, connecting scheduling, memory, files, signals, credentials, namespaces, cgroups, I/O, and observability.
+category: "Operating Systems"
+summary: "A layered study of how Linux uses task_struct as the central index for schedulable tasks, connecting scheduling, memory, files, signals, credentials, namespaces, cgroups, I/O, and observability."
 tags:
-  - Linux
-  - task_struct
-  - Process Model
-  - Threads
-  - Kernel Scheduling
-readingDirection: Read this when studying Linux process and thread semantics, clone resource sharing, kernel scheduling entities, or the boundary between OS threads and user-mode lightweight threads.
+  - "Linux"
+  - "task_struct"
+  - "Process Model"
+  - "Threads"
+  - "Kernel Scheduling"
+readingDirection: "Read this when studying Linux process and thread semantics, clone resource sharing, kernel scheduling entities, or the boundary between OS threads and user-mode lightweight threads."
 outline: deep
 ---
 

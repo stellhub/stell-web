@@ -1,18 +1,22 @@
 ---
-title: 错误码规范
-category: 体系规范
-summary: 以 HTTP、gRPC 与 OpenTelemetry 为主标准，统一定义基础错误码、业务异常扩展方式、错误响应载体与观测映射规则。
+title: "错误码规范"
+category: "应用契约"
+summary: "以 HTTP、gRPC 与 OpenTelemetry 为主标准，统一定义基础错误码、业务异常扩展方式、错误响应载体与观测映射规则。"
 tags:
-  - 错误码
-  - OpenTelemetry
-  - HTTP
-  - gRPC
-  - API 设计
-readingDirection: 适合在设计 API 错误模型、跨协议错误响应、业务异常扩展与可观测错误聚合时优先阅读。
+  - "错误码"
+  - "OpenTelemetry"
+  - "HTTP"
+  - "gRPC"
+  - "API 设计"
+readingDirection: "适合在设计 API 错误模型、跨协议错误响应、业务异常扩展与可观测错误聚合时优先阅读。"
 outline: deep
 ---
 
 # 错误码规范
+
+## 概览
+
+以 HTTP、gRPC 与 OpenTelemetry 为主标准，统一定义基础错误码、业务异常扩展方式、错误响应载体与观测映射规则。
 
 ## 摘要
 

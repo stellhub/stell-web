@@ -1,0 +1,35 @@
+{
+  "slug": "opentelemetry_log",
+  "title": {
+    "en": "Moving Beyond ELK Dependency: Redefining Log Governance in the OpenTelemetry Era",
+    "zh": "告别 ELK 依赖？在 OpenTelemetry 时代重新定义日志治理"
+  },
+  "category": {
+    "en": "Observability",
+    "zh": "可观测性"
+  },
+  "summary": {
+    "en": "A study of log governance evolution from local files and ELK to OpenTelemetry, covering Java and Go logging SDK choices, Collector pipelines, Kafka buffering, gateway tradeoffs, and custom Collector engineering.",
+    "zh": "从本机文件、集中采集、ELK 平台化到 OpenTelemetry 标准化，系统分析日志治理演进、Java/Go 日志 SDK 选择、Collector 管线、Kafka 缓冲、Gateway 取舍和自定义 Collector 工程价值。"
+  },
+  "tags": {
+    "en": [
+      "OpenTelemetry",
+      "Logs",
+      "ELK",
+      "Collector",
+      "Kafka"
+    ],
+    "zh": [
+      "OpenTelemetry",
+      "日志治理",
+      "ELK",
+      "Collector",
+      "Kafka"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when redesigning enterprise log governance, migrating from ELK-centric collection to OpenTelemetry, choosing Java or Go logging SDKs, or designing Collector-to-Kafka log pipelines.",
+    "zh": "适合在重新设计企业日志治理、从 ELK 中心化采集迁移到 OpenTelemetry、选择 Java/Go 日志 SDK 或设计 Collector 到 Kafka 日志链路时阅读。"
+  }
+}

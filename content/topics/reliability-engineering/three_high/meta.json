@@ -1,0 +1,35 @@
+{
+  "slug": "three_high",
+  "title": {
+    "en": "Trade-Offs Among High Availability, High Performance, and High Concurrency",
+    "zh": "高可用、高性能与高并发设计取舍研究"
+  },
+  "category": {
+    "en": "Reliability Engineering",
+    "zh": "可靠性工程"
+  },
+  "summary": {
+    "en": "A reliability-engineering analysis of conflicts among high availability, high performance, and high concurrency across resources, time, consistency, and complexity, with a production-oriented trade-off framework.",
+    "zh": "基于 AWS、Google SRE、Azure 与 Kubernetes 等可靠性工程资料，分析高可用、高性能和高并发之间在资源、时间、一致性和复杂度上的冲突，并提出生产系统取舍框架。"
+  },
+  "tags": {
+    "en": [
+      "High Availability",
+      "High Performance",
+      "High Concurrency",
+      "Reliability Engineering",
+      "Rate Limiting"
+    ],
+    "zh": [
+      "高可用",
+      "高性能",
+      "高并发",
+      "可靠性工程",
+      "限流降级"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when reviewing system architecture, capacity planning, load-test results, stability governance, rate limiting, circuit breaking, or trade-offs among the three high-level system goals.",
+    "zh": "适合在进行系统架构评审、容量规划、压测复盘、稳定性治理、限流熔断设计或三高目标取舍时阅读。"
+  }
+}

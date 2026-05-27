@@ -1,13 +1,13 @@
 ---
-title: Load-Balancing Architecture Choices for Internal Microservice Calls
-category: Service Governance
-summary: A practical guide to choosing client-side or sidecar load balancing for east-west traffic while keeping gateways and ingress layers for north-south traffic.
+title: "Load-Balancing Architecture Choices for Internal Microservice Calls"
+category: "Service Governance"
+summary: "A practical guide to choosing client-side or sidecar load balancing for east-west traffic while keeping gateways and ingress layers for north-south traffic."
 tags:
-  - Load Balancing
-  - Microservices
-  - Service Discovery
-  - gRPC
-readingDirection: Read this when deciding how internal service calls should select instances and which load-balancing strategy fits modern microservice traffic.
+  - "Load Balancing"
+  - "Microservices"
+  - "Service Discovery"
+  - "gRPC"
+readingDirection: "Read this when deciding how internal service calls should select instances and which load-balancing strategy fits modern microservice traffic."
 outline: deep
 ---
 

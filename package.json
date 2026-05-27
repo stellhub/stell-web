@@ -9,8 +9,10 @@
   },
   "scripts": {
     "docs:i18n": "node scripts/generate-bilingual-docs.mjs",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:validate": "node scripts/validate-topics.mjs",
+    "docs:check": "npm run docs:i18n && npm run docs:validate && vitepress build docs",
+    "docs:dev": "npm run docs:i18n && vitepress dev docs",
+    "docs:build": "npm run docs:i18n && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {

@@ -1,0 +1,33 @@
+{
+  "slug": "distributed-system-registry-centers",
+  "title": {
+    "en": "Registry Centers in Distributed Systems",
+    "zh": "分布式系统注册中心意义、问题与主流实现"
+  },
+  "category": {
+    "en": "Infrastructure Foundation",
+    "zh": "基础设施"
+  },
+  "summary": {
+    "en": "A review of why registry centers exist, what problems they solve, and how mainstream implementations make different engineering tradeoffs.",
+    "zh": "围绕服务发现、健康检查、治理元数据和多环境隔离，分析注册中心为什么会成为微服务系统的基础设施刚需，以及主流实现分别适合什么场景。"
+  },
+  "tags": {
+    "en": [
+      "Registry",
+      "Discovery",
+      "Distributed Systems",
+      "Infrastructure"
+    ],
+    "zh": [
+      "注册中心",
+      "服务发现",
+      "Nacos",
+      "Consul"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating service discovery patterns or studying registry-center implementation choices.",
+    "zh": "适合在做注册中心选型，或梳理服务发现能力边界与演进路径时阅读。"
+  }
+}

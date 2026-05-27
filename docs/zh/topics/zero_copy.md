@@ -1,18 +1,22 @@
 ---
-title: Linux 系统中的数据加载、访问、传输与零拷贝机制研究
-category: 性能工程
-summary: 研究 Linux 数据访问路径、虚拟内存到物理内存映射、页缓存、task_struct、mm_struct、files_struct、address_space，以及 Direct Memory、sendfile、mmap + write 等零拷贝机制。
+title: "Linux 系统中的数据加载、访问、传输与零拷贝机制研究"
+category: "性能工程"
+summary: "研究 Linux 数据访问路径、虚拟内存到物理内存映射、页缓存、task_struct、mm_struct、files_struct、address_space，以及 Direct Memory、sendfile、mmap + write 等零拷贝机制。"
 tags:
-  - Linux
-  - 零拷贝
-  - 页缓存
-  - mmap
-  - sendfile
-readingDirection: 适合在学习 Linux 数据路径、页缓存行为、Java NIO transferTo、mmap、Direct Memory 或零拷贝性能实验时阅读。
+  - "Linux"
+  - "零拷贝"
+  - "页缓存"
+  - "mmap"
+  - "sendfile"
+readingDirection: "适合在学习 Linux 数据路径、页缓存行为、Java NIO transferTo、mmap、Direct Memory 或零拷贝性能实验时阅读。"
 outline: deep
 ---
 
 # Linux 系统中的数据加载、访问、传输与零拷贝机制研究
+
+## 概览
+
+研究 Linux 数据访问路径、虚拟内存到物理内存映射、页缓存、task_struct、mm_struct、files_struct、address_space，以及 Direct Memory、sendfile、mmap + write 等零拷贝机制。
 
 ## 摘要
 

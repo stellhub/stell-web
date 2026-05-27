@@ -1,0 +1,37 @@
+{
+  "slug": "sre",
+  "title": {
+    "en": "Site Reliability Engineering for Middleware Platforms",
+    "zh": "中间件站点可靠性工程研究"
+  },
+  "category": {
+    "en": "Service Reliability",
+    "zh": "服务可靠性"
+  },
+  "summary": {
+    "en": "A systematic study of how middleware and microservice teams should define SLI, SLO, and SLA, and how observability and service governance should form a closed reliability loop.",
+    "zh": "围绕中间件与微服务体系，系统梳理 SLI、SLO、SLA 的定义方法，以及可观测性与服务治理如何形成可靠性闭环。"
+  },
+  "tags": {
+    "en": [
+      "SRE",
+      "SLI",
+      "SLO",
+      "SLA",
+      "Service Governance",
+      "Observability"
+    ],
+    "zh": [
+      "SRE",
+      "SLI",
+      "SLO",
+      "SLA",
+      "服务治理",
+      "可观测性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing reliability contracts, error-budget policies, or observability-driven governance for middleware and microservice platforms.",
+    "zh": "适合在设计中间件可靠性指标、错误预算机制或构建可观测驱动的服务治理体系时阅读。"
+  }
+}

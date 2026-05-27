@@ -1,14 +1,14 @@
 ---
 title: "Netty Parameter Tuning: A Systematic Analysis Based on Symptoms, Option Semantics, and Official Documentation"
-category: Java Engineering
-summary: A systematic guide to Netty 4.1 tuning across connection establishment, read/write buffering, backpressure, thread models, memory allocation, keepalive, and Linux native transport, grounded in option semantics and observable symptoms.
+category: "Java Engineering"
+summary: "A systematic guide to Netty 4.1 tuning across connection establishment, read/write buffering, backpressure, thread models, memory allocation, keepalive, and Linux native transport, grounded in option semantics and observable symptoms."
 tags:
-  - Netty
-  - Java
-  - Network Tuning
-  - Backpressure
-  - epoll
-readingDirection: Read this when diagnosing Netty connection spikes, small-packet latency, outbound buffer growth, EventLoop blocking, direct memory growth, or Linux native transport choices.
+  - "Netty"
+  - "Java"
+  - "Network Tuning"
+  - "Backpressure"
+  - "epoll"
+readingDirection: "Read this when diagnosing Netty connection spikes, small-packet latency, outbound buffer growth, EventLoop blocking, direct memory growth, or Linux native transport choices."
 outline: deep
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: Java Serialization Performance Study across JDK, Jackson JSON, Jackson Smile, Protobuf, Kryo, and Hessian2
-category: Performance Engineering
-summary: A benchmark-backed comparison of JDK native serialization, Jackson JSON, Jackson Smile, Protobuf, Kryo, and Hessian2 across size, latency, ecosystem fit, cross-language support, schema evolution, and security boundaries.
+title: "Java Serialization Performance Study across JDK, Jackson JSON, Jackson Smile, Protobuf, Kryo, and Hessian2"
+category: "Performance Engineering"
+summary: "A benchmark-backed comparison of JDK native serialization, Jackson JSON, Jackson Smile, Protobuf, Kryo, and Hessian2 across size, latency, ecosystem fit, cross-language support, schema evolution, and security boundaries."
 tags:
-  - Java
-  - Serialization
-  - Benchmark
-  - Protobuf
-  - Kryo
-readingDirection: Read this when evaluating serialization choices for Java RPC, message queues, caches, object persistence, or middleware data exchange.
+  - "Java"
+  - "Serialization"
+  - "Benchmark"
+  - "Protobuf"
+  - "Kryo"
+readingDirection: "Read this when evaluating serialization choices for Java RPC, message queues, caches, object persistence, or middleware data exchange."
 outline: deep
 ---
 

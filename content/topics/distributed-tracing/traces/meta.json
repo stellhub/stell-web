@@ -1,0 +1,35 @@
+{
+  "slug": "traces",
+  "title": {
+    "en": "Tracing Research for Large-Scale Enterprises",
+    "zh": "大型企业跨语言微服务链路追踪技术调研方案"
+  },
+  "category": {
+    "en": "Distributed Tracing",
+    "zh": "链路追踪"
+  },
+  "summary": {
+    "en": "A research-oriented walkthrough of cross-language tracing design choices, interoperability concerns, and rollout considerations for large enterprises.",
+    "zh": "对 OpenTelemetry、Tempo、Jaeger、SkyWalking 与 Zipkin 进行平台化对比，给出大型企业链路追踪底座的推荐架构与落地路径。"
+  },
+  "tags": {
+    "en": [
+      "Tracing",
+      "Microservices",
+      "OpenTelemetry",
+      "Research"
+    ],
+    "zh": [
+      "链路追踪",
+      "OpenTelemetry",
+      "Tempo",
+      "Jaeger",
+      "SkyWalking",
+      "Zipkin"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing tracing architectures or planning a platform-wide tracing rollout.",
+    "zh": "适合在选型企业级 Trace 平台、设计统一采集链路或规划可观测底座升级时优先阅读。"
+  }
+}

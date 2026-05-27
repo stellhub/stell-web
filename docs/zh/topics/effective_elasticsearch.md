@@ -1,18 +1,22 @@
 ---
-title: 超大型企业基于 Elasticsearch 存储应用日志的工程实践研究
-category: 搜索基础设施
-summary: 基于 Elasticsearch data stream、index template、ILM、ECS、字段映射、重复日志合并、多租户隔离和超长日志治理，系统分析超大型企业使用 Elasticsearch 存储应用日志的工程实践。
+title: "超大型企业基于 Elasticsearch 存储应用日志的工程实践研究"
+category: "搜索基础设施"
+summary: "基于 Elasticsearch data stream、index template、ILM、ECS、字段映射、重复日志合并、多租户隔离和超长日志治理，系统分析超大型企业使用 Elasticsearch 存储应用日志的工程实践。"
 tags:
-  - Elasticsearch
-  - 应用日志
-  - Data Stream
-  - ILM
-  - ECS
-readingDirection: 适合在设计企业级日志平台、治理 Elasticsearch 日志索引、处理异常风暴、规划多租户隔离或优化日志存储成本时阅读。
+  - "Elasticsearch"
+  - "应用日志"
+  - "Data Stream"
+  - "ILM"
+  - "ECS"
+readingDirection: "适合在设计企业级日志平台、治理 Elasticsearch 日志索引、处理异常风暴、规划多租户隔离或优化日志存储成本时阅读。"
 outline: deep
 ---
 
 # 超大型企业基于 Elasticsearch 存储应用日志的工程实践研究
+
+## 概览
+
+基于 Elasticsearch data stream、index template、ILM、ECS、字段映射、重复日志合并、多租户隔离和超长日志治理，系统分析超大型企业使用 Elasticsearch 存储应用日志的工程实践。
 
 ## 摘要
 

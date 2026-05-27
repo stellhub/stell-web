@@ -1,0 +1,35 @@
+{
+  "slug": "kafka_pulsar",
+  "title": {
+    "en": "Message Middleware Architecture Evolution in the Cloud-Native Era: Apache Kafka and Apache Pulsar",
+    "zh": "云原生时代消息中间件架构演进研究：以 Apache Kafka 与 Apache Pulsar 为中心"
+  },
+  "category": {
+    "en": "Messaging Infrastructure",
+    "zh": "消息中间件"
+  },
+  "summary": {
+    "en": "A study of message middleware architecture evolution in the cloud-native era through Apache Kafka and Apache Pulsar, covering state organization, storage separation, multi-tenancy, containerization, and stateful system boundaries.",
+    "zh": "以 Apache Kafka 与 Apache Pulsar 为中心，分析云原生时代消息中间件的架构演进、状态组织、存储分离、多租户、容器化和有状态系统设计边界。"
+  },
+  "tags": {
+    "en": [
+      "Kafka",
+      "Pulsar",
+      "Message Queue",
+      "Cloud Native",
+      "Stateful Middleware"
+    ],
+    "zh": [
+      "Kafka",
+      "Pulsar",
+      "消息队列",
+      "云原生",
+      "有状态中间件"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing Kafka and Pulsar architectures, or evaluating whether middleware should become stateless, containerized, or separated into service and storage layers.",
+    "zh": "适合在比较 Kafka 与 Pulsar 架构、评估中间件是否应无状态化、容器化部署或采用存储分离方案时阅读。"
+  }
+}

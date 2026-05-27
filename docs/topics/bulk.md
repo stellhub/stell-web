@@ -1,14 +1,14 @@
 ---
 title: "Reconstructing Bucket Theory in the AI Era: From Fixing Weaknesses to Strong-Plank Collaboration"
-category: AI Engineering
-summary: A study of how generative AI changes the boundaries of bucket theory, arguing from division-of-labor theory, AI labor-impact research, and AI risk governance that AI is better used to amplify strong planks than to fully replace weak ones.
+category: "AI Engineering"
+summary: "A study of how generative AI changes the boundaries of bucket theory, arguing from division-of-labor theory, AI labor-impact research, and AI risk governance that AI is better used to amplify strong planks than to fully replace weak ones."
 tags:
-  - Generative AI
-  - Bucket Theory
-  - Division of Labor
-  - Super Individual
-  - Super Team
-readingDirection: Read this when thinking about AI's impact on personal capability models, team division of labor, organizational efficiency, skill reconstruction, and the relationship between super individuals and super teams.
+  - "Generative AI"
+  - "Bucket Theory"
+  - "Division of Labor"
+  - "Super Individual"
+  - "Super Team"
+readingDirection: "Read this when thinking about AI's impact on personal capability models, team division of labor, organizational efficiency, skill reconstruction, and the relationship between super individuals and super teams."
 outline: deep
 ---
 

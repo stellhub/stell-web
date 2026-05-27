@@ -1,0 +1,35 @@
+{
+  "slug": "netty_options",
+  "title": {
+    "en": "Netty Parameter Tuning: A Systematic Analysis Based on Symptoms, Option Semantics, and Official Documentation",
+    "zh": "Netty 参数调优研究：基于问题现象、参数语义与官方文档的系统化分析"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A systematic guide to Netty 4.1 tuning across connection establishment, read/write buffering, backpressure, thread models, memory allocation, keepalive, and Linux native transport, grounded in option semantics and observable symptoms.",
+    "zh": "系统分析 Netty 4.1 在连接建立、读写缓冲、背压、线程模型、内存分配、连接保活和 Linux native transport 等方面的参数语义、问题现象与调优边界。"
+  },
+  "tags": {
+    "en": [
+      "Netty",
+      "Java",
+      "Network Tuning",
+      "Backpressure",
+      "epoll"
+    ],
+    "zh": [
+      "Netty",
+      "Java",
+      "网络调优",
+      "背压",
+      "epoll"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when diagnosing Netty connection spikes, small-packet latency, outbound buffer growth, EventLoop blocking, direct memory growth, or Linux native transport choices.",
+    "zh": "适合在排查 Netty 连接突增、小包延迟、写缓冲堆积、EventLoop 阻塞、direct memory 增长或 Linux native transport 选型时阅读。"
+  }
+}

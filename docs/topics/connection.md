@@ -1,14 +1,14 @@
 ---
 title: "Beware Unintentional Short Connections: How Frequent Middleware Client Creation Causes Connection Avalanches"
-category: Network Reliability
-summary: A practical analysis of how repeatedly creating HTTP, gRPC, registry, configuration, and middleware SDK clients on hot paths can bypass connection reuse and trigger connection avalanches.
+category: "Network Reliability"
+summary: "A practical analysis of how repeatedly creating HTTP, gRPC, registry, configuration, and middleware SDK clients on hot paths can bypass connection reuse and trigger connection avalanches."
 tags:
-  - Connection Reuse
-  - HTTP
-  - gRPC
-  - Middleware
-  - Client Lifecycle
-readingDirection: Read this when diagnosing connection storms, fallback-path client creation, HTTP client lifecycle issues, gRPC channel reuse problems, or middleware SDK resource churn.
+  - "Connection Reuse"
+  - "HTTP"
+  - "gRPC"
+  - "Middleware"
+  - "Client Lifecycle"
+readingDirection: "Read this when diagnosing connection storms, fallback-path client creation, HTTP client lifecycle issues, gRPC channel reuse problems, or middleware SDK resource churn."
 outline: deep
 ---
 

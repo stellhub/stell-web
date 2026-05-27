@@ -1,14 +1,14 @@
 ---
 title: "Elasticsearch Internals: Lucene Storage, Cluster Coordination, and Replication Mechanisms"
-category: Search Infrastructure
-summary: A systematic analysis of Elasticsearch internals, including Lucene storage, inverted indexes, Doc Values, BKD Tree, FST, segments, translog, cluster coordination, Zen2, and primary-backup shard replication.
+category: "Search Infrastructure"
+summary: "A systematic analysis of Elasticsearch internals, including Lucene storage, inverted indexes, Doc Values, BKD Tree, FST, segments, translog, cluster coordination, Zen2, and primary-backup shard replication."
 tags:
-  - Elasticsearch
-  - Lucene
-  - Inverted Index
-  - Zen2
-  - PacificA
-readingDirection: Read this when studying why Elasticsearch is not a generic KV store, where Lucene query efficiency comes from, how shard replication consistency works, or how Zen2 coordination and read/write paths behave.
+  - "Elasticsearch"
+  - "Lucene"
+  - "Inverted Index"
+  - "Zen2"
+  - "PacificA"
+readingDirection: "Read this when studying why Elasticsearch is not a generic KV store, where Lucene query efficiency comes from, how shard replication consistency works, or how Zen2 coordination and read/write paths behave."
 outline: deep
 ---
 

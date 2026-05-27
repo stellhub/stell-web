@@ -1,16 +1,21 @@
 ---
-title: 分布式系统中的一致性挑战及其解决路径
-category: 分布式理论
-summary: 从 FLP、CAP、PACELC 到 Paxos、Raft、Zab、PBFT，再到 Spanner、etcd 与 KRaft，系统梳理一致性问题的理论边界与工程落地。
+title: "分布式系统中的一致性挑战及其解决路径"
+category: "分布式系统"
+summary: "从 FLP、CAP、PACELC 到 Paxos、Raft、Zab、PBFT，再到 Spanner、etcd 与 KRaft，系统梳理一致性问题的理论边界与工程落地。"
 tags:
-  - 分布式一致性
-  - 共识协议
-  - Paxos
-  - Raft
-readingDirection: 适合在补分布式系统理论基础，或想把共识协议和工业系统实现串起来时阅读。
+  - "分布式一致性"
+  - "共识协议"
+  - "Paxos"
+  - "Raft"
+readingDirection: "适合在补分布式系统理论基础，或想把共识协议和工业系统实现串起来时阅读。"
+outline: deep
 ---
 
 # 分布式系统中的一致性挑战及其解决路径
+
+## 概览
+
+从 FLP、CAP、PACELC 到 Paxos、Raft、Zab、PBFT，再到 Spanner、etcd 与 KRaft，系统梳理一致性问题的理论边界与工程落地。
 
 ## ——从 FLP、Paxos 到 Spanner、etcd 与 KRaft
 

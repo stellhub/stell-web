@@ -1,18 +1,22 @@
 ---
-title: 微服务架构下事务一致性治理的客观分析
-category: 分布式系统
-summary: 从 XA、2PC、Saga、TCC、本地消息表、Transactional Outbox、幂等、领域边界和对账补偿等角度，分析现代微服务为什么不再默认使用传统强一致分布式事务。
+title: "微服务架构下事务一致性治理的客观分析"
+category: "分布式系统"
+summary: "从 XA、2PC、Saga、TCC、本地消息表、Transactional Outbox、幂等、领域边界和对账补偿等角度，分析现代微服务为什么不再默认使用传统强一致分布式事务。"
 tags:
-  - 分布式事务
-  - 微服务
-  - Saga
-  - TCC
-  - 最终一致性
-readingDirection: 适合在设计跨服务一致性方案、评估 XA/2PC 成本、选择 Saga 或 TCC、治理消息双写或重构微服务事务边界时阅读。
+  - "分布式事务"
+  - "微服务"
+  - "Saga"
+  - "TCC"
+  - "最终一致性"
+readingDirection: "适合在设计跨服务一致性方案、评估 XA/2PC 成本、选择 Saga 或 TCC、治理消息双写或重构微服务事务边界时阅读。"
 outline: deep
 ---
 
-# 为什么大家都在“逃离”传统分布式事务？——微服务架构下事务一致性治理的客观分析
+# 微服务架构下事务一致性治理的客观分析
+
+## 概览
+
+从 XA、2PC、Saga、TCC、本地消息表、Transactional Outbox、幂等、领域边界和对账补偿等角度，分析现代微服务为什么不再默认使用传统强一致分布式事务。
 
 ## 摘要
 

@@ -1,18 +1,22 @@
 ---
-title: 云原生时代消息中间件架构演进研究：以 Apache Kafka 与 Apache Pulsar 为中心
-category: 消息中间件
-summary: 以 Apache Kafka 与 Apache Pulsar 为中心，分析云原生时代消息中间件的架构演进、状态组织、存储分离、多租户、容器化和有状态系统设计边界。
+title: "云原生时代消息中间件架构演进研究：以 Apache Kafka 与 Apache Pulsar 为中心"
+category: "消息中间件"
+summary: "以 Apache Kafka 与 Apache Pulsar 为中心，分析云原生时代消息中间件的架构演进、状态组织、存储分离、多租户、容器化和有状态系统设计边界。"
 tags:
-  - Kafka
-  - Pulsar
-  - 消息队列
-  - 云原生
-  - 有状态中间件
-readingDirection: 适合在比较 Kafka 与 Pulsar 架构、评估中间件是否应无状态化、容器化部署或采用存储分离方案时阅读。
+  - "Kafka"
+  - "Pulsar"
+  - "消息队列"
+  - "云原生"
+  - "有状态中间件"
+readingDirection: "适合在比较 Kafka 与 Pulsar 架构、评估中间件是否应无状态化、容器化部署或采用存储分离方案时阅读。"
 outline: deep
 ---
 
 # 云原生时代消息中间件架构演进研究：以 Apache Kafka 与 Apache Pulsar 为中心
+
+## 概览
+
+以 Apache Kafka 与 Apache Pulsar 为中心，分析云原生时代消息中间件的架构演进、状态组织、存储分离、多租户、容器化和有状态系统设计边界。
 
 ## 摘要
 

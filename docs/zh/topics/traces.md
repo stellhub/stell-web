@@ -1,19 +1,23 @@
 ---
-title: 大型企业跨语言微服务链路追踪技术调研方案
-category: 可观测性
-summary: 对 OpenTelemetry、Tempo、Jaeger、SkyWalking 与 Zipkin 进行平台化对比，给出大型企业链路追踪底座的推荐架构与落地路径。
+title: "大型企业跨语言微服务链路追踪技术调研方案"
+category: "链路追踪"
+summary: "对 OpenTelemetry、Tempo、Jaeger、SkyWalking 与 Zipkin 进行平台化对比，给出大型企业链路追踪底座的推荐架构与落地路径。"
 tags:
-  - 链路追踪
-  - OpenTelemetry
-  - Tempo
-  - Jaeger
-  - SkyWalking
-  - Zipkin
-readingDirection: 适合在选型企业级 Trace 平台、设计统一采集链路或规划可观测底座升级时优先阅读。
+  - "链路追踪"
+  - "OpenTelemetry"
+  - "Tempo"
+  - "Jaeger"
+  - "SkyWalking"
+  - "Zipkin"
+readingDirection: "适合在选型企业级 Trace 平台、设计统一采集链路或规划可观测底座升级时优先阅读。"
 outline: deep
 ---
 
 # 大型企业跨语言微服务链路追踪技术调研方案
+
+## 概览
+
+对 OpenTelemetry、Tempo、Jaeger、SkyWalking 与 Zipkin 进行平台化对比，给出大型企业链路追踪底座的推荐架构与落地路径。
 
 ## 1. 结论
 

@@ -11,8 +11,19 @@ const { lang } = useData();
 
 const isChinese = computed(() => lang.value.startsWith("zh"));
 const copy = computed(() => ({
-  allTag: isChinese.value ? "全部" : "All",
-  filterTitle: isChinese.value ? "按标签筛选" : "Filter by tag",
+  tagSearchTitle: isChinese.value ? "Tag 搜索" : "Tag search",
+  tagSearchDesc: isChinese.value
+    ? "输入 tag 关键词，查看 tag 与文章的倒排索引。"
+    : "Search tags and inspect the inverted article index.",
+  tagSearchPlaceholder: isChinese.value
+    ? "搜索 tag，例如：OpenTelemetry"
+    : "Search tag, for example: OpenTelemetry",
+  tagSearchHint: isChinese.value
+    ? "输入关键词后显示匹配 tag 及对应文章。"
+    : "Type a keyword to show matched tags and linked posts.",
+  tagSearchEmpty: isChinese.value ? "没有匹配的 tag。" : "No matched tags.",
+  clearSearch: isChinese.value ? "清除" : "Clear",
+  postCountSuffix: isChinese.value ? "篇文章" : "posts",
   latestTitle: isChinese.value ? "最近更新" : "Recently updated",
   publishLabel: isChinese.value ? "发布" : "Published",
   updateLabel: isChinese.value ? "更新" : "Updated",
@@ -23,20 +34,13 @@ const copy = computed(() => ({
     ? "按问题域归拢，而不是按传统专题策展方式组织。"
     : "Grouped by problem domain instead of a traditional editorial sequence.",
   archiveTitle: isChinese.value ? "按年份归档" : "Archive by year",
-  writingScopeTitle: isChinese.value ? "写作范围" : "Writing scope",
   unknownYear: isChinese.value ? "未知" : "Unknown"
 }));
 
-const activeTag = ref(copy.value.allTag);
+const tagQuery = ref("");
+const selectedTag = ref("");
 
-watch(
-  () => copy.value.allTag,
-  (allTag) => {
-    if (!availableTags.value.includes(activeTag.value)) {
-      activeTag.value = allTag;
-    }
-  }
-);
+const normalizeSearch = (value: string) => value.trim().toLowerCase();
 
 const formatDate = (value: string) => {
   const date = new Date(value);
@@ -51,22 +55,38 @@ const formatDate = (value: string) => {
   }).format(date);
 };
 
-const availableTags = computed(() => {
-  const values = new Set<string>();
+const tagIndexRows = computed(() => {
+  const tagIndex = new Map<string, TopicPost[]>();
 
   props.posts.forEach((post) => {
-    post.tags.forEach((tag) => values.add(tag));
+    post.tags.forEach((tag) => {
+      const posts = tagIndex.get(tag) ?? [];
+      posts.push(post);
+      tagIndex.set(tag, posts);
+    });
   });
 
-  return [copy.value.allTag, ...Array.from(values)];
+  return Array.from(tagIndex.entries())
+    .map(([tag, posts]) => ({ tag, posts }))
+    .sort((left, right) => left.tag.localeCompare(right.tag));
+});
+
+const matchedTagRows = computed(() => {
+  const keyword = normalizeSearch(tagQuery.value);
+
+  if (!keyword) {
+    return [];
+  }
+
+  return tagIndexRows.value.filter((row) => normalizeSearch(row.tag).includes(keyword));
 });
 
 const filteredPosts = computed(() => {
-  if (activeTag.value === copy.value.allTag) {
+  if (!selectedTag.value) {
     return props.posts;
   }
 
-  return props.posts.filter((post) => post.tags.includes(activeTag.value));
+  return props.posts.filter((post) => post.tags.includes(selectedTag.value));
 });
 
 const groupedPosts = computed(() => {
@@ -103,29 +123,67 @@ const archivedPosts = computed(() => {
     }));
 });
 
-const setActiveTag = (tag: string) => {
-  activeTag.value = tag;
+const formatPostCount = (count: number) => `${count} ${copy.value.postCountSuffix}`;
+
+const clearTagQuery = () => {
+  tagQuery.value = "";
+  selectedTag.value = "";
 };
+
+const selectTag = (tag: string) => {
+  tagQuery.value = tag;
+  selectedTag.value = tag;
+};
+
+watch(tagQuery, (value) => {
+  if (normalizeSearch(value) !== normalizeSearch(selectedTag.value)) {
+    selectedTag.value = "";
+  }
+});
 </script>
 
 <template>
   <div class="forum-index">
     <section class="forum-section forum-section--compact">
       <div class="forum-section__head">
-        <h2>{{ copy.filterTitle }}</h2>
+        <h2>{{ copy.tagSearchTitle }}</h2>
+        <p>{{ copy.tagSearchDesc }}</p>
       </div>
-      <div class="forum-topic-chips">
-        <button
-          v-for="tag in availableTags"
-          :key="tag"
-          type="button"
-          class="forum-topic-chip"
-          :class="{ 'is-active': activeTag === tag }"
-          @click="setActiveTag(tag)"
-        >
-          {{ tag }}
+
+      <div class="forum-tag-search">
+        <input
+          v-model="tagQuery"
+          type="search"
+          :placeholder="copy.tagSearchPlaceholder"
+          :aria-label="copy.tagSearchTitle"
+        />
+        <button v-if="tagQuery" type="button" @click="clearTagQuery">
+          {{ copy.clearSearch }}
         </button>
       </div>
+
+      <p v-if="!tagQuery.trim()" class="forum-tag-search__hint">{{ copy.tagSearchHint }}</p>
+      <div v-else-if="matchedTagRows.length" class="forum-tag-index">
+        <article v-for="row in matchedTagRows" :key="row.tag" class="forum-tag-index__row">
+          <div class="forum-tag-index__head">
+            <button
+              type="button"
+              class="forum-tag-index__tag"
+              @click="selectTag(row.tag)"
+            >
+              {{ row.tag }}
+            </button>
+            <span>{{ formatPostCount(row.posts.length) }}</span>
+          </div>
+          <ul>
+            <li v-for="post in row.posts" :key="post.url">
+              <a :href="post.url">{{ post.title }}</a>
+              <span>{{ post.category }}</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+      <p v-else class="forum-tag-search__hint">{{ copy.tagSearchEmpty }}</p>
     </section>
 
     <section class="forum-section">
@@ -149,9 +207,6 @@ const setActiveTag = (tag: string) => {
           <p class="forum-post-card__direction">
             <strong>{{ copy.readingDirectionLabel }}</strong>{{ post.readingDirection }}
           </p>
-          <div class="forum-post-card__tags">
-            <span v-for="tag in post.tags" :key="tag">{{ tag }}</span>
-          </div>
         </a>
       </div>
       <p v-if="!filteredPosts.length" class="forum-empty-state">{{ copy.emptyState }}</p>
@@ -191,13 +246,5 @@ const setActiveTag = (tag: string) => {
       </div>
     </section>
 
-    <section class="forum-section forum-section--compact">
-      <div class="forum-section__head">
-        <h2>{{ copy.writingScopeTitle }}</h2>
-      </div>
-      <div class="forum-topic-chips">
-        <span v-for="tag in availableTags.filter((tag) => tag !== copy.allTag)" :key="tag">{{ tag }}</span>
-      </div>
-    </section>
   </div>
 </template>

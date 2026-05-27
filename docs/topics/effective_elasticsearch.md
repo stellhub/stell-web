@@ -1,14 +1,14 @@
 ---
-title: Engineering Practices for Storing Application Logs in Elasticsearch at Very Large Enterprises
-category: Search Infrastructure
-summary: A systematic guide to storing application logs in Elasticsearch at very large enterprises, covering data streams, index templates, ILM, ECS, mappings, exception stacks, duplicate-log aggregation, multi-tenancy, high-traffic applications, and very long log handling.
+title: "Engineering Practices for Storing Application Logs in Elasticsearch at Very Large Enterprises"
+category: "Search Infrastructure"
+summary: "A systematic guide to storing application logs in Elasticsearch at very large enterprises, covering data streams, index templates, ILM, ECS, mappings, exception stacks, duplicate-log aggregation, multi-tenancy, high-traffic applications, and very long log handling."
 tags:
-  - Elasticsearch
-  - Application Logs
-  - Data Streams
-  - ILM
-  - ECS
-readingDirection: Read this when designing an enterprise log platform, governing Elasticsearch log indexes, handling exception storms, planning multi-tenant isolation, or optimizing log storage cost.
+  - "Elasticsearch"
+  - "Application Logs"
+  - "Data Streams"
+  - "ILM"
+  - "ECS"
+readingDirection: "Read this when designing an enterprise log platform, governing Elasticsearch log indexes, handling exception storms, planning multi-tenant isolation, or optimizing log storage cost."
 outline: deep
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: Why CUE Works Well as a Configuration DSL
-category: Configuration Engineering
-summary: A practical comparison of type constraints, reuse, validation, and multi-environment governance to explain why CUE is a strong fit for complex declarative configuration.
+title: "Why CUE Works Well as a Configuration DSL"
+category: "Configuration Engineering"
+summary: "A practical comparison of type constraints, reuse, validation, and multi-environment governance to explain why CUE is a strong fit for complex declarative configuration."
 tags:
-  - DSL
-  - CUE
-  - Configuration Language
-  - Config Governance
-readingDirection: Read this when evaluating configuration language choices, schema unification, or platform-level configuration engineering.
+  - "DSL"
+  - "CUE"
+  - "Configuration Language"
+  - "Config Governance"
+readingDirection: "Read this when evaluating configuration language choices, schema unification, or platform-level configuration engineering."
 outline: deep
 ---
 

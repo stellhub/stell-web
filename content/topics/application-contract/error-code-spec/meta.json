@@ -1,0 +1,34 @@
+{
+  "slug": "error-code-spec",
+  "title": {
+    "en": "Error Code Specification",
+    "zh": "错误码规范"
+  },
+  "category": {
+    "en": "Application Contract",
+    "zh": "应用契约"
+  },
+  "summary": {
+    "en": "A specification for shaping error codes into a stable contract that is easier to govern, observe, and consume across teams.",
+    "zh": "以 HTTP、gRPC 与 OpenTelemetry 为主标准，统一定义基础错误码、业务异常扩展方式、错误响应载体与观测映射规则。"
+  },
+  "tags": {
+    "en": [
+      "Error Code",
+      "Contract",
+      "API",
+      "Governance"
+    ],
+    "zh": [
+      "错误码",
+      "OpenTelemetry",
+      "HTTP",
+      "gRPC",
+      "API 设计"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when trying to make service errors more structured, machine-readable, and operationally useful.",
+    "zh": "适合在设计 API 错误模型、跨协议错误响应、业务异常扩展与可观测错误聚合时优先阅读。"
+  }
+}

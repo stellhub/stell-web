@@ -1,14 +1,14 @@
 ---
 title: "Virtual Threads, Runtime Scheduling, and the Linux Kernel Thread Model"
-category: Concurrency Engineering
-summary: A comparative explanation of Java virtual threads, Go goroutines, Linux task_struct, user-mode scheduling, blocking I/O unmounting, clone paths, and kernel-visible thread boundaries.
+category: "Concurrency Engineering"
+summary: "A comparative explanation of Java virtual threads, Go goroutines, Linux task_struct, user-mode scheduling, blocking I/O unmounting, clone paths, and kernel-visible thread boundaries."
 tags:
-  - Virtual Threads
-  - Project Loom
-  - Goroutine
-  - Linux
-  - task_struct
-readingDirection: Read this when evaluating Java virtual threads, Go goroutines, M:N scheduling, blocking I/O behavior, or their relationship with Linux kernel threads.
+  - "Virtual Threads"
+  - "Project Loom"
+  - "Goroutine"
+  - "Linux"
+  - "task_struct"
+readingDirection: "Read this when evaluating Java virtual threads, Go goroutines, M:N scheduling, blocking I/O behavior, or their relationship with Linux kernel threads."
 outline: deep
 ---
 

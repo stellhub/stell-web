@@ -1,14 +1,14 @@
 ---
 title: "Understanding Kubernetes and Docker from the Linux Kernel: Pod and Container Creation, Runtime, Syscalls, and Destruction"
-category: Cloud Native
-summary: A kernel-level explanation of container creation, runtime behavior, and destruction through Pod lifecycle, CRI, containerd, Docker, runc, Linux syscalls, namespaces, nsproxy, and cgroups.
+category: "Cloud Native"
+summary: "A kernel-level explanation of container creation, runtime behavior, and destruction through Pod lifecycle, CRI, containerd, Docker, runc, Linux syscalls, namespaces, nsproxy, and cgroups."
 tags:
-  - Kubernetes
-  - Docker
-  - containerd
-  - runc
-  - Linux Kernel
-readingDirection: Read this when studying Kubernetes runtime internals, OCI runtime behavior, namespace and cgroup isolation, or container startup and syscall troubleshooting.
+  - "Kubernetes"
+  - "Docker"
+  - "containerd"
+  - "runc"
+  - "Linux Kernel"
+readingDirection: "Read this when studying Kubernetes runtime internals, OCI runtime behavior, namespace and cgroup isolation, or container startup and syscall troubleshooting."
 outline: deep
 ---
 

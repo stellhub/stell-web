@@ -1,13 +1,13 @@
 ---
-title: Tracing Research for Large-Scale Enterprises
-category: Distributed Tracing
-summary: A research-oriented walkthrough of cross-language tracing design choices, interoperability concerns, and rollout considerations for large enterprises.
+title: "Tracing Research for Large-Scale Enterprises"
+category: "Distributed Tracing"
+summary: "A research-oriented walkthrough of cross-language tracing design choices, interoperability concerns, and rollout considerations for large enterprises."
 tags:
-  - Tracing
-  - Microservices
-  - OpenTelemetry
-  - Research
-readingDirection: Read this when comparing tracing architectures or planning a platform-wide tracing rollout.
+  - "Tracing"
+  - "Microservices"
+  - "OpenTelemetry"
+  - "Research"
+readingDirection: "Read this when comparing tracing architectures or planning a platform-wide tracing rollout."
 outline: deep
 ---
 

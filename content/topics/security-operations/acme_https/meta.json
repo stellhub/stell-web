@@ -1,0 +1,35 @@
+{
+  "slug": "acme_https",
+  "title": {
+    "en": "Complete Guide to Enabling HTTPS with acme.sh and Nginx",
+    "zh": "acme.sh + Nginx 接入 HTTPS 完整操作指南"
+  },
+  "category": {
+    "en": "Security Operations",
+    "zh": "安全运维"
+  },
+  "summary": {
+    "en": "A practical HTTPS setup guide based on a real stellhub.top rollout, covering acme.sh, Let's Encrypt, Nginx, HTTP-01 validation, certificate installation, automatic renewal, and common troubleshooting.",
+    "zh": "基于 stellhub.top 的真实 HTTPS 接入过程，整理 acme.sh、Let's Encrypt、Nginx、HTTP-01 验证、证书安装、自动续期和常见故障排查流程。"
+  },
+  "tags": {
+    "en": [
+      "HTTPS",
+      "acme.sh",
+      "Nginx",
+      "Let's Encrypt",
+      "TLS"
+    ],
+    "zh": [
+      "HTTPS",
+      "acme.sh",
+      "Nginx",
+      "Let's Encrypt",
+      "TLS"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when configuring HTTPS for a self-hosted website, blog, API gateway, or SaaS service, issuing Let's Encrypt certificates, or troubleshooting ACME HTTP-01 validation and Nginx TLS configuration.",
+    "zh": "适合在为自建网站、博客、API 网关或 SaaS 服务配置 HTTPS、申请 Let's Encrypt 证书、排查 ACME HTTP-01 验证或 Nginx TLS 配置问题时阅读。"
+  }
+}

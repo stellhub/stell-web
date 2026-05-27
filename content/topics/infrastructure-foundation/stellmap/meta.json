@@ -1,0 +1,35 @@
+{
+  "slug": "stellmap",
+  "title": {
+    "en": "Enterprise Registry Center Architecture, Core Design, and Self-Built Implementation Path: StellMap as an Example",
+    "zh": "企业级注册中心的架构模型、核心设计与自研实现路径研究：以 StellMap 为例"
+  },
+  "category": {
+    "en": "Infrastructure Foundation",
+    "zh": "基础设施"
+  },
+  "summary": {
+    "en": "A systematic study of enterprise registry-center architecture, including service discovery, consistency models, storage, Watch, cross-region synchronization, operations, and the self-built StellMap implementation path.",
+    "zh": "系统归纳企业级注册中心的服务发现、一致性模型、存储模型、Watch 机制、跨 Region 同步、运维部署，并以 StellMap 总结轻量级强一致自研注册中心实现路径。"
+  },
+  "tags": {
+    "en": [
+      "Registry Center",
+      "Service Discovery",
+      "Raft",
+      "CAP",
+      "StellMap"
+    ],
+    "zh": [
+      "注册中心",
+      "服务发现",
+      "Raft",
+      "CAP",
+      "StellMap"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing registry-center architectures, designing CP/AP service discovery, implementing Raft-backed service registries, or studying StellMap's modular implementation.",
+    "zh": "适合在比较注册中心架构、设计 CP/AP 服务发现、自研 Raft 注册中心、研究 StellMap 模块化实现或跨 Region 目录同步时阅读。"
+  }
+}

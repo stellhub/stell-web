@@ -1,0 +1,33 @@
+{
+  "slug": "loadbalancer",
+  "title": {
+    "en": "Load-Balancing Architecture Choices for Internal Microservice Calls",
+    "zh": "面向微服务内部调用的负载均衡架构选择"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A practical guide to choosing client-side or sidecar load balancing for east-west traffic while keeping gateways and ingress layers for north-south traffic.",
+    "zh": "系统比较网关负载均衡与客户端负载均衡，给出微服务内部调用场景下的默认架构选择、算法建议与落地实践。"
+  },
+  "tags": {
+    "en": [
+      "Load Balancing",
+      "Microservices",
+      "Service Discovery",
+      "gRPC"
+    ],
+    "zh": [
+      "负载均衡",
+      "微服务",
+      "服务发现",
+      "gRPC"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when deciding how internal service calls should select instances and which load-balancing strategy fits modern microservice traffic.",
+    "zh": "适合在设计微服务内部调用链路、选择负载均衡策略或规划服务治理演进路径时阅读。"
+  }
+}

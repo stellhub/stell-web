@@ -1,14 +1,14 @@
 ---
 title: "Connection Reset by Peer: TCP RST, Connection Lifecycle, and Engineering Troubleshooting"
-category: Network Reliability
-summary: A systematic explanation of Connection reset by peer, TCP RST semantics, lifecycle timing, common production causes, and practical troubleshooting methods for long-lived network connections.
+category: "Network Reliability"
+summary: "A systematic explanation of Connection reset by peer, TCP RST semantics, lifecycle timing, common production causes, and practical troubleshooting methods for long-lived network connections."
 tags:
-  - TCP
-  - ECONNRESET
-  - RST
-  - Keepalive
-  - Network Troubleshooting
-readingDirection: Read this when diagnosing connection resets, long-connection disconnects, stale connection-pool reuse, idle timeouts, or registry watch failures.
+  - "TCP"
+  - "ECONNRESET"
+  - "RST"
+  - "Keepalive"
+  - "Network Troubleshooting"
+readingDirection: "Read this when diagnosing connection resets, long-connection disconnects, stale connection-pool reuse, idle timeouts, or registry watch failures."
 outline: deep
 ---
 

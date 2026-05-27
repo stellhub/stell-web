@@ -1,0 +1,34 @@
+{
+  "slug": "observability-spec",
+  "title": {
+    "en": "Observability Specification",
+    "zh": "可观测规范"
+  },
+  "category": {
+    "en": "Observability",
+    "zh": "可观测性"
+  },
+  "summary": {
+    "en": "A baseline observability specification covering signals, naming, and operational expectations across infrastructure and application layers.",
+    "zh": "以 OpenTelemetry 与 Kubernetes 为主标准，统一定义资源语义、日志 KV 视角、上下文传播、客户端与服务端指标模型及平台落地职责，Stellar 仅承担最小补差角色。"
+  },
+  "tags": {
+    "en": [
+      "Observability",
+      "Tracing",
+      "Metrics",
+      "Logging"
+    ],
+    "zh": [
+      "可观测性",
+      "OpenTelemetry",
+      "Kubernetes",
+      "规范设计",
+      "平台工程"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when standardizing telemetry conventions or defining platform-wide observability contracts.",
+    "zh": "适合在准备统一日志、链路、指标语义并推动平台化落地时优先阅读。"
+  }
+}

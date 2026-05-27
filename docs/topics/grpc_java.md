@@ -1,14 +1,14 @@
 ---
-title: gRPC Java's Netty-Based Layered Abstractions and Execution Model
-category: Java Engineering
-summary: A systematic study of how gRPC Java wraps Netty HTTP/2 transport with RPC abstractions such as Stub, Channel, Transport, Stream, Call, Interceptor, Listener, and Observer.
+title: "gRPC Java's Netty-Based Layered Abstractions and Execution Model"
+category: "Java Engineering"
+summary: "A systematic study of how gRPC Java wraps Netty HTTP/2 transport with RPC abstractions such as Stub, Channel, Transport, Stream, Call, Interceptor, Listener, and Observer."
 tags:
-  - gRPC Java
-  - Netty
-  - HTTP/2
-  - RPC
-  - StreamObserver
-readingDirection: Read this when studying the layering boundary between gRPC Java and Netty, the difference between Interceptor and ChannelHandler, RPC call lifecycles, or asynchronous streaming execution.
+  - "gRPC Java"
+  - "Netty"
+  - "HTTP/2"
+  - "RPC"
+  - "StreamObserver"
+readingDirection: "Read this when studying the layering boundary between gRPC Java and Netty, the difference between Interceptor and ChannelHandler, RPC call lifecycles, or asynchronous streaming execution."
 outline: deep
 ---
 

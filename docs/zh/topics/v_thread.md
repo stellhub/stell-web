@@ -1,18 +1,22 @@
 ---
-title: 虚拟线程的本质、运行时调度与 Linux 内核线程模型研究
-category: 并发工程
-summary: 对比 Java 虚拟线程、Go goroutine 与 Linux task_struct，解释用户态调度、阻塞卸载、clone 调用链和内核线程模型的边界。
+title: "虚拟线程的本质、运行时调度与 Linux 内核线程模型研究"
+category: "并发工程"
+summary: "对比 Java 虚拟线程、Go goroutine 与 Linux task_struct，解释用户态调度、阻塞卸载、clone 调用链和内核线程模型的边界。"
 tags:
-  - 虚拟线程
-  - Project Loom
-  - Goroutine
-  - Linux
-  - task_struct
-readingDirection: 适合在评估 Java 虚拟线程、Go goroutine、M:N 调度、阻塞 I/O 与 Linux 内核线程关系时阅读。
+  - "虚拟线程"
+  - "Project Loom"
+  - "Goroutine"
+  - "Linux"
+  - "task_struct"
+readingDirection: "适合在评估 Java 虚拟线程、Go goroutine、M:N 调度、阻塞 I/O 与 Linux 内核线程关系时阅读。"
 outline: deep
 ---
 
 # 虚拟线程的本质、运行时调度与 Linux 内核线程模型研究
+
+## 概览
+
+对比 Java 虚拟线程、Go goroutine 与 Linux task_struct，解释用户态调度、阻塞卸载、clone 调用链和内核线程模型的边界。
 
 ## 摘要
 

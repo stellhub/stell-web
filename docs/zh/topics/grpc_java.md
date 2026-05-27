@@ -1,18 +1,22 @@
 ---
-title: gRPC Java 基于 Netty 的分层封装与执行模型研究
-category: Java 工程
-summary: 系统分析 gRPC Java 如何在 Netty HTTP/2 transport 之上封装 Stub、Channel、Transport、Stream、Call、Interceptor、Listener 和 Observer 等 RPC 语义抽象。
+title: "gRPC Java 基于 Netty 的分层封装与执行模型研究"
+category: "Java 工程"
+summary: "系统分析 gRPC Java 如何在 Netty HTTP/2 transport 之上封装 Stub、Channel、Transport、Stream、Call、Interceptor、Listener 和 Observer 等 RPC 语义抽象。"
 tags:
-  - gRPC Java
-  - Netty
-  - HTTP/2
-  - RPC
-  - StreamObserver
-readingDirection: 适合在理解 gRPC Java 与 Netty 的分层边界、Interceptor 与 ChannelHandler 的区别、RPC call 生命周期或异步流式执行模型时阅读。
+  - "gRPC Java"
+  - "Netty"
+  - "HTTP/2"
+  - "RPC"
+  - "StreamObserver"
+readingDirection: "适合在理解 gRPC Java 与 Netty 的分层边界、Interceptor 与 ChannelHandler 的区别、RPC call 生命周期或异步流式执行模型时阅读。"
 outline: deep
 ---
 
 # gRPC Java 基于 Netty 的分层封装与执行模型研究
+
+## 概览
+
+系统分析 gRPC Java 如何在 Netty HTTP/2 transport 之上封装 Stub、Channel、Transport、Stream、Call、Interceptor、Listener 和 Observer 等 RPC 语义抽象。
 
 ## 摘要
 

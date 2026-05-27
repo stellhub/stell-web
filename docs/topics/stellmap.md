@@ -1,14 +1,14 @@
 ---
 title: "Enterprise Registry Center Architecture, Core Design, and Self-Built Implementation Path: StellMap as an Example"
-category: Infrastructure Foundation
-summary: A systematic study of enterprise registry-center architecture, including service discovery, consistency models, storage, Watch, cross-region synchronization, operations, and the self-built StellMap implementation path.
+category: "Infrastructure Foundation"
+summary: "A systematic study of enterprise registry-center architecture, including service discovery, consistency models, storage, Watch, cross-region synchronization, operations, and the self-built StellMap implementation path."
 tags:
-  - Registry Center
-  - Service Discovery
-  - Raft
-  - CAP
-  - StellMap
-readingDirection: Read this when comparing registry-center architectures, designing CP/AP service discovery, implementing Raft-backed service registries, or studying StellMap's modular implementation.
+  - "Registry Center"
+  - "Service Discovery"
+  - "Raft"
+  - "CAP"
+  - "StellMap"
+readingDirection: "Read this when comparing registry-center architectures, designing CP/AP service discovery, implementing Raft-backed service registries, or studying StellMap's modular implementation."
 outline: deep
 ---
 

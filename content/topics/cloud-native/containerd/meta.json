@@ -1,0 +1,35 @@
+{
+  "slug": "containerd",
+  "title": {
+    "en": "Understanding Kubernetes and Docker from the Linux Kernel: Pod and Container Creation, Runtime, Syscalls, and Destruction",
+    "zh": "从 Linux 内核视角理解 Kubernetes 与 Docker：Pod / 容器的创建、运行、系统调用与销毁机制"
+  },
+  "category": {
+    "en": "Cloud Native",
+    "zh": "云原生"
+  },
+  "summary": {
+    "en": "A kernel-level explanation of container creation, runtime behavior, and destruction through Pod lifecycle, CRI, containerd, Docker, runc, Linux syscalls, namespaces, nsproxy, and cgroups.",
+    "zh": "从 Pod 生命周期、CRI、containerd、Docker、runc、Linux syscall、namespace、nsproxy 与 cgroup 视角解释容器创建、运行和销毁机制。"
+  },
+  "tags": {
+    "en": [
+      "Kubernetes",
+      "Docker",
+      "containerd",
+      "runc",
+      "Linux Kernel"
+    ],
+    "zh": [
+      "Kubernetes",
+      "Docker",
+      "containerd",
+      "runc",
+      "Linux Kernel"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when studying Kubernetes runtime internals, OCI runtime behavior, namespace and cgroup isolation, or container startup and syscall troubleshooting.",
+    "zh": "适合在理解 Kubernetes 容器运行时链路、OCI runtime、namespace/cgroup 隔离机制，或排查容器启动与系统调用行为时阅读。"
+  }
+}

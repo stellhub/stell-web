@@ -1,0 +1,35 @@
+{
+  "slug": "ai-microservice",
+  "title": {
+    "en": "Where Should Internet Applications Go in the AI Era? From Traffic Economy to Compute Economy",
+    "zh": "AI 时代下，互联网应用应该何去何从：从流量经济到算力经济的范式迁移"
+  },
+  "category": {
+    "en": "AI Engineering",
+    "zh": "AI 工程"
+  },
+  "summary": {
+    "en": "A strategic and engineering analysis of how AI changes internet application economics, covering token cost, model tiering, context infrastructure, workflow automation, value-based pricing, and AI cost governance.",
+    "zh": "从边际成本、token 成本、模型分层、上下文工程、工作流嵌入、价值计费和成本治理等角度，分析 AI 时代互联网应用从流量经济转向算力经济后的产品与架构选择。"
+  },
+  "tags": {
+    "en": [
+      "AI Applications",
+      "Compute Economy",
+      "Cost Governance",
+      "AI Gateway",
+      "Context Engineering"
+    ],
+    "zh": [
+      "AI 应用",
+      "算力经济",
+      "成本治理",
+      "AI Gateway",
+      "Context Engineering"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating AI-enabled product strategy, model routing, cost governance, context infrastructure, or pricing models for internet applications.",
+    "zh": "适合在评估互联网产品 AI 化、设计 AI 成本治理、模型路由、上下文基础设施和商业定价模型时阅读。"
+  }
+}

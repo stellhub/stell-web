@@ -1,13 +1,13 @@
 ---
-title: Service Naming for Very Large Enterprises
-category: Service Governance
-summary: A naming-system discussion for large organizations that need stable, expressive, and governable service identities across many business domains.
+title: "Service Naming for Very Large Enterprises"
+category: "Service Governance"
+summary: "A naming-system discussion for large organizations that need stable, expressive, and governable service identities across many business domains."
 tags:
-  - Microservices
-  - Naming
-  - Governance
-  - Architecture
-readingDirection: Read this when defining service identity rules or cleaning up inconsistent naming across large service estates.
+  - "Microservices"
+  - "Naming"
+  - "Governance"
+  - "Architecture"
+readingDirection: "Read this when defining service identity rules or cleaning up inconsistent naming across large service estates."
 outline: deep
 ---
 

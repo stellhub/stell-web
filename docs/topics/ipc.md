@@ -1,14 +1,14 @@
 ---
-title: Linux Inter-Process Communication and the mmap User-Space Call Path
-category: Operating Systems
-summary: A systematic study of Linux IPC mechanisms, including signals, pipes, FIFOs, UNIX Domain Sockets, message queues, shared memory, mmap, futex, eventfd, epoll, and the mmap path from multiple user-space languages to kernel syscalls.
+title: "Linux Inter-Process Communication and the mmap User-Space Call Path"
+category: "Operating Systems"
+summary: "A systematic study of Linux IPC mechanisms, including signals, pipes, FIFOs, UNIX Domain Sockets, message queues, shared memory, mmap, futex, eventfd, epoll, and the mmap path from multiple user-space languages to kernel syscalls."
 tags:
-  - Linux
-  - IPC
-  - mmap
-  - Shared Memory
-  - System Calls
-readingDirection: Read this when learning Linux inter-process communication, shared memory, mmap call paths, event loops, or cross-language local communication design choices.
+  - "Linux"
+  - "IPC"
+  - "mmap"
+  - "Shared Memory"
+  - "System Calls"
+readingDirection: "Read this when learning Linux inter-process communication, shared memory, mmap call paths, event loops, or cross-language local communication design choices."
 outline: deep
 ---
 

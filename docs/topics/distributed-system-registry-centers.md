@@ -1,13 +1,13 @@
 ---
-title: Registry Centers in Distributed Systems
-category: Infrastructure Foundation
-summary: A review of why registry centers exist, what problems they solve, and how mainstream implementations make different engineering tradeoffs.
+title: "Registry Centers in Distributed Systems"
+category: "Infrastructure Foundation"
+summary: "A review of why registry centers exist, what problems they solve, and how mainstream implementations make different engineering tradeoffs."
 tags:
-  - Registry
-  - Discovery
-  - Distributed Systems
-  - Infrastructure
-readingDirection: Read this when evaluating service discovery patterns or studying registry-center implementation choices.
+  - "Registry"
+  - "Discovery"
+  - "Distributed Systems"
+  - "Infrastructure"
+readingDirection: "Read this when evaluating service discovery patterns or studying registry-center implementation choices."
 outline: deep
 ---
 

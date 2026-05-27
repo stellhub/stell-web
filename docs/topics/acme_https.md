@@ -1,14 +1,14 @@
 ---
-title: Complete Guide to Enabling HTTPS with acme.sh and Nginx
-category: Security Operations
-summary: A practical HTTPS setup guide based on a real stellhub.top rollout, covering acme.sh, Let's Encrypt, Nginx, HTTP-01 validation, certificate installation, automatic renewal, and common troubleshooting.
+title: "Complete Guide to Enabling HTTPS with acme.sh and Nginx"
+category: "Security Operations"
+summary: "A practical HTTPS setup guide based on a real stellhub.top rollout, covering acme.sh, Let's Encrypt, Nginx, HTTP-01 validation, certificate installation, automatic renewal, and common troubleshooting."
 tags:
-  - HTTPS
-  - acme.sh
-  - Nginx
-  - Let's Encrypt
-  - TLS
-readingDirection: Read this when configuring HTTPS for a self-hosted website, blog, API gateway, or SaaS service, issuing Let's Encrypt certificates, or troubleshooting ACME HTTP-01 validation and Nginx TLS configuration.
+  - "HTTPS"
+  - "acme.sh"
+  - "Nginx"
+  - "Let's Encrypt"
+  - "TLS"
+readingDirection: "Read this when configuring HTTPS for a self-hosted website, blog, API gateway, or SaaS service, issuing Let's Encrypt certificates, or troubleshooting ACME HTTP-01 validation and Nginx TLS configuration."
 outline: deep
 ---
 
