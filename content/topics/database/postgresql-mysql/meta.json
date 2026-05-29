@@ -1,0 +1,35 @@
+{
+  "slug": "postgresql-mysql",
+  "title": {
+    "en": "A Systematic Comparative Study of MySQL and PostgreSQL",
+    "zh": "MySQL 与 PostgreSQL 的体系化对比调研"
+  },
+  "category": {
+    "en": "Database",
+    "zh": "数据库"
+  },
+  "summary": {
+    "en": "A systematic comparison of MySQL and PostgreSQL based on official documentation, covering governance, licensing, storage architecture, transaction isolation, SQL compatibility, JSON, indexes, extensions, replication, backup, security, operations, and metadata-system suitability.",
+    "zh": "基于 MySQL 与 PostgreSQL 官方文档，系统比较二者在项目治理、许可协议、存储架构、事务隔离、SQL 兼容、JSON、索引、扩展、复制、备份、安全、运维和元数据系统适配性上的差异。"
+  },
+  "tags": {
+    "en": [
+      "MySQL",
+      "PostgreSQL",
+      "Database",
+      "Transaction Isolation",
+      "High Availability"
+    ],
+    "zh": [
+      "MySQL",
+      "PostgreSQL",
+      "数据库",
+      "事务隔离",
+      "高可用"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when choosing between MySQL and PostgreSQL for OLTP systems, metadata platforms, configuration centers, or relational database infrastructure.",
+    "zh": "适合在为 OLTP 系统、元数据平台、配置中心或关系型数据库基础设施选择 MySQL 与 PostgreSQL 时阅读。"
+  }
+}

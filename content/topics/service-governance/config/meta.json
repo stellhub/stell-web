@@ -1,0 +1,35 @@
+{
+  "slug": "config",
+  "title": {
+    "en": "Configuration Center Design Practices: From Configuration Models to Highly Available Read and Write Architecture",
+    "zh": "配置中心设计实践：从配置模型到高可用读写架构"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A systematic analysis of configuration-center design across background, mainstream systems, configuration ownership, scope rules, storage architecture, read-write separation, weak database dependency, and client-side fallback.",
+    "zh": "从配置中心产生背景、主流系统能力边界、配置类型模型、作用域模型和存储架构出发，系统分析企业级配置中心的高可用读写架构。"
+  },
+  "tags": {
+    "en": [
+      "Configuration Center",
+      "Service Governance",
+      "Microservices",
+      "High Availability",
+      "Runtime Control Plane"
+    ],
+    "zh": [
+      "配置中心",
+      "服务治理",
+      "微服务",
+      "高可用",
+      "运行时控制面"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing a configuration center, separating read and write paths, modeling configuration scopes, or reducing database dependency in runtime configuration delivery.",
+    "zh": "适合在设计配置中心、拆分读写路径、建模配置作用域，或降低运行态配置分发链路 DB 依赖时阅读。"
+  }
+}
