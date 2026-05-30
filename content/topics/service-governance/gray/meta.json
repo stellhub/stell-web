@@ -1,0 +1,35 @@
+{
+  "slug": "gray",
+  "title": {
+    "en": "Full-Link Canary Design and Implementation: Traffic Identity, Routing Isolation, and Governance for Hundred-Service Call Chains",
+    "zh": "全链路灰度的设计与实现：面向百级应用调用链的流量标识、路由隔离与治理策略"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A systematic full-link canary design model for large enterprise microservice systems, covering unified gray context, propagation rules, service mesh routing, gateway traffic splitting, messaging isolation, configuration selection, governance rules, data boundaries, observability, rollback, and cleanup.",
+    "zh": "面向大型企业微服务体系，系统分析全链路灰度中的统一灰度上下文、传播规范、服务路由、网关分流、消息隔离、配置选择、治理规则、数据边界、观测、回滚与清理。"
+  },
+  "tags": {
+    "en": [
+      "Canary Release",
+      "Service Governance",
+      "Service Mesh",
+      "Traffic Routing",
+      "Microservices"
+    ],
+    "zh": [
+      "全链路灰度",
+      "服务治理",
+      "服务网格",
+      "流量路由",
+      "微服务"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing full-link canary release, gray lanes, traffic routing, configuration isolation, message isolation, or rollback governance for large microservice systems.",
+    "zh": "适合在为大型微服务系统设计全链路灰度、灰度泳道、流量路由、配置隔离、消息隔离或回滚治理时阅读。"
+  }
+}
