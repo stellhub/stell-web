@@ -1,0 +1,35 @@
+{
+  "slug": "encryption",
+  "title": {
+    "en": "Research on Data Encryption and Decryption Architecture and Implementation: Envelope Encryption, Key Management, and Vault/KMS-Centered Design",
+    "zh": "数据加解密体系的设计与落地解决方案研究：以信封加密、密钥管理与 Vault/KMS 实现为中心"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A systematic engineering study of enterprise data encryption, covering symmetric and asymmetric encryption, authenticated encryption, envelope encryption, root keys, KEK, DEK, key storage, rotation, local and remote encryption, HashiCorp Vault Transit, cloud KMS, HSM, BYOK, SDK design, and audit controls.",
+    "zh": "系统研究企业数据加解密体系，覆盖对称与非对称加密、认证加密、信封加密、根密钥、KEK、DEK、密钥存储、轮转、本地与远程加密、HashiCorp Vault Transit、云 KMS、HSM、BYOK、SDK 设计与审计控制。"
+  },
+  "tags": {
+    "en": [
+      "Data Encryption",
+      "Envelope Encryption",
+      "Key Management",
+      "KMS",
+      "HashiCorp Vault"
+    ],
+    "zh": [
+      "数据加密",
+      "信封加密",
+      "密钥管理",
+      "KMS",
+      "HashiCorp Vault"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing enterprise encryption platforms, KMS/Vault integration, envelope encryption SDKs, key rotation, field encryption, object encryption, and key audit controls.",
+    "zh": "适合在设计企业级加密平台、KMS/Vault 接入、信封加密 SDK、密钥轮转、字段加密、对象加密和密钥审计控制时阅读。"
+  }
+}
