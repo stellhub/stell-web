@@ -1,0 +1,35 @@
+{
+  "slug": "zero-trust",
+  "title": {
+    "en": "From JWT to SPIRE: Standard Implementation and Engineering Boundaries of Zero-Trust Identity for Microservices",
+    "zh": "从 JWT 到 SPIRE：微服务间零信任身份体系的标准实现与落地边界"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A systematic engineering analysis of zero-trust identity for microservices, covering JWT, mTLS, SPIFFE/SPIRE, node and workload attestation, Kubernetes Admission Control, ServiceAccount boundaries, CA/KMS/HSM, and service-to-service authorization.",
+    "zh": "系统分析微服务零信任身份体系中的 JWT、mTLS、SPIFFE/SPIRE、节点认证、工作负载认证、Kubernetes 准入控制、ServiceAccount 边界、CA/KMS/HSM 与服务间授权。"
+  },
+  "tags": {
+    "en": [
+      "Zero Trust",
+      "Microservices",
+      "SPIFFE",
+      "SPIRE",
+      "mTLS"
+    ],
+    "zh": [
+      "零信任",
+      "微服务",
+      "SPIFFE",
+      "SPIRE",
+      "mTLS"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing service-to-service zero-trust identity, workload identity, mTLS, JWT validation, admission policies, or authorization controls for microservice platforms.",
+    "zh": "适合在为微服务平台设计服务间零信任身份、工作负载身份、mTLS、JWT 校验、准入策略或授权控制时阅读。"
+  }
+}

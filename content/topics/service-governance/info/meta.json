@@ -1,0 +1,35 @@
+{
+  "slug": "info",
+  "title": {
+    "en": "From Data Classification to Masking and Encryption: Security Information Governance Practices for Internet Companies",
+    "zh": "从数据分级到脱敏加密：互联网企业安全信息治理实践"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A cross-jurisdictional analysis of security information classification, personal information protection, sensitive data controls, masking, de-identification, anonymization, encryption, key management, and lifecycle governance for internet companies.",
+    "zh": "面向互联网企业，系统梳理跨法域安全信息分类、个人信息保护、敏感数据控制、脱敏、去标识化、匿名化、加密、密钥管理与全生命周期治理。"
+  },
+  "tags": {
+    "en": [
+      "Data Classification",
+      "Data Security",
+      "Personal Information Protection",
+      "Data Masking",
+      "Encryption"
+    ],
+    "zh": [
+      "数据分类分级",
+      "数据安全",
+      "个人信息保护",
+      "数据脱敏",
+      "加密"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when building enterprise data classification, masking, encryption, key management, data export, logging, and lifecycle governance controls.",
+    "zh": "适合在建设企业级数据分类分级、脱敏、加密、密钥管理、数据导出、日志治理和生命周期控制时阅读。"
+  }
+}
