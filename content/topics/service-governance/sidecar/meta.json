@@ -1,0 +1,35 @@
+{
+  "slug": "sidecar",
+  "title": {
+    "en": "Benefits, Costs, and ROI of the Sidecar Pattern: An Objective Analysis Based on the Service Mesh Data Plane",
+    "zh": "Sidecar 模式的收益、成本与 ROI：基于服务网格数据面的客观分析"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "An objective analysis of the sidecar pattern in cloud-native and microservice architectures, covering service mesh data planes, unified governance, zero-trust security, observability, traffic management, resource cost, latency, operations complexity, troubleshooting cost, ROI, Ambient Mesh, ztunnel, waypoint proxy, and eBPF trends.",
+    "zh": "客观分析云原生与微服务架构中的 Sidecar 模式，覆盖服务网格数据面、统一治理、零信任安全、可观测性、流量治理、资源成本、延迟、运维复杂度、排障成本、ROI、Ambient Mesh、ztunnel、waypoint proxy 与 eBPF 趋势。"
+  },
+  "tags": {
+    "en": [
+      "Sidecar",
+      "Service Mesh",
+      "Istio",
+      "Envoy",
+      "Ambient Mesh"
+    ],
+    "zh": [
+      "Sidecar",
+      "服务网格",
+      "Istio",
+      "Envoy",
+      "Ambient Mesh"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating whether to introduce sidecars, service mesh, Ambient Mesh, Envoy, ztunnel, waypoint proxy, or eBPF-based data planes for microservice governance.",
+    "zh": "适合在评估是否为微服务治理引入 sidecar、服务网格、Ambient Mesh、Envoy、ztunnel、waypoint proxy 或 eBPF 数据面时阅读。"
+  }
+}
