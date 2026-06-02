@@ -1,0 +1,35 @@
+{
+  "slug": "rate-limit",
+  "title": {
+    "en": "Designing Highly Available Distributed Rate Limiting Systems: From Single-Node Token Buckets to Asynchronous Quota Allocation",
+    "zh": "高可用分布式限流系统设计：从单机令牌桶到异步配额分配模型"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A systematic analysis of server-side rate limiting under high concurrency and burst traffic, covering local rate limiting, global rate limiting, token bucket, leaky bucket, Redis hotspots, quota pre-allocation, asynchronous reporting, edge throttling, partitioned limits, failure degradation, and high-availability architecture.",
+    "zh": "系统分析高并发与突发流量下的服务端限流设计，覆盖本地限流、全局限流、令牌桶、漏桶、Redis 热点、配额预分配、异步上报、边缘削峰、分区限流、故障降级与高可用架构。"
+  },
+  "tags": {
+    "en": [
+      "Rate Limiting",
+      "Distributed Systems",
+      "Token Bucket",
+      "Quota Allocation",
+      "High Availability"
+    ],
+    "zh": [
+      "限流",
+      "分布式系统",
+      "令牌桶",
+      "配额分配",
+      "高可用"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing distributed rate limiting for API gateways, service meshes, high-QPS services, tenant quotas, abuse mitigation, Redis-backed counters, or asynchronous quota coordination.",
+    "zh": "适合在为 API 网关、服务网格、高 QPS 服务、租户配额、反滥用、Redis 计数器或异步配额协调设计分布式限流时阅读。"
+  }
+}

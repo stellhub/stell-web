@@ -1,0 +1,35 @@
+{
+  "slug": "breaker",
+  "title": {
+    "en": "The Role, Types, and Configurability of Circuit Breaking Rules in Distributed Systems",
+    "zh": "熔断规则在分布式系统中的作用、类型与可配置性研究"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A systematic study of circuit breaking in distributed systems and service meshes, covering failure isolation, fast failure, backpressure, recovery probing, resource limits, consecutive errors, failure rate, slow calls, exception classification, outlier detection, retry protection, Istio DestinationRule, Envoy, and Resilience4j.",
+    "zh": "系统研究分布式系统与服务网格中的熔断机制，覆盖故障隔离、快速失败、反压、恢复探测、资源限额、连续错误、失败率、慢调用、异常分类、实例摘除、重试保护、Istio DestinationRule、Envoy 与 Resilience4j。"
+  },
+  "tags": {
+    "en": [
+      "Circuit Breaking",
+      "Service Governance",
+      "Service Mesh",
+      "Istio",
+      "Resilience4j"
+    ],
+    "zh": [
+      "熔断",
+      "服务治理",
+      "服务网格",
+      "Istio",
+      "Resilience4j"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing circuit breaking rules, failure isolation, outlier detection, retry protection, service mesh traffic policies, or application-side resilience for distributed systems.",
+    "zh": "适合在为分布式系统设计熔断规则、故障隔离、实例摘除、重试保护、服务网格流量策略或应用侧韧性能力时阅读。"
+  }
+}
