@@ -1,0 +1,35 @@
+{
+  "slug": "spire",
+  "title": {
+    "en": "SPIRE: The Workload Identity Control Plane in Enterprise Zero-Trust Systems",
+    "zh": "SPIRE：企业零信任体系中的工作负载身份控制平面"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A product and architecture study of SPIRE in enterprise zero-trust systems, covering SPIFFE, workload identity, SVID, trust domains, federation, mTLS, Envoy SDS, Vault and cloud IAM integration, large-scale deployment cost, ROI, enterprise use cases, adopters, current releases, and open engineering issues.",
+    "zh": "研究 SPIRE 在企业零信任体系中的产品定位与架构价值，覆盖 SPIFFE、工作负载身份、SVID、信任域、联邦互信、mTLS、Envoy SDS、Vault 与云 IAM 集成、大规模部署成本、ROI、企业使用场景、采用方、当前版本与仍存在的工程问题。"
+  },
+  "tags": {
+    "en": [
+      "SPIRE",
+      "SPIFFE",
+      "Zero Trust",
+      "Workload Identity",
+      "mTLS"
+    ],
+    "zh": [
+      "SPIRE",
+      "SPIFFE",
+      "零信任",
+      "工作负载身份",
+      "mTLS"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating SPIRE, SPIFFE, workload identity, service-to-service mTLS, secretless access, cross-cloud identity federation, or zero-trust identity infrastructure for enterprise platforms.",
+    "zh": "适合在评估 SPIRE、SPIFFE、工作负载身份、服务间 mTLS、无密钥访问、跨云身份联邦或企业零信任身份基础设施时阅读。"
+  }
+}

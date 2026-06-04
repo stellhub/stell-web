@@ -1,0 +1,35 @@
+{
+  "slug": "auth",
+  "title": {
+    "en": "Standardized Design of Authorization Rule Systems",
+    "zh": "鉴权规则体系的标准化设计研究"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A structured study of authentication, authorization, access control rules, JWT, OAuth 2.0, Istio security policies, chain-level authentication, request-level authorization, ABAC, policy decision and enforcement points, and configuration granularity in distributed systems and service meshes.",
+    "zh": "结构化研究分布式系统与服务网格中的认证、授权、访问控制规则、JWT、OAuth 2.0、Istio 安全策略、链路级认证、请求级授权、ABAC、策略决策与执行点以及配置粒度。"
+  },
+  "tags": {
+    "en": [
+      "Authentication",
+      "Authorization",
+      "Access Control",
+      "JWT",
+      "Istio"
+    ],
+    "zh": [
+      "认证",
+      "授权",
+      "访问控制",
+      "JWT",
+      "Istio"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing authentication and authorization rules, JWT validation, OAuth-based access control, Istio AuthorizationPolicy, ABAC, service mesh security, or resource-level permission systems.",
+    "zh": "适合在设计认证授权规则、JWT 校验、OAuth 访问控制、Istio AuthorizationPolicy、ABAC、服务网格安全或资源级权限系统时阅读。"
+  }
+}

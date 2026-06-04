@@ -1,0 +1,35 @@
+{
+  "slug": "vault",
+  "title": {
+    "en": "HashiCorp Vault: The Security Hub for Enterprise Secret Governance and Dynamic Credential Management",
+    "zh": "HashiCorp Vault：企业密钥治理与动态凭证管理的安全中枢"
+  },
+  "category": {
+    "en": "Security Operations",
+    "zh": "安全运维"
+  },
+  "summary": {
+    "en": "A product and architecture study of HashiCorp Vault as an identity-driven platform for enterprise secret management and sensitive data protection, covering secrets management, dynamic secrets, encryption as a service, PKI, audit, production hardening, HA, ROI, adoption scenarios, enterprise case studies, version status, licensing boundaries, and current engineering issues.",
+    "zh": "研究 HashiCorp Vault 作为企业身份驱动型密钥管理与敏感数据保护平台的产品定位和架构价值，覆盖密钥管理、动态凭证、加密即服务、PKI、审计、生产加固、高可用、ROI、接入场景、企业案例、版本状态、许可证边界与当前工程问题。"
+  },
+  "tags": {
+    "en": [
+      "Vault",
+      "Secrets Management",
+      "Dynamic Secrets",
+      "PKI",
+      "Zero Trust"
+    ],
+    "zh": [
+      "Vault",
+      "密钥管理",
+      "动态凭证",
+      "PKI",
+      "零信任"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating Vault for enterprise secret governance, dynamic database credentials, CI/CD secret management, Kubernetes secret injection, internal PKI, transit encryption, audit compliance, or zero-trust credential infrastructure.",
+    "zh": "适合在评估 Vault 用于企业密钥治理、数据库动态凭证、CI/CD 密钥管理、Kubernetes 密钥注入、内部 PKI、Transit 加密、审计合规或零信任凭证基础设施时阅读。"
+  }
+}

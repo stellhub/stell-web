@@ -1,0 +1,35 @@
+{
+  "slug": "istio",
+  "title": {
+    "en": "In-Depth Istio Product Study: Service Mesh Capabilities, Governance Rules, Enterprise Adoption Cost, and Current Status",
+    "zh": "Istio 产品深度研究：服务网格能力、治理规则、企业接入成本与当前状态"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "An in-depth study of Istio as a service mesh product, covering Envoy, Istiod, Kubernetes CRDs, xDS, traffic routing, authentication, authorization, circuit breaking, rate limiting, service discovery, VM and bare-metal adoption, gateway integration, observability, OpenTelemetry, ambient mesh, enterprise case studies, and the current Istio product direction.",
+    "zh": "深度研究 Istio 作为服务网格产品的定位与能力，覆盖 Envoy、Istiod、Kubernetes CRD、xDS、流量路由、认证、授权、熔断、限流、服务发现、VM 与裸金属接入、网关集成、可观测性、OpenTelemetry、ambient mesh、企业案例与 Istio 当前产品方向。"
+  },
+  "tags": {
+    "en": [
+      "Istio",
+      "Service Mesh",
+      "Envoy",
+      "Ambient Mesh",
+      "OpenTelemetry"
+    ],
+    "zh": [
+      "Istio",
+      "服务网格",
+      "Envoy",
+      "Ambient Mesh",
+      "OpenTelemetry"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating Istio service mesh capabilities, enterprise adoption cost, governance rule migration, VM or bare-metal onboarding, gateway integration, ambient mesh, and observability architecture.",
+    "zh": "适合在评估 Istio 服务网格能力、企业接入成本、治理规则迁移、VM 或裸金属接入、网关集成、ambient mesh 与可观测架构时阅读。"
+  }
+}

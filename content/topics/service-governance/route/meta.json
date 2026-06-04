@@ -1,0 +1,35 @@
+{
+  "slug": "route",
+  "title": {
+    "en": "Standardized Design of Traffic Governance Rule Systems",
+    "zh": "流量治理规则体系的标准化设计研究"
+  },
+  "category": {
+    "en": "Service Governance",
+    "zh": "服务治理"
+  },
+  "summary": {
+    "en": "A structured study of traffic governance rules in distributed systems, microservices, and service meshes, covering east-west and north-south traffic, internal and external gateways, centralized gateways, client-side routing, service discovery metadata, traffic splitting, canary release, locality routing, retries, timeouts, circuit breaking, Istio Gateway, VirtualService, DestinationRule, Envoy, and xDS.",
+    "zh": "结构化研究分布式系统、微服务与服务网格中的流量治理规则，覆盖东西向与南北向流量、内部与外部网关、集中式网关、客户端路由、服务发现元数据、流量分流、灰度发布、本地性路由、重试、超时、熔断、Istio Gateway、VirtualService、DestinationRule、Envoy 与 xDS。"
+  },
+  "tags": {
+    "en": [
+      "Traffic Governance",
+      "Service Mesh",
+      "Istio",
+      "Envoy",
+      "Client-Side Routing"
+    ],
+    "zh": [
+      "流量治理",
+      "服务网格",
+      "Istio",
+      "Envoy",
+      "客户端路由"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing traffic routing, gateway governance, service mesh traffic policies, canary release, client-side load balancing, locality routing, retries, timeouts, or circuit breaking for distributed systems.",
+    "zh": "适合在为分布式系统设计流量路由、网关治理、服务网格流量策略、灰度发布、客户端负载均衡、本地性路由、重试、超时或熔断时阅读。"
+  }
+}
