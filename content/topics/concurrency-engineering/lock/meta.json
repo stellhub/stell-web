@@ -1,0 +1,35 @@
+{
+  "slug": "lock",
+  "title": {
+    "en": "Concurrent Locks: From Hardware Atomicity to User-Space Synchronization Abstractions",
+    "zh": "并发锁：从硬件原子性到用户态同步抽象"
+  },
+  "category": {
+    "en": "Concurrency Engineering",
+    "zh": "并发工程"
+  },
+  "summary": {
+    "en": "A layered study of concurrent locks and synchronization mechanisms, covering hardware atomic primitives, CAS, spin locks, memory ordering, Linux sleeping locks, CPU-local locks, spinning locks, mutex, rw_semaphore, RCU, seqlock, Java synchronized, ReentrantLock, ReentrantReadWriteLock, StampedLock, Semaphore, Atomic, LongAdder, CopyOnWrite, Go channels, Mutex, RWMutex, sync.Map, sync/atomic, CopyOnWrite plus Merge, and lock selection trade-offs.",
+    "zh": "分层研究并发锁与同步机制，覆盖硬件原子原语、CAS、自旋锁、内存顺序、Linux sleeping locks、CPU-local locks、spinning locks、mutex、rw_semaphore、RCU、seqlock、Java synchronized、ReentrantLock、ReentrantReadWriteLock、StampedLock、Semaphore、Atomic、LongAdder、CopyOnWrite、Go channel、Mutex、RWMutex、sync.Map、sync/atomic、CopyOnWrite + Merge 与锁选择取舍。"
+  },
+  "tags": {
+    "en": [
+      "Concurrency",
+      "Locks",
+      "CAS",
+      "RCU",
+      "Synchronization"
+    ],
+    "zh": [
+      "并发",
+      "锁",
+      "CAS",
+      "RCU",
+      "同步"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing mutexes, spin locks, CAS, read-write locks, StampedLock, RCU, seqlock, CopyOnWrite, channels, atomic primitives, or synchronization choices in Java, Go, Linux, and high-concurrency systems.",
+    "zh": "适合在比较互斥锁、自旋锁、CAS、读写锁、StampedLock、RCU、seqlock、CopyOnWrite、channel、原子原语，或为 Java、Go、Linux 与高并发系统选择同步机制时阅读。"
+  }
+}

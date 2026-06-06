@@ -1,0 +1,35 @@
+{
+  "slug": "goroutine",
+  "title": {
+    "en": "Go Runtime G/M/P Scheduling Model, Network I/O, and Concurrency Safety",
+    "zh": "Go 运行时 G/M/P 调度模型、网络 I/O 与并发安全研究"
+  },
+  "category": {
+    "en": "Concurrency Engineering",
+    "zh": "并发工程"
+  },
+  "summary": {
+    "en": "A systematic study of Go goroutines and the runtime G/M/P scheduler, covering G, M, P definitions, user-mode scheduling, Linux task_struct mapping, goroutine lifecycle, netpoll, network I/O, GOMAXPROCS, system calls, channel communication, context cancellation, WaitGroup, Mutex, RWMutex, Go memory model, and race detection.",
+    "zh": "系统研究 Go goroutine 与运行时 G/M/P 调度模型，覆盖 G、M、P 定义，用户态调度、Linux task_struct 映射、goroutine 生命周期、netpoll、网络 I/O、GOMAXPROCS、系统调用、channel 通信、context 取消、WaitGroup、Mutex、RWMutex、Go 内存模型与竞态检测。"
+  },
+  "tags": {
+    "en": [
+      "Goroutine",
+      "G/M/P",
+      "Go Runtime",
+      "Netpoll",
+      "Concurrency Safety"
+    ],
+    "zh": [
+      "Goroutine",
+      "G/M/P",
+      "Go Runtime",
+      "Netpoll",
+      "并发安全"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when studying Go goroutine scheduling, G/M/P internals, network I/O behavior, syscall blocking, Linux thread mapping, goroutine lifecycle management, or concurrency safety practices.",
+    "zh": "适合在研究 Go goroutine 调度、G/M/P 内部机制、网络 I/O 行为、系统调用阻塞、Linux 线程映射、goroutine 生命周期管理或并发安全实践时阅读。"
+  }
+}

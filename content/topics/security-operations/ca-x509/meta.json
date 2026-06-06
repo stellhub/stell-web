@@ -1,0 +1,35 @@
+{
+  "slug": "ca-x509",
+  "title": {
+    "en": "X.509 Certificates: From HTTPS to Zero Trust, the Foundational Identity Container for Modern System Authentication",
+    "zh": "X.509 证书：从 HTTPS 到零信任，现代系统身份认证的基础容器"
+  },
+  "category": {
+    "en": "Security Operations",
+    "zh": "安全运维"
+  },
+  "summary": {
+    "en": "A systematic study of X.509 certificates as the foundational identity container of modern PKI, covering HTTPS, TLS, mTLS, service mesh, workload identity, internal PKI, certificate fields, v3 extensions, SAN, KU, EKU, Basic Constraints, CA trust chains, revocation, Certificate Transparency, language ecosystem support, developer practices, certificate lifecycle automation, and post-quantum migration readiness.",
+    "zh": "系统研究 X.509 证书作为现代 PKI 基础身份容器的定位，覆盖 HTTPS、TLS、mTLS、服务网格、工作负载身份、内部 PKI、证书字段、v3 扩展、SAN、KU、EKU、Basic Constraints、CA 信任链、吊销、证书透明度、不同语言生态支持、开发者实践、证书生命周期自动化与后量子迁移准备。"
+  },
+  "tags": {
+    "en": [
+      "X.509",
+      "PKI",
+      "TLS",
+      "mTLS",
+      "Certificate Authority"
+    ],
+    "zh": [
+      "X.509",
+      "PKI",
+      "TLS",
+      "mTLS",
+      "证书颁发机构"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing or reviewing HTTPS, mTLS, internal PKI, CA hierarchy, service certificates, workload identity, certificate validation, certificate lifecycle automation, or post-quantum certificate migration plans.",
+    "zh": "适合在设计或审查 HTTPS、mTLS、内部 PKI、CA 层级、服务证书、工作负载身份、证书校验、证书生命周期自动化或后量子证书迁移方案时阅读。"
+  }
+}
