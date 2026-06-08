@@ -1,0 +1,35 @@
+{
+  "slug": "goroutine-profile",
+  "title": {
+    "en": "Goroutine Troubleshooting: Official References, Observability Entry Points, and Common Error Checklist",
+    "zh": "Goroutine 问题排查：官方依据、观测入口与常见错误清单"
+  },
+  "category": {
+    "en": "Concurrency Engineering",
+    "zh": "并发工程"
+  },
+  "summary": {
+    "en": "A practical goroutine troubleshooting guide based on official Go documentation, covering goroutine lifecycle boundaries, runtime.NumGoroutine, runtime.Stack, net/http/pprof, goroutine profiles, block profiles, mutex profiles, runtime/trace, go vet, race detector, goroutine leaks, deadlocks, channel blocking, closed channel panics, WaitGroup misuse, Mutex and RWMutex contention, context cancellation, main lifecycle, panics, unbounded goroutine creation, external I/O blocking, select waits, and a standard investigation workflow.",
+    "zh": "基于 Go 官方文档整理 goroutine 排查实践，覆盖 goroutine 生命周期边界、runtime.NumGoroutine、runtime.Stack、net/http/pprof、goroutine profile、block profile、mutex profile、runtime/trace、go vet、race detector、goroutine 泄漏、死锁、channel 阻塞、closed channel panic、WaitGroup 误用、Mutex 与 RWMutex 竞争、context 取消、main 生命周期、panic、无界 goroutine 创建、外部 I/O 阻塞、select 等待与标准排查流程。"
+  },
+  "tags": {
+    "en": [
+      "Goroutine",
+      "pprof",
+      "runtime/trace",
+      "Race Detector",
+      "Troubleshooting"
+    ],
+    "zh": [
+      "Goroutine",
+      "pprof",
+      "runtime/trace",
+      "Race Detector",
+      "问题排查"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when diagnosing goroutine leaks, deadlocks, channel blocking, WaitGroup misuse, mutex contention, context leaks, data races, panics, unbounded goroutine creation, or external I/O blocking in Go services.",
+    "zh": "适合在诊断 Go 服务中的 goroutine 泄漏、死锁、channel 阻塞、WaitGroup 误用、锁竞争、context 泄漏、数据竞争、panic、无界 goroutine 创建或外部 I/O 阻塞时阅读。"
+  }
+}

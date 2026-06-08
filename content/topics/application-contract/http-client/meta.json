@@ -1,0 +1,35 @@
+{
+  "slug": "http-client",
+  "title": {
+    "en": "Java HTTP Client Selection Research: An Objective Comparison of Built-In and Mainstream Third-Party Clients",
+    "zh": "Java HTTP Client 选型调研：内置客户端与主流第三方客户端的客观比较"
+  },
+  "category": {
+    "en": "Application Contract",
+    "zh": "应用契约"
+  },
+  "summary": {
+    "en": "An objective comparison of Java HTTP client choices across JDK HttpClient, HttpURLConnection, Apache HttpClient, OkHttp, Jetty HttpClient, Reactor Netty HttpClient, AsyncHttpClient, Spring RestClient, Spring WebClient, OpenFeign, and Retrofit, covering protocol support, sync and async models, connection reuse, customization, ease of use, stability, and scenario-based selection rules.",
+    "zh": "围绕 JDK HttpClient、HttpURLConnection、Apache HttpClient、OkHttp、Jetty HttpClient、Reactor Netty HttpClient、AsyncHttpClient、Spring RestClient、Spring WebClient、OpenFeign 与 Retrofit，对 Java HTTP Client 的协议支持、同步异步模型、连接复用、可定制性、易用性、稳定性和场景化选型规则进行客观比较。"
+  },
+  "tags": {
+    "en": [
+      "Java",
+      "HTTP Client",
+      "JDK HttpClient",
+      "Apache HttpClient",
+      "OkHttp"
+    ],
+    "zh": [
+      "Java",
+      "HTTP Client",
+      "JDK HttpClient",
+      "Apache HttpClient",
+      "OkHttp"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when choosing a Java HTTP client for ordinary REST calls, Spring MVC, Spring WebFlux, SDKs, enterprise HTTP governance, protocol-stack customization, high-concurrency asynchronous calls, or declarative API clients.",
+    "zh": "适合在为普通 REST 调用、Spring MVC、Spring WebFlux、SDK、企业级 HTTP 治理、协议栈定制、高并发异步调用或声明式 API Client 选择 Java HTTP Client 时阅读。"
+  }
+}

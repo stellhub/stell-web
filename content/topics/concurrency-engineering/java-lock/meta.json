@@ -1,0 +1,35 @@
+{
+  "slug": "java-lock",
+  "title": {
+    "en": "Java Concurrent Locks: Implementation Path from User Space to Kernel Space",
+    "zh": "Java 并发锁从用户态到内核态的实现链路研究"
+  },
+  "category": {
+    "en": "Concurrency Engineering",
+    "zh": "并发工程"
+  },
+  "summary": {
+    "en": "A systematic study of Java concurrent locks from language semantics to JVM and operating system execution paths, covering synchronized, monitorenter, monitorexit, HotSpot mark word, lightweight locks, monitor inflation, ObjectMonitor, AQS, LockSupport, park/unpark, ReentrantLock, ReentrantReadWriteLock, StampedLock, Semaphore, Atomic, LongAdder, CopyOnWriteArrayList, and the conditions under which Java locks enter kernel-related blocking paths.",
+    "zh": "系统研究 Java 并发锁从语言语义到 JVM 与操作系统执行路径的实现链路，覆盖 synchronized、monitorenter、monitorexit、HotSpot mark word、轻量级锁、锁膨胀、ObjectMonitor、AQS、LockSupport、park/unpark、ReentrantLock、ReentrantReadWriteLock、StampedLock、Semaphore、Atomic、LongAdder、CopyOnWriteArrayList，以及 Java 锁进入内核相关阻塞路径的触发条件。"
+  },
+  "tags": {
+    "en": [
+      "Java",
+      "Concurrent Locks",
+      "synchronized",
+      "AQS",
+      "HotSpot"
+    ],
+    "zh": [
+      "Java",
+      "并发锁",
+      "synchronized",
+      "AQS",
+      "HotSpot"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when analyzing Java lock implementation, synchronized monitor paths, HotSpot lightweight locking, ObjectMonitor inflation, AQS queues, LockSupport park/unpark, or the user-space to kernel-space boundary of Java concurrency.",
+    "zh": "适合在分析 Java 锁实现、synchronized monitor 路径、HotSpot 轻量级锁、ObjectMonitor 膨胀、AQS 队列、LockSupport park/unpark，或 Java 并发从用户态到内核态的边界时阅读。"
+  }
+}

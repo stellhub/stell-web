@@ -1,0 +1,35 @@
+{
+  "slug": "context",
+  "title": {
+    "en": "Deep Dive into Go context: Definition, Problem Domain, Usage, Caveats, and Typical Scenarios",
+    "zh": "深入 Go `context` 机制：定义、问题域、使用方式、注意事项与典型场景"
+  },
+  "category": {
+    "en": "Concurrency Engineering",
+    "zh": "并发工程"
+  },
+  "summary": {
+    "en": "A systematic explanation of Go's context package, covering Context interface semantics, deadlines, cancellation signals, request-scoped values, parent-child cancellation propagation, CancelFunc, WithCancel, WithDeadline, WithTimeout, WithValue, Cause, WithoutCancel, explicit parameter passing, goroutine cancellation, HTTP server and client contexts, database operations, RPC calls, concurrent pipelines, and common usage caveats.",
+    "zh": "系统解释 Go context 包，覆盖 Context 接口语义、deadline、取消信号、请求级值、父子取消传播、CancelFunc、WithCancel、WithDeadline、WithTimeout、WithValue、Cause、WithoutCancel、显式参数传递、goroutine 取消、HTTP 服务端与客户端 context、数据库操作、RPC 调用、并发流水线与常见使用注意事项。"
+  },
+  "tags": {
+    "en": [
+      "Go",
+      "context",
+      "Cancellation",
+      "Timeout",
+      "Concurrency"
+    ],
+    "zh": [
+      "Go",
+      "context",
+      "取消",
+      "超时",
+      "并发"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing Go API boundaries, request cancellation, timeout propagation, goroutine lifecycle control, HTTP client/server calls, database cancellation, RPC chains, or request-scoped metadata propagation.",
+    "zh": "适合在设计 Go API 边界、请求取消、超时传播、goroutine 生命周期控制、HTTP 客户端/服务端调用、数据库取消、RPC 调用链或请求级元数据传播时阅读。"
+  }
+}
