@@ -1,0 +1,35 @@
+{
+  "slug": "sort",
+  "title": {
+    "en": "Sorting Algorithm Research: Definition, Classification, Performance Boundaries, and Default Implementations in Mainstream Languages",
+    "zh": "排序算法研究：定义、分类、性能边界与主流语言默认实现"
+  },
+  "category": {
+    "en": "Infrastructure Foundation",
+    "zh": "基础设施"
+  },
+  "summary": {
+    "en": "A systematic study of sorting algorithms, covering sorting definitions, stability, in-place sorting, comparison and non-comparison sorting, bubble sort, insertion sort, selection sort, quicksort, merge sort, TimSort, heap sort, counting sort, bucket sort, radix sort, speed and space trade-offs, and default sorting implementations in Java, Python, and Go.",
+    "zh": "系统研究排序算法，覆盖排序定义、稳定性、原地排序、比较排序与非比较排序、冒泡排序、插入排序、选择排序、快速排序、归并排序、TimSort、堆排序、计数排序、桶排序、基数排序、速度与空间取舍，以及 Java、Python、Go 的默认排序实现。"
+  },
+  "tags": {
+    "en": [
+      "Sorting Algorithm",
+      "TimSort",
+      "Quicksort",
+      "Heap Sort",
+      "Algorithm"
+    ],
+    "zh": [
+      "排序算法",
+      "TimSort",
+      "快速排序",
+      "堆排序",
+      "算法"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing sorting algorithms, evaluating stability and auxiliary space, choosing between quicksort, TimSort, heap sort, counting sort, radix sort, or understanding default sorting behavior in Java, Python, and Go.",
+    "zh": "适合在比较排序算法、评估稳定性与辅助空间、选择快速排序/TimSort/堆排序/计数排序/基数排序，或理解 Java、Python、Go 默认排序行为时阅读。"
+  }
+}

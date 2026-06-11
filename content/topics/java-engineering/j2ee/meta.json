@@ -1,0 +1,35 @@
+{
+  "slug": "j2ee",
+  "title": {
+    "en": "From J2EE to Jakarta EE: Evolution of the Enterprise Java Specification System, Namespace Migration, and Developer Impact",
+    "zh": "从 J2EE 到 Jakarta EE：企业级 Java 规范体系的演进、命名空间迁移与开发者影响"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A systematic study of the evolution from J2EE to Java EE and Jakarta EE, covering enterprise Java platform models, containers, Java EE specification evolution, Eclipse Foundation transfer, the javax to jakarta namespace migration, Tomcat 10, Spring Boot 3, Spring Framework 6, Servlet 5+, Jakarta EE 11, Jakarta EE 12, and practical upgrade impacts for developers.",
+    "zh": "系统研究 J2EE 到 Java EE 与 Jakarta EE 的演进，覆盖企业级 Java 平台模型、容器、Java EE 规范演进、Eclipse Foundation 移交、javax 到 jakarta 命名空间迁移、Tomcat 10、Spring Boot 3、Spring Framework 6、Servlet 5+、Jakarta EE 11、Jakarta EE 12，以及开发者升级实践影响。"
+  },
+  "tags": {
+    "en": [
+      "J2EE",
+      "Java EE",
+      "Jakarta EE",
+      "Servlet",
+      "Spring Boot 3"
+    ],
+    "zh": [
+      "J2EE",
+      "Java EE",
+      "Jakarta EE",
+      "Servlet",
+      "Spring Boot 3"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when upgrading Java web applications from javax to jakarta, migrating from Tomcat 9 to Tomcat 10, Spring Boot 2 to Spring Boot 3, Spring Framework 5 to Spring Framework 6, or understanding the evolution from J2EE and Java EE to Jakarta EE.",
+    "zh": "适合在将 Java Web 应用从 javax 迁移到 jakarta、从 Tomcat 9 升级到 Tomcat 10、从 Spring Boot 2 升级到 Spring Boot 3、从 Spring Framework 5 升级到 Spring Framework 6，或理解 J2EE/Java EE 到 Jakarta EE 演进时阅读。"
+  }
+}

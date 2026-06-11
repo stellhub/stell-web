@@ -1,0 +1,35 @@
+{
+  "slug": "go-channel",
+  "title": {
+    "en": "Go Concurrency Synchronization Research: Semantics, Principles, and Usage Boundaries of Channels and sync Primitives",
+    "zh": "Go 并发同步机制调研：Channel 与 sync 包并发原语的语义、原理与使用边界"
+  },
+  "category": {
+    "en": "Concurrency Engineering",
+    "zh": "并发工程"
+  },
+  "summary": {
+    "en": "A systematic study of Go concurrency synchronization mechanisms, covering channel semantics, buffered and unbuffered channels, FIFO behavior, happens-before relationships, runtime hchan internals, send/receive/close/select operations, receive-only and send-only channels, sync.Mutex, sync.RWMutex, sync.Cond, sync.Once, sync.WaitGroup, sync.Map, sync.Pool, sync/atomic, and the selection boundaries between channels and locks.",
+    "zh": "系统研究 Go 并发同步机制，覆盖 Channel 语义、有缓冲与无缓冲 Channel、FIFO 特性、happens-before 关系、运行时 hchan 内部结构、发送/接收/关闭/select 操作、只读与只写 Channel、sync.Mutex、sync.RWMutex、sync.Cond、sync.Once、sync.WaitGroup、sync.Map、sync.Pool、sync/atomic，以及 Channel 与锁的选择边界。"
+  },
+  "tags": {
+    "en": [
+      "Go",
+      "Channel",
+      "sync",
+      "Mutex",
+      "Atomic"
+    ],
+    "zh": [
+      "Go",
+      "Channel",
+      "sync",
+      "Mutex",
+      "Atomic"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when comparing Go channels, mutexes, read-write locks, condition variables, WaitGroup, sync.Map, sync.Pool, atomic operations, or when deciding whether a concurrency problem should be modeled as communication or shared-state protection.",
+    "zh": "适合在比较 Go Channel、互斥锁、读写锁、条件变量、WaitGroup、sync.Map、sync.Pool、atomic 操作，或判断并发问题应建模为通信还是共享状态保护时阅读。"
+  }
+}

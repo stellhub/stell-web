@@ -1,0 +1,35 @@
+{
+  "slug": "redis-client",
+  "title": {
+    "en": "Java Redis Client Selection Research: Comparative Analysis of Jedis, Lettuce, Redisson, and Spring Data Redis",
+    "zh": "Java Redis 客户端选型调研：Jedis、Lettuce、Redisson 与 Spring Data Redis 的比较分析"
+  },
+  "category": {
+    "en": "Distributed Systems",
+    "zh": "分布式系统"
+  },
+  "summary": {
+    "en": "An objective study of Java Redis client selection across Jedis, Lettuce, Redisson, Spring Data Redis, Spring Boot integration, RedisTemplate, ReactiveRedisTemplate, distributed locks, connection pooling, multiplexing, serialization, TTL, cache clearing, topology refresh, TLS, and production usage boundaries.",
+    "zh": "围绕 Jedis、Lettuce、Redisson、Spring Data Redis、Spring Boot 集成、RedisTemplate、ReactiveRedisTemplate、分布式锁、连接池、多路复用、序列化、TTL、缓存清理、拓扑刷新、TLS 与生产使用边界，对 Java Redis 客户端选型进行客观调研。"
+  },
+  "tags": {
+    "en": [
+      "Redis",
+      "Java",
+      "Jedis",
+      "Lettuce",
+      "Redisson"
+    ],
+    "zh": [
+      "Redis",
+      "Java",
+      "Jedis",
+      "Lettuce",
+      "Redisson"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when choosing a Redis client for Java or Spring Boot applications, comparing Jedis, Lettuce, Redisson, and Spring Data Redis, designing Redis cache access, adopting distributed locks, or hardening Redis usage for production.",
+    "zh": "适合在为 Java 或 Spring Boot 应用选择 Redis 客户端、比较 Jedis/Lettuce/Redisson/Spring Data Redis、设计 Redis 缓存访问、引入分布式锁或加固生产 Redis 使用方式时阅读。"
+  }
+}

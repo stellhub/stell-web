@@ -1,0 +1,35 @@
+{
+  "slug": "clickhouse",
+  "title": {
+    "en": "ClickHouse Technical Research: A Columnar OLAP Database for Real-Time Analytics",
+    "zh": "ClickHouse 技术调研：面向实时分析的列式 OLAP 数据库"
+  },
+  "category": {
+    "en": "Database",
+    "zh": "数据库"
+  },
+  "summary": {
+    "en": "A systematic study of ClickHouse as a columnar OLAP database for real-time analytics, covering product positioning, technical characteristics, observability, time-series analytics, data warehouses, data lake acceleration, AI/ML analytics, competitors, workload boundaries, limitations, and production usage.",
+    "zh": "系统调研 ClickHouse 作为实时分析列式 OLAP 数据库的产品定位、技术特征、可观测性、时序分析、数据仓库、数据湖加速、AI/ML 分析、竞品格局、负载边界、使用限制与生产应用情况。"
+  },
+  "tags": {
+    "en": [
+      "ClickHouse",
+      "OLAP",
+      "Columnar Database",
+      "Real-Time Analytics",
+      "Observability"
+    ],
+    "zh": [
+      "ClickHouse",
+      "OLAP",
+      "列式数据库",
+      "实时分析",
+      "可观测性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating ClickHouse for real-time analytics, observability storage, time-series analytics, data warehouse acceleration, data lake queries, or high-concurrency analytical dashboards.",
+    "zh": "适合在评估 ClickHouse 是否适用于实时分析、可观测性存储、时序分析、数仓加速、数据湖查询或高并发分析看板时阅读。"
+  }
+}

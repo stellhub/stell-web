@@ -1,0 +1,35 @@
+{
+  "slug": "influxdb",
+  "title": {
+    "en": "InfluxDB Technical Research: Real-Time Storage and Analytics for Time-Series Data",
+    "zh": "InfluxDB 技术调研：面向时序数据的实时存储与分析系统"
+  },
+  "category": {
+    "en": "Database",
+    "zh": "数据库"
+  },
+  "summary": {
+    "en": "A systematic study of InfluxDB as a specialized time-series database and real-time data platform, covering its product positioning, data model, Line Protocol, storage engine, SQL and InfluxQL querying, Telegraf ecosystem, monitoring, observability, IoT, network telemetry, competitors, applicability boundaries, limitations, and production usage.",
+    "zh": "系统调研 InfluxDB 作为专用时序数据库和实时数据平台的产品定位、数据模型、Line Protocol、存储引擎、SQL 与 InfluxQL 查询、Telegraf 生态、监控、可观测性、IoT、网络遥测、竞品格局、适用边界、限制与生产使用情况。"
+  },
+  "tags": {
+    "en": [
+      "InfluxDB",
+      "Time-Series Database",
+      "TSDB",
+      "Observability",
+      "IoT"
+    ],
+    "zh": [
+      "InfluxDB",
+      "时序数据库",
+      "TSDB",
+      "可观测性",
+      "IoT"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when evaluating InfluxDB for metrics storage, real-time monitoring, IoT sensor data, infrastructure observability, network telemetry, retention management, or choosing between InfluxDB, Prometheus, TimescaleDB, VictoriaMetrics, Timestream, and ClickHouse.",
+    "zh": "适合在评估 InfluxDB 是否适用于指标存储、实时监控、IoT 传感器数据、基础设施可观测性、网络遥测、保留策略管理，或在 InfluxDB、Prometheus、TimescaleDB、VictoriaMetrics、Timestream、ClickHouse 之间选型时阅读。"
+  }
+}
