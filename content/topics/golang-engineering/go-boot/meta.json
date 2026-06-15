@@ -1,0 +1,35 @@
+{
+  "slug": "go-boot",
+  "title": {
+    "en": "Research on Go Microservice Framework Design: Mainstream Frameworks, Package Structure, Middleware Extension, and OpenTelemetry Observability",
+    "zh": "Go 微服务框架设计研究：主流框架、包结构、中间件扩展与 OpenTelemetry 可观测体系"
+  },
+  "category": {
+    "en": "Golang Engineering",
+    "zh": "Go 工程"
+  },
+  "summary": {
+    "en": "A systematic design study of a Spring Boot-like Go microservice framework, covering unified bootstrap, configuration, lifecycle, Gin and gRPC-Go transport adapters, middleware chains, error models, starter mechanisms, SDK adapters, package structure, OpenTelemetry traces, metrics, logs, context propagation, Collector deployment, code generation, and phased implementation.",
+    "zh": "系统研究类似 Spring Boot 的 Go 微服务框架设计，覆盖统一启动、配置、生命周期、Gin 与 gRPC-Go 传输适配、中间件链、错误模型、Starter 机制、SDK Adapter、包结构、OpenTelemetry Trace/Metric/Log、context 传播、Collector 部署、代码生成与阶段化实现路线。"
+  },
+  "tags": {
+    "en": [
+      "Go Boot",
+      "Golang",
+      "Microservice Framework",
+      "gRPC-Go",
+      "OpenTelemetry"
+    ],
+    "zh": [
+      "Go Boot",
+      "Golang",
+      "微服务框架",
+      "gRPC-Go",
+      "OpenTelemetry"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing a Go microservice framework, building Spring Boot-like engineering conventions in Go, standardizing Gin and gRPC-Go service entry points, or integrating OpenTelemetry observability and starter-based SDK assembly into Go services.",
+    "zh": "适合在设计 Go 微服务框架、构建类似 Spring Boot 的 Go 工程规范、统一 Gin 与 gRPC-Go 服务入口，或将 OpenTelemetry 可观测体系与 Starter 化 SDK 装配接入 Go 服务时阅读。"
+  }
+}

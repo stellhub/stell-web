@@ -1,0 +1,35 @@
+{
+  "slug": "cmdb",
+  "title": {
+    "en": "Research on the Data Scope, Architecture, and Underlying Storage Design of CMDB",
+    "zh": "CMDB（Configuration Management Database）的数据范围、架构与底层存储设计研究"
+  },
+  "category": {
+    "en": "Service Reliability",
+    "zh": "服务可靠性"
+  },
+  "summary": {
+    "en": "A systematic study of CMDB data scope, configuration items, relationship modeling, current snapshots, historical change events, data sources, data quality, layered architecture, PostgreSQL-centered source-of-truth storage, event streams, caches, search indexes, and graph relationship projections for read-heavy and write-heavy cloud-native environments.",
+    "zh": "系统研究 CMDB 的数据范围、配置项、关系建模、当前快照、历史变更事件、数据来源、数据质量、分层架构，以及面向读多写多云原生环境的 PostgreSQL 核心事实源、事件流、缓存、搜索索引与图关系投影设计。"
+  },
+  "tags": {
+    "en": [
+      "CMDB",
+      "Configuration Management",
+      "PostgreSQL",
+      "Event-Driven Architecture",
+      "Service Reliability"
+    ],
+    "zh": [
+      "CMDB",
+      "配置管理",
+      "PostgreSQL",
+      "事件驱动架构",
+      "服务可靠性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing a CMDB, modeling configuration items and service relationships, choosing the underlying storage for a configuration management platform, or separating stable master data from high-frequency instance changes in cloud-native environments.",
+    "zh": "适合在设计 CMDB、建模配置项与服务关系、选择配置管理平台底层存储，或在云原生环境中拆分稳定主数据与高频实例变更数据时阅读。"
+  }
+}

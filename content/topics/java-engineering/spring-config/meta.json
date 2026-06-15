@@ -1,0 +1,35 @@
+{
+  "slug": "spring-config",
+  "title": {
+    "en": "How Java Makes Dynamically Updated Configuration Center Values Take Effect Under @Value: Source Analysis Based on Spring Events",
+    "zh": "Java 如何让配置中心动态更新的值在 `@Value` 注解下动态生效：基于 Spring 事件机制的源码分析"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A source-level analysis of how Spring applications can make configuration center changes dynamically update existing @Value fields through PropertySource replacement, ApplicationEvent publishing, BeanPostProcessor scanning, expression resolution, TypeConverter conversion, and reflective field or setter write-back, with a comparison against @RefreshScope and engineering boundary guidance.",
+    "zh": "从源码层面分析 Spring 应用如何通过替换 PropertySource、发布 ApplicationEvent、BeanPostProcessor 扫描、表达式解析、TypeConverter 类型转换和反射字段或 setter 回写，让配置中心变更动态更新已有 Bean 的 @Value 字段，并比较 @RefreshScope 与事件回写方案的边界。"
+  },
+  "tags": {
+    "en": [
+      "Spring",
+      "Configuration Center",
+      "@Value",
+      "PropertySource",
+      "ApplicationEvent"
+    ],
+    "zh": [
+      "Spring",
+      "配置中心",
+      "@Value",
+      "PropertySource",
+      "ApplicationEvent"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when implementing dynamic configuration refresh for Spring @Value fields, designing a configuration center integration, comparing @RefreshScope with event-driven field write-back, or evaluating the consistency and lifecycle boundaries of runtime configuration changes.",
+    "zh": "适合在实现 Spring @Value 字段动态配置刷新、设计配置中心接入、比较 @RefreshScope 与事件驱动字段回写，或评估运行期配置变更的一致性与生命周期边界时阅读。"
+  }
+}

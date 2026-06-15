@@ -1,0 +1,35 @@
+{
+  "slug": "golang",
+  "title": {
+    "en": "Golang Engineering: Runtime, Concurrency Model, Server-Side Development, and Java Mapping",
+    "zh": "Golang 工程专题：运行时、并发模型、服务端开发与 Java 对照映射"
+  },
+  "category": {
+    "en": "Golang Engineering",
+    "zh": "Go 工程"
+  },
+  "summary": {
+    "en": "A Golang engineering topic entry that organizes Go runtime, goroutines, channels, context propagation, networking, server-side development, cloud-native control planes, toolchains, and engineering governance, while providing a Java-to-Go concept mapping for teams working across both ecosystems.",
+    "zh": "Golang 工程专题入口，系统整理 Go 运行时、goroutine、channel、context 传播、网络、服务端开发、云原生控制面、工具链与工程治理，并为同时使用 Java 与 Go 的团队提供概念映射。"
+  },
+  "tags": {
+    "en": [
+      "Golang",
+      "Go Runtime",
+      "Goroutine",
+      "Java Mapping",
+      "Cloud Native"
+    ],
+    "zh": [
+      "Golang",
+      "Go Runtime",
+      "Goroutine",
+      "Java 映射",
+      "云原生"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this as the entry point for the Golang Engineering topic, especially when comparing Go with Java, planning Java and Go responsibilities in the same platform, or organizing future Go runtime, concurrency, networking, cloud-native, and observability articles.",
+    "zh": "适合作为 Golang 工程专题入口阅读，尤其适合在比较 Go 与 Java、规划同一平台内 Java 与 Go 的职责分工，或组织后续 Go 运行时、并发、网络、云原生与可观测性文章时阅读。"
+  }
+}

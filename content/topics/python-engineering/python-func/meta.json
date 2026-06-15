@@ -1,0 +1,35 @@
+{
+  "slug": "python-func",
+  "title": {
+    "en": "Research on Parameter Binding, Call Constraints, and Interface Evolution Mechanisms in Python Function Design",
+    "zh": "Python 函数设计中的参数绑定、调用约束与接口演化机制研究"
+  },
+  "category": {
+    "en": "Python Engineering",
+    "zh": "Python 工程"
+  },
+  "summary": {
+    "en": "A systematic study of Python function parameter binding, positional parameters, keyword parameters, default parameters, *args, **kwargs, positional-only parameters, keyword-only parameters, the / and * signature boundaries, call-site unpacking, decorators, closures, generators, async functions, callable objects, API compatibility, and interface evolution.",
+    "zh": "系统研究 Python 函数参数绑定、位置参数、关键字参数、默认参数、*args、**kwargs、仅位置参数、仅关键字参数、/ 与 * 签名边界、调用处解包、装饰器、闭包、生成器、异步函数、可调用对象、API 兼容性与接口演化。"
+  },
+  "tags": {
+    "en": [
+      "Python",
+      "Function Design",
+      "Positional Parameters",
+      "Keyword Parameters",
+      "API Compatibility"
+    ],
+    "zh": [
+      "Python",
+      "函数设计",
+      "位置参数",
+      "关键字参数",
+      "API 兼容性"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing Python library APIs, understanding argument binding rules, deciding when to use / and * in function signatures, preserving API compatibility, or building extensible SDK, framework, data access, HTTP client, plugin, and decorator interfaces.",
+    "zh": "适合在设计 Python 库 API、理解参数绑定规则、判断何时在函数签名中使用 / 与 *、保持 API 兼容性，或构建可扩展的 SDK、框架、数据访问、HTTP 客户端、插件和装饰器接口时阅读。"
+  }
+}

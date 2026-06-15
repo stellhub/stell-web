@@ -1,0 +1,35 @@
+{
+  "slug": "cpu",
+  "title": {
+    "en": "Objective Analysis of CPU Architecture Types, Software Impact, and Process Scale",
+    "zh": "CPU 架构类型、软件影响与制程尺度的客观分析"
+  },
+  "category": {
+    "en": "Operating Systems",
+    "zh": "操作系统"
+  },
+  "summary": {
+    "en": "A systematic analysis of CPU architecture concepts, instruction set architecture, microarchitecture, ABI, x86, Arm, RISC-V, compiler backends, binary compatibility, memory models, endianness, network serialization, semiconductor process scaling, transistor density, power consumption, heat dissipation, and the real boundaries of process-size reduction.",
+    "zh": "系统分析 CPU 架构概念、指令集架构、微架构、ABI、x86、Arm、RISC-V、编译器后端、二进制兼容、内存模型、字节序、网络序列化、半导体制程缩放、晶体管密度、功耗、散热，以及制程尺寸减小的真实边界。"
+  },
+  "tags": {
+    "en": [
+      "CPU Architecture",
+      "Instruction Set Architecture",
+      "x86",
+      "Arm",
+      "RISC-V"
+    ],
+    "zh": [
+      "CPU 架构",
+      "指令集架构",
+      "x86",
+      "Arm",
+      "RISC-V"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when understanding CPU architecture differences, compiler target behavior, binary compatibility, ABI and memory model constraints, cross-architecture network serialization, or the real performance and cost boundaries of semiconductor process scaling.",
+    "zh": "适合在理解 CPU 架构差异、编译器目标平台行为、二进制兼容、ABI 与内存模型约束、跨架构网络序列化，或半导体制程缩放的真实性能与成本边界时阅读。"
+  }
+}

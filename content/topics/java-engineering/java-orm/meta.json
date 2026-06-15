@@ -1,0 +1,35 @@
+{
+  "slug": "java-orm",
+  "title": {
+    "en": "Java ORM Framework Ecosystem Research: Adoption, Performance Boundaries, and Scenario-Based Selection",
+    "zh": "Java ORM 框架生态调研：使用现状、性能边界与场景选择"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A systematic study of the Java ORM and persistence framework ecosystem, covering Hibernate ORM, Spring Data JPA, EclipseLink, OpenJPA, DataNucleus, MyBatis, MyBatis-Plus, MyBatis-Flex, jOOQ, Jdbi, Querydsl, Ebean, Apache Cayenne, ORMLite, Jimmer, Micronaut Data, Maven Central adoption indicators, performance boundaries, lightweightness, and selection guidance for Spring Boot and non-Spring scenarios.",
+    "zh": "系统研究 Java ORM 与持久化框架生态，覆盖 Hibernate ORM、Spring Data JPA、EclipseLink、OpenJPA、DataNucleus、MyBatis、MyBatis-Plus、MyBatis-Flex、jOOQ、Jdbi、Querydsl、Ebean、Apache Cayenne、ORMLite、Jimmer、Micronaut Data、Maven Central 使用指标、性能边界、轻量性，以及 Spring Boot 与非 Spring 场景选型建议。"
+  },
+  "tags": {
+    "en": [
+      "Java ORM",
+      "Hibernate",
+      "Spring Data JPA",
+      "MyBatis",
+      "jOOQ"
+    ],
+    "zh": [
+      "Java ORM",
+      "Hibernate",
+      "Spring Data JPA",
+      "MyBatis",
+      "jOOQ"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when choosing a Java persistence framework, comparing Hibernate, Spring Data JPA, MyBatis, jOOQ, Jdbi, and other ORM or SQL mapping tools, or deciding between full ORM, SQL mapper, SQL-first, and lightweight JDBC-style data access in Spring Boot and non-Spring systems.",
+    "zh": "适合在选择 Java 持久化框架、比较 Hibernate、Spring Data JPA、MyBatis、jOOQ、Jdbi 等 ORM 或 SQL 映射工具，或在 Spring Boot 与非 Spring 系统中决策完整 ORM、SQL Mapper、SQL-first 与轻量 JDBC 风格数据访问时阅读。"
+  }
+}
