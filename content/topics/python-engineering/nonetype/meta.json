@@ -1,0 +1,35 @@
+{
+  "slug": "nonetype",
+  "title": {
+    "en": "Research on the Design of NoneType in Python: Object Model, Return-Value Semantics, and Optional Type Expression",
+    "zh": "Python 中 NoneType 的机制设计研究：对象模型、返回值语义与可选类型表达"
+  },
+  "category": {
+    "en": "Python Engineering",
+    "zh": "Python 工程"
+  },
+  "summary": {
+    "en": "A systematic study of Python NoneType and None, covering the object model, singleton identity, value absence, default-parameter sentinels, function return semantics, comparisons with Java null and Go nil, and Optional or T | None in Type Hints.",
+    "zh": "系统研究 Python NoneType 与 None，覆盖对象模型、单例身份、值缺失、默认参数哨兵、函数返回语义、与 Java null 和 Go nil 的比较，以及 Type Hints 中的 Optional 和 T | None 表达。"
+  },
+  "tags": {
+    "en": [
+      "Python",
+      "NoneType",
+      "None",
+      "Type Hints",
+      "Optional"
+    ],
+    "zh": [
+      "Python",
+      "NoneType",
+      "None",
+      "Type Hints",
+      "Optional"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when understanding Python None and NoneType, designing APIs that may return missing values, comparing None with Java null or Go nil, or writing precise Optional and T | None type hints.",
+    "zh": "适合在理解 Python None 与 NoneType、设计可能返回缺失值的 API、比较 None 与 Java null 或 Go nil，或编写精确的 Optional 与 T | None 类型注解时阅读。"
+  }
+}

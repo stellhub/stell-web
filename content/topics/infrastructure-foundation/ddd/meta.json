@@ -1,0 +1,35 @@
+{
+  "slug": "ddd",
+  "title": {
+    "en": "From Traditional Layer-Based Packaging to Domain-Driven Packaging: A Study of Project Structure Based on DDD, Service Layer, Hexagonal Architecture, and Clean Architecture",
+    "zh": "从传统分层分包到领域驱动分包：基于 DDD、Service Layer、Hexagonal Architecture 与 Clean Architecture 的项目结构研究"
+  },
+  "category": {
+    "en": "Infrastructure Foundation",
+    "zh": "基础设施"
+  },
+  "summary": {
+    "en": "A systematic study of project packaging from traditional technical layers to domain-driven structure, covering DDD, Service Layer, Hexagonal Architecture, Clean Architecture, bounded contexts, dependency direction, repositories, application services, adapters, and order-context package examples.",
+    "zh": "系统研究项目分包从传统技术分层走向领域驱动结构的方式，覆盖 DDD、Service Layer、Hexagonal Architecture、Clean Architecture、限界上下文、依赖方向、仓储、应用服务、适配器和订单上下文分包示例。"
+  },
+  "tags": {
+    "en": [
+      "Domain-Driven Design",
+      "DDD",
+      "Hexagonal Architecture",
+      "Clean Architecture",
+      "Project Structure"
+    ],
+    "zh": [
+      "领域驱动设计",
+      "DDD",
+      "六边形架构",
+      "整洁架构",
+      "项目结构"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when designing project package structure, comparing layer-based and domain-driven packaging, defining bounded contexts, separating application and domain services, or applying ports and adapters in enterprise systems.",
+    "zh": "适合在设计项目分包结构、比较分层分包与领域驱动分包、定义限界上下文、区分应用服务与领域服务，或在企业系统中落地端口适配器时阅读。"
+  }
+}

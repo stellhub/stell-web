@@ -1,0 +1,35 @@
+{
+  "slug": "mysql-driver",
+  "title": {
+    "en": "Research on the Evolution of MySQL Java Client Dependency Coordinates: From mysql:mysql-connector-java to com.mysql:mysql-connector-j",
+    "zh": "MySQL Java 客户端依赖坐标演进研究：从 mysql:mysql-connector-java 到 com.mysql:mysql-connector-j"
+  },
+  "category": {
+    "en": "Database",
+    "zh": "数据库"
+  },
+  "summary": {
+    "en": "A systematic study of the MySQL Connector/J Maven coordinate change from mysql:mysql-connector-java to com.mysql:mysql-connector-j, covering version boundaries, relocation, Spring Boot dependency management, server compatibility, transitive dependencies, and engineering migration practices.",
+    "zh": "系统研究 MySQL Connector/J Maven 坐标从 mysql:mysql-connector-java 迁移到 com.mysql:mysql-connector-j 的过程，覆盖版本边界、relocation、Spring Boot 依赖管理、服务端兼容性、传递依赖与工程迁移实践。"
+  },
+  "tags": {
+    "en": [
+      "MySQL Connector/J",
+      "JDBC",
+      "Maven",
+      "Spring Boot",
+      "Dependency Management"
+    ],
+    "zh": [
+      "MySQL Connector/J",
+      "JDBC",
+      "Maven",
+      "Spring Boot",
+      "依赖管理"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when upgrading MySQL Connector/J, migrating Maven or Gradle coordinates, upgrading Spring Boot dependency management, checking runtime classpaths, or evaluating MySQL Server and Connector/J compatibility.",
+    "zh": "适合在升级 MySQL Connector/J、迁移 Maven 或 Gradle 坐标、升级 Spring Boot 依赖管理、检查运行时 classpath，或评估 MySQL Server 与 Connector/J 兼容性时阅读。"
+  }
+}
