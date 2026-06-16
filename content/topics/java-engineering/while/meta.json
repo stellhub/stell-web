@@ -1,0 +1,35 @@
+{
+  "slug": "while",
+  "title": {
+    "en": "Research on the Control-Flow Model, Performance Differences, and Engineering Boundaries of while Loops and Recursion",
+    "zh": "while 循环与递归的控制流模型、性能差异及工程使用边界研究"
+  },
+  "category": {
+    "en": "Java Engineering",
+    "zh": "Java 工程"
+  },
+  "summary": {
+    "en": "A systematic study of while loops and recursion in Java, covering control-flow semantics, method invocation frames, StackOverflowError, explicit stacks with Deque and ArrayDeque, performance differences, applicable scenarios, recursion boundaries, and engineering recommendations.",
+    "zh": "系统研究 Java 中 while 循环与递归，覆盖控制流语义、方法调用帧、StackOverflowError、基于 Deque 与 ArrayDeque 的显式栈、性能差异、适用场景、递归边界与工程推荐。"
+  },
+  "tags": {
+    "en": [
+      "Java",
+      "while",
+      "Recursion",
+      "Control Flow",
+      "StackOverflowError"
+    ],
+    "zh": [
+      "Java",
+      "while",
+      "递归",
+      "控制流",
+      "StackOverflowError"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when choosing between loops and recursion in Java, rewriting recursion as while plus an explicit stack, evaluating stack-overflow risk, or designing performance-sensitive traversal, parsing, DFS, backtracking, and state-machine code.",
+    "zh": "适合在 Java 中选择循环或递归、将递归改写为 while 加显式栈、评估栈溢出风险，或设计性能敏感的遍历、解析、DFS、回溯和状态机代码时阅读。"
+  }
+}

@@ -339,19 +339,19 @@ New declaration:
 
 Old declaration:
 
-```gradle id="vicsfr"
+```groovy id="vicsfr"
 runtimeOnly "mysql:mysql-connector-java:8.0.30"
 ```
 
 New declaration:
 
-```gradle id="2qf6qx"
+```groovy id="2qf6qx"
 runtimeOnly "com.mysql:mysql-connector-j:8.0.33"
 ```
 
 When the Spring Boot Gradle Plugin manages the version:
 
-```gradle id="40y8c5"
+```groovy id="40y8c5"
 runtimeOnly "com.mysql:mysql-connector-j"
 ```
 

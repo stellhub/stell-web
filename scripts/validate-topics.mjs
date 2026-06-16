@@ -62,6 +62,17 @@ const requireList = (errors, value, field, topicDir) => {
   }
 };
 
+const forbidGradleFence = (errors, content, sourcePath) => {
+  const lines = content.split(/\r?\n/);
+  for (const [index, line] of lines.entries()) {
+    if (/^```[ \t]*gradle(?:$|[\s{])/i.test(line)) {
+      errors.push(
+        `Forbidden Gradle code fence in ${sourcePath}:${index + 1}. Use groovy for Gradle Groovy DSL or kts for Gradle Kotlin DSL.`
+      );
+    }
+  }
+};
+
 const validate = async () => {
   const errors = [];
   const topicDirs = await walkTopicDirs(contentRoot);
@@ -104,6 +115,8 @@ const validate = async () => {
         const sourcePath = path.join(topicDir, fileName);
         if (!(await exists(sourcePath))) {
           errors.push(`Missing ${fileName} for ${slug}`);
+        } else {
+          forbidGradleFence(errors, await readFile(sourcePath, "utf8"), sourcePath);
         }
       }
 

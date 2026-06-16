@@ -339,19 +339,19 @@ Spring Boot BOM 管理版本时：
 
 旧写法：
 
-```gradle id="vicsfr"
+```groovy id="vicsfr"
 runtimeOnly "mysql:mysql-connector-java:8.0.30"
 ```
 
 新写法：
 
-```gradle id="2qf6qx"
+```groovy id="2qf6qx"
 runtimeOnly "com.mysql:mysql-connector-j:8.0.33"
 ```
 
 使用 Spring Boot Gradle Plugin 管理版本时：
 
-```gradle id="40y8c5"
+```groovy id="40y8c5"
 runtimeOnly "com.mysql:mysql-connector-j"
 ```
 

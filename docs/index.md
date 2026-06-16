@@ -2,11 +2,11 @@
 layout: home
 hero:
   name: Stell Forum
-  text: Engineering Posts and Discussions
-  tagline: A forum-style index of infrastructure, distributed systems, reliability, and platform engineering notes.
+  text: Personal Engineering Notes
+  tagline: Long-form notes on infrastructure, distributed systems, service governance, databases, and language engineering.
   actions:
     - theme: brand
-      text: Browse Posts
+      text: Start Reading
       link: /topics/
     - theme: alt
       text: Discuss on GitHub
@@ -14,10 +14,10 @@ hero:
 ---
 
 <script setup>
-import ForumPostIndex from "./.vitepress/theme/components/ForumPostIndex.vue";
+import BlogHome from "./.vitepress/theme/components/BlogHome.vue";
 import { data as topicPosts } from "./topics/posts.data.ts";
 </script>
 
-<div id="forum-latest">
-  <ForumPostIndex :posts="topicPosts" />
+<div id="blog-home">
+  <BlogHome :posts="topicPosts" />
 </div>

@@ -1,0 +1,35 @@
+{
+  "slug": "connection-pool",
+  "title": {
+    "en": "Research on the Evolution of Java Database Connection Pools and HikariCP Performance Mechanisms",
+    "zh": "Java 数据库连接池的发展历程与 HikariCP 性能机制研究"
+  },
+  "category": {
+    "en": "Database",
+    "zh": "数据库"
+  },
+  "summary": {
+    "en": "A systematic study of Java database connection-pool evolution from DBCP and C3P0 to Tomcat JDBC Pool, BoneCP, Druid, and HikariCP, covering DataSource, connection reuse, lock contention, observability, SQL governance, ConcurrentBag, FastList, JIT-friendly proxies, lifecycle management, and selection guidance.",
+    "zh": "系统研究 Java 数据库连接池从 DBCP、C3P0 到 Tomcat JDBC Pool、BoneCP、Druid、HikariCP 的演进，覆盖 DataSource、连接复用、锁竞争、可观测性、SQL 治理、ConcurrentBag、FastList、JIT 友好代理、生命周期管理与选型建议。"
+  },
+  "tags": {
+    "en": [
+      "JDBC",
+      "Connection Pool",
+      "HikariCP",
+      "Druid",
+      "DataSource"
+    ],
+    "zh": [
+      "JDBC",
+      "连接池",
+      "HikariCP",
+      "Druid",
+      "DataSource"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when choosing a Java JDBC connection pool, comparing HikariCP, Druid, Tomcat JDBC Pool, DBCP, C3P0, and BoneCP, tuning Spring Boot database access, or understanding connection-pool performance mechanisms and lifecycle configuration.",
+    "zh": "适合在选择 Java JDBC 连接池、比较 HikariCP、Druid、Tomcat JDBC Pool、DBCP、C3P0、BoneCP，调优 Spring Boot 数据库访问，或理解连接池性能机制与生命周期配置时阅读。"
+  }
+}

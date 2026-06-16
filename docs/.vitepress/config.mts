@@ -56,7 +56,7 @@ const buildPostMenu = (base: string, isZh: boolean) => {
 
   return [
     {
-      text: isZh ? "论坛首页" : "Forum Home",
+      text: isZh ? "归档首页" : "Archive Home",
       link: buildPath(base, "/topics/")
     },
     ...Array.from(groups.entries()).map(([category, items]) => ({
@@ -82,27 +82,27 @@ const buildLocaleTheme = (base: string, isZh: boolean) => {
         link: homeLink
       },
       {
-        text: isZh ? "帖子" : "Posts",
+        text: isZh ? "文章" : "Writing",
         link: buildPath(base, "/topics/")
       }
     ],
     sidebar: {
       [buildPath(base, "/topics/")]: [
         {
-          text: isZh ? "论坛文章" : "Forum Posts",
+          text: isZh ? "文章归档" : "Writing Archive",
           items: buildPostMenu(base, isZh)
         }
       ],
       [homeLink]: [
         {
-          text: isZh ? "论坛导航" : "Forum",
+          text: isZh ? "博客导航" : "Blog",
           items: [
             {
               text: isZh ? "首页" : "Home",
               link: homeLink
             },
             {
-              text: isZh ? "帖子" : "Posts",
+              text: isZh ? "文章" : "Writing",
               link: buildPath(base, "/topics/")
             }
           ]

@@ -141,11 +141,11 @@ const renderHomePage = () => `---
 layout: home
 hero:
   name: Stell Forum
-  text: Engineering Posts and Discussions
-  tagline: A forum-style index of infrastructure, distributed systems, reliability, and platform engineering notes.
+  text: Personal Engineering Notes
+  tagline: Long-form notes on infrastructure, distributed systems, service governance, databases, and language engineering.
   actions:
     - theme: brand
-      text: Browse Posts
+      text: Start Reading
       link: /topics/
     - theme: alt
       text: Discuss on GitHub
@@ -153,23 +153,23 @@ hero:
 ---
 
 <script setup>
-import ForumPostIndex from "./.vitepress/theme/components/ForumPostIndex.vue";
+import BlogHome from "./.vitepress/theme/components/BlogHome.vue";
 import { data as topicPosts } from "./topics/posts.data.ts";
 </script>
 
-<div id="forum-latest">
-  <ForumPostIndex :posts="topicPosts" />
+<div id="blog-home">
+  <BlogHome :posts="topicPosts" />
 </div>`;
 
 const renderZhHomePage = () => `---
 layout: home
 hero:
   name: Stell 论坛
-  text: 工程文章与讨论
-  tagline: 围绕基础架构、分布式系统、可靠性与平台工程的论坛式知识库。
+  text: 个人工程笔记
+  tagline: 长期记录基础设施、分布式系统、服务治理、数据库与语言工程里的判断过程。
   actions:
     - theme: brand
-      text: 浏览帖子
+      text: 开始阅读
       link: /zh/topics/
     - theme: alt
       text: GitHub 讨论区
@@ -177,27 +177,27 @@ hero:
 ---
 
 <script setup>
-import ForumPostIndex from "../.vitepress/theme/components/ForumPostIndex.vue";
+import BlogHome from "../.vitepress/theme/components/BlogHome.vue";
 import { data as topicPosts } from "./topics/posts.data.ts";
 </script>
 
-<div id="forum-latest">
-  <ForumPostIndex :posts="topicPosts" />
+<div id="blog-home">
+  <BlogHome :posts="topicPosts" />
 </div>`;
 
 const renderTopicsIndex = () => `---
 layout: home
 hero:
-  name: Stell Forum
-  text: Posts, Notes, and Discussions
-  tagline: A forum-style index of engineering writing, centered on system boundaries, tradeoffs, and implementation decisions.
+  name: Writing Archive
+  text: All Posts and Notes
+  tagline: Search the complete writing archive by tag, category, update time, and long-term engineering problem domain.
   actions:
     - theme: brand
-      text: Browse Latest Posts
+      text: Browse Archive
       link: "#forum-latest"
     - theme: alt
-      text: Discuss on GitHub
-      link: https://github.com/stellhub/stell-web/discussions
+      text: Back Home
+      link: /
 ---
 
 <script setup>
@@ -212,9 +212,9 @@ import { data as topicPosts } from "./posts.data.ts";
 const renderZhTopicsIndex = () => `---
 layout: home
 hero:
-  name: Stell Notes
-  text: 星际论坛
-  tagline: 这里更像一页持续更新的博客索引，用来记录基础架构与微服务中间件在演进过程中遇到的问题、判断过程，以及最后采用了什么样的解决路径。
+  name: 文章归档
+  text: 全部文章与笔记
+  tagline: 按标签、分类、更新时间和长期工程问题域检索完整文章库。
   actions:
     - theme: brand
       text: 浏览全部文章
@@ -231,21 +231,7 @@ import { data as topicPosts } from "./posts.data.ts";
 
 <div id="forum-latest">
   <ForumPostIndex :posts="topicPosts" />
-</div>
-
-## 这页记录什么
-
-- 中间件演进过程中遇到的典型问题
-- 某一类基础设施能力为什么会出现、边界在哪里
-- 主流解决方案分别做了什么取舍
-- 在真实工程里应该怎样判断和落地
-
-## 后续会继续补充
-
-- 服务治理与流量控制
-- 配置中心与注册中心的边界变化
-- 消息系统从队列到事件流平台的迁移
-- 基础架构团队与平台工程的协作方式`;
+</div>`;
 
 const renderTopicPage = (topic, locale) => {
   const isZh = locale === "zh";
