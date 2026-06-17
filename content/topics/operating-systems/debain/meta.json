@@ -1,0 +1,37 @@
+{
+  "slug": "debain",
+  "title": {
+    "en": "Analysis of Current Mainstream Server Operating System Families: Debian-Based and RHEL-Based",
+    "zh": "当前服务器主流操作系统体系分析：Debian 系与 RHEL 系"
+  },
+  "category": {
+    "en": "Operating Systems",
+    "zh": "操作系统"
+  },
+  "summary": {
+    "en": "A systematic analysis of mainstream Linux server operating system families, covering Debian Stable, Ubuntu Server LTS, RHEL, Rocky Linux, AlmaLinux, lifecycle models, package ecosystems, compatibility strategies, enterprise support, and Debian Stable upgrade considerations.",
+    "zh": "系统分析主流 Linux 服务器操作系统体系，覆盖 Debian Stable、Ubuntu Server LTS、RHEL、Rocky Linux、AlmaLinux、生命周期模型、软件包生态、兼容策略、企业支持与 Debian Stable 升级注意事项。"
+  },
+  "tags": {
+    "en": [
+      "Debian",
+      "Ubuntu Server",
+      "RHEL",
+      "Rocky Linux",
+      "AlmaLinux",
+      "Linux Distribution"
+    ],
+    "zh": [
+      "Debian",
+      "Ubuntu Server",
+      "RHEL",
+      "Rocky Linux",
+      "AlmaLinux",
+      "Linux 发行版"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when selecting a Linux server distribution, comparing Debian-based and RHEL-based systems, planning Debian Stable upgrades, evaluating enterprise Linux compatibility, or deciding between community governance and commercial support models.",
+    "zh": "适合在选择 Linux 服务器发行版、比较 Debian 系与 RHEL 系、规划 Debian Stable 升级、评估企业 Linux 兼容性，或在社区治理与商业支持模式之间做取舍时阅读。"
+  }
+}

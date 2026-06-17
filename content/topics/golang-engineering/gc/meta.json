@@ -1,0 +1,39 @@
+{
+  "slug": "gc",
+  "title": {
+    "en": "Analysis of Golang Memory Tuning Mechanisms",
+    "zh": "Golang 内存调优机制分析"
+  },
+  "category": {
+    "en": "Golang Engineering",
+    "zh": "Go 工程"
+  },
+  "summary": {
+    "en": "A systematic analysis of Go memory tuning mechanisms, covering object memory layout, GOGC, GOMEMLIMIT, escape analysis, go tool pprof, sync.Pool, runtime metrics, and an evidence-based profiling and verification workflow.",
+    "zh": "系统分析 Go 内存调优机制，覆盖对象内存布局、GOGC、GOMEMLIMIT、逃逸分析、go tool pprof、sync.Pool、运行时指标，以及基于观测、剖析和验证的调优流程。"
+  },
+  "tags": {
+    "en": [
+      "Golang",
+      "Memory Tuning",
+      "Garbage Collection",
+      "GOGC",
+      "GOMEMLIMIT",
+      "pprof",
+      "sync.Pool"
+    ],
+    "zh": [
+      "Golang",
+      "内存调优",
+      "垃圾回收",
+      "GOGC",
+      "GOMEMLIMIT",
+      "pprof",
+      "sync.Pool"
+    ]
+  },
+  "readingDirection": {
+    "en": "Read this when tuning memory usage in Go services, analyzing GC CPU and heap growth, interpreting pprof heap and allocs profiles, deciding whether objects escape to the heap, or configuring GOGC and GOMEMLIMIT in containerized deployments.",
+    "zh": "适合在调优 Go 服务内存占用、分析 GC CPU 与堆增长、解读 pprof heap 与 allocs profile、判断对象是否逃逸到堆，或在容器化部署中配置 GOGC 与 GOMEMLIMIT 时阅读。"
+  }
+}
